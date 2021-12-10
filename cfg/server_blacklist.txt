@@ -1,0 +1,687 @@
+"serverblacklist"
+{
+	"server"
+	{
+		"name"		"redsun.tf #1 | Raiden (EU) | Gamemode Madness | Timeleft: 1"
+		"date"		"1481578183"
+		"addr"		"185.38.148.13:27225"
+	}
+	"server"
+	{
+		"name"		"redsun.tf #2 | Armstrong (US) | Gamemode Madness | Timeleft: 1"
+		"date"		"1481578183"
+		"addr"		"69.58.1.178:27015"
+	}
+	"server"
+	{
+		"name"		"redsun.tf #3 | Mistral (US) | 24/7 SZF | Timeleft: 1"
+		"date"		"1481578183"
+		"addr"		"131.153.3.218:27015"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][LA] Jailbreak"
+		"date"		"1481926088"
+		"addr"		"64.94.100.210:27018"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][LA]Jailbreak #2"
+		"date"		"1481926088"
+		"addr"		"64.94.100.210:27014"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA] 24/7 Deathrun X_x "
+		"date"		"1481926088"
+		"addr"		"64.94.238.63:27018"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA][BoF]24/7 Surf 0_o"
+		"date"		"1481926088"
+		"addr"		"64.94.238.63:27015"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA] 24/7 Hale 0_o"
+		"date"		"1481926088"
+		"addr"		"64.94.238.63:27019"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA] 24/7 FF2 oldtimers"
+		"date"		"1481926099"
+		"addr"		"64.94.238.63:27050"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][LA]Unusual Trade"
+		"date"		"1481926099"
+		"addr"		"64.94.100.210:27016"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][LA]dodgeball"
+		"date"		"1481926099"
+		"addr"		"64.94.100.210:27017"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA]Prophunt"
+		"date"		"1481926116"
+		"addr"		"64.94.238.63:27016"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA]MvMx10"
+		"date"		"1481926116"
+		"addr"		"64.94.238.97:27016"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][GA] X10 Payload Rotation"
+		"date"		"1481926116"
+		"addr"		"64.94.238.63:27017"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][EU]MvMx10"
+		"date"		"1481926116"
+		"addr"		"95.172.92.230:27016"
+	}
+	"server"
+	{
+		"name"		"[TheOutpost][EU]Multiply Weapon Stats x10"
+		"date"		"1481926116"
+		"addr"		"95.172.92.230:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | Bottiger's 24/7 Idle Trade"
+		"date"		"1603237732"
+		"addr"		"91.216.250.32:27015"
+	}
+	"server"
+	{
+		"name"		"|>--RASSLABYXA.ru--<|_7_CYBERSPORT FUN TRADE FRIENDLY PREMIUM"
+		"date"		"1603293609"
+		"addr"		"79.120.114.212:27042"
+	}
+	"server"
+	{
+		"name"		"  ►  BlackWonder BR | Trade Plaza  ◄"
+		"date"		"1603381794"
+		"addr"		"172.107.207.54:27020"
+	}
+	"server"
+	{
+		"name"		"[CZ/EU]#125 TauriGaming.cz | TRADE | BP,TP,FASTDL"
+		"date"		"1603981192"
+		"addr"		"89.203.250.56:27015"
+	}
+	"server"
+	{
+		"name"		"【咖啡厅♥】深夜食堂城堡挂机服"
+		"date"		"1603982670"
+		"addr"		"120.78.194.88:27015"
+	}
+	"server"
+	{
+		"name"		"HUN Trade es Fun | New Horizon [89:38]"
+		"date"		"1603982681"
+		"addr"		"217.144.53.218:27015"
+	}
+	"server"
+	{
+		"name"		"-> Русский FF2|DR Неформалочка"
+		"date"		"1604421233"
+		"addr"		"37.230.210.231:27015"
+	}
+	"server"
+	{
+		"name"		"PARADISEGAMING.NET #1 | TRADE CENTER 2.0 [!SHOP !UNUSUALS] by G"
+		"date"		"1605036064"
+		"addr"		"45.235.98.252:27018"
+	}
+	"server"
+	{
+		"name"		"skial.com | TRADE | US ██████"
+		"date"		"1607201838"
+		"addr"		"91.216.250.30:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TRADE | EU ██████"
+		"date"		"1607201840"
+		"addr"		"137.74.91.218:27016"
+	}
+	"server"
+	{
+		"name"		"skial.com | ZOMBIE ESCAPE | US ███"
+		"date"		"1607276858"
+		"addr"		"91.216.250.15:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | ORANGE+ x10 RANDOMIZER | EU"
+		"date"		"1607276874"
+		"addr"		"137.74.91.222:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE x10 RANDOMIZER | US"
+		"date"		"1607276874"
+		"addr"		"91.216.250.36:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 20 | Night Plaza/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.20:27015"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Slender Fortress #1| [Scary!]"
+		"date"		"1607276874"
+		"addr"		"74.91.113.50:27019"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Freak Fortress #1| [Amp/Crits/RTD]"
+		"date"		"1607276874"
+		"addr"		"74.91.119.154:27016"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Dodgeball| [Airblast Fun!]"
+		"date"		"1607276874"
+		"addr"		"162.248.92.127:27021"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 16 | Orange Classic | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.16:27015"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Surf| [Skill Maps]"
+		"date"		"1607276874"
+		"addr"		"74.91.113.50:27032"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 01 | Mario Kart/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"208.77.22.22:27015"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Idle/Trade #1| [MGE !duel]"
+		"date"		"1607276874"
+		"addr"		"74.91.119.154:27015"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Freak Fortress #2| [Amp/Crits/RTD]"
+		"date"		"1607276874"
+		"addr"		"74.91.119.154:27019"
+	}
+	"server"
+	{
+		"name"		"skial.com | ORANGE+ x10 RANDOMIZER | LA"
+		"date"		"1607276874"
+		"addr"		"162.248.93.211:27017"
+	}
+	"server"
+	{
+		"name"		"skial.com | MILITARY AREA | NY ███"
+		"date"		"1607276874"
+		"addr"		"74.91.116.200:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | DEATH RUN | NY ████"
+		"date"		"1607276874"
+		"addr"		"74.91.116.200:27019"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 32 | Mario Kart | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.2:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 02 | Mario Kart | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.2:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 11 | Minecraft/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.11:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 09 | MGE Mod | ALL-CLASS"
+		"date"		"1607276874"
+		"addr"		"68.235.38.9:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 29 | Hightower | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.29:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 46 | Orange Classic | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.16:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 45 | Orange X4/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.15:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 21 | Minecraft/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.21:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 14 | Orange X7/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.14:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 05 | Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.5:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 39 | TF2Ware | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.9:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 40 | TF2Ware | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.10:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 59 | Hightower | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.29:27025"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Super Zombie Fortress| [Custom Mod]"
+		"date"		"1607276874"
+		"addr"		"74.91.119.154:27017"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 31 | Mario Kart/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"208.77.22.22:27025"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 PropHunt| [Hide & Seek]"
+		"date"		"1607276874"
+		"addr"		"74.91.113.50:27016"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 56 | Surf/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.26:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 12 | Reggie/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.12:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 26 | Surf/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.26:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 42 | Reggie/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.12:27025"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 MarioKart X10| [Weapon Power X10]"
+		"date"		"1607276874"
+		"addr"		"74.91.113.50:27049"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 15 | Orange X4/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.15:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 48 | Trade/Idle/Rocket Jump | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.18:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 50 | Night Plaza/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.20:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 38 | Orange Towers/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.8:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 18 | Trade/Idle/Rocket Jump | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.18:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 10 | MGE Mod | NO OFF-CLASSES"
+		"date"		"1607276874"
+		"addr"		"68.235.38.10:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 51 | Minecraft/Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.21:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 35 | Trade/Idle | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.5:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 44 | Orange X7/Crits | FREE !VIP"
+		"date"		"1607276874"
+		"addr"		"68.235.38.14:27025"
+	}
+	"server"
+	{
+		"name"		"skial.com | MGE | LA ██████"
+		"date"		"1607276874"
+		"addr"		"162.248.93.211:27018"
+	}
+	"server"
+	{
+		"name"		"skial.com | MILITARY AREA | EU ███"
+		"date"		"1607276874"
+		"addr"		"137.74.91.217:27016"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Saxton Hale #1|[Dev Plugin]"
+		"date"		"1607276874"
+		"addr"		"74.91.113.65:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | MGE | EU ██████"
+		"date"		"1607276874"
+		"addr"		"137.74.91.219:27016"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT x10 RANDOMIZER | US █"
+		"date"		"1607276874"
+		"addr"		"91.216.250.33:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 34 | [30Waves] Robopocalypse | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.4:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 43 | [30Waves] Robopocalypse | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.13:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 55 | Mechtanium Surge | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.25:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 47 | Mechtanium Surge | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.17:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 54 | Mechtanium Surge | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.24:27025"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 04 | [30Waves] Robopocalypse | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.4:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 13 | Robopocalypse | MvM"
+		"date"		"1607276874"
+		"addr"		"68.235.38.13:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | SAXTON HALE | US ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.14:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | PAYLOAD+ | US █████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.11:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | DEATH RUN | US ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.13:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | EU █████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.216:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE+ | EU █████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.218:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | US 1 █████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.10:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | ZOMBIE ESCAPE | EU ███"
+		"date"		"1607276878"
+		"addr"		"137.74.91.220:27016"
+	}
+	"server"
+	{
+		"name"		"skial.com | DUSTBOWL+ | US ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.12:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | US 2 █████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.31:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | SURF | US ██████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.38:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | DEATH RUN | EU ████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.219:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | HIGHTOWER | US ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.17:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE+ | US 2 ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.35:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT | EU ██████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.217:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT | US ██████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.37:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE | EU █████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.220:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | FREAK FORTRESS | NY ███"
+		"date"		"1607276878"
+		"addr"		"74.91.116.200:27017"
+	}
+	"server"
+	{
+		"name"		"skial.com | HARVEST | US █████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.18:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | NY █████"
+		"date"		"1607276878"
+		"addr"		"74.91.116.200:27018"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE | LA █████"
+		"date"		"1607276878"
+		"addr"		"162.248.93.211:27016"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT | NY ██████"
+		"date"		"1607276878"
+		"addr"		"74.91.116.200:27016"
+	}
+	"server"
+	{
+		"name"		"skial.com | HARVEST x10 RANDOMIZER | US"
+		"date"		"1607276878"
+		"addr"		"91.216.250.34:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | SAXTON HALE | EU ████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.223:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | TURBINE+ | US 1 ████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.16:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | AU █████"
+		"date"		"1607276878"
+		"addr"		"91.216.250.193:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | 2FORT+ | LA █████"
+		"date"		"1607276878"
+		"addr"		"162.248.93.211:27015"
+	}
+	"server"
+	{
+		"name"		"skial.com | DEATH RUN | EU 2 ████"
+		"date"		"1607276878"
+		"addr"		"137.74.91.216:27016"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 Murder Mod| [Hide & Sneak]"
+		"date"		"1607276878"
+		"addr"		"162.248.92.127:27030"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 17 | Robopocalypse | MvM"
+		"date"		"1607276878"
+		"addr"		"68.235.38.17:27015"
+	}
+	"server"
+	{
+		"name"		"TF2SS.com 41 | Minecraft/Trade/Idle | FREE !VIP"
+		"date"		"1607276878"
+		"addr"		"68.235.38.11:27025"
+	}
+	"server"
+	{
+		"name"		"-[DISC-FF.com]- |24/7 SCP: Secret Laboratory|[BETA]"
+		"date"		"1607276878"
+		"addr"		"74.91.119.154:27014"
+	}
+}

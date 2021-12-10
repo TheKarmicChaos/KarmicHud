@@ -1,0 +1,7 @@
+# First, ignore everything in the master directory
+/*
+# Now, whitelist the specific files
+!.gitignore
+!README.md
+!cfg/
+!custom/

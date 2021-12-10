@@ -3,5 +3,5 @@
 # Now, whitelist the specific files
 !.gitignore
 !README.md
-!cfg/
+!cfg/user/
 !custom/

@@ -1,0 +1,276 @@
+A comprehensive list of what I'd use as a name/description for every tf2 item.
+[ ] = incomplete name/description
+[x] = I am happy with this name/description, but do not/will not own the item
+[-] = I am happy with this name/description and plan to implement it in-game in the future.
+[o] = I have partially implemented this name/description in-game, but not fully
+[✓] = I have fully implemented this name/description in-game
+
+
+- SCOUT -
+
+[ ] Festive Scattergun:
+[ ] Australium Scattergun:
+[ ] Festive Force-A-Nature:
+[ ] Australium Force-A-Nature:
+[ ] Shortstop:
+[✓] Soda Popper:							"Shows the enemy firsthand what too much sugar does to the human body."
+[✓] Baby Face’s Blaster (Hale's Own):					"Please don't ask how it got this name."
+[ ] Back Scatter:
+
+[x] Pistol:				Pea Shooter			"Pew Pew."
+[ ] Lugermorph:
+[-] C.A.P.P.E.R:			[P.E.A.] Shooter		"[Portable Electron Accelerator]"
+[ ] Winger:
+[ ] Pretty Boy’s Pocket Pistol:		
+[ ] Flying Guillotine:			Dodgeball Lvl 90		"Think fast!"
+[ ] Festive Bonk! Atomic Punch:		Red Bull
+[✓] Crit-a-Cola:			Crit-a-Colon			"+100% critical damage to your digestive system and life expectancy"
+[ ] Mad Milk: 
+[✓] Mutated Milk:			The Milkman Conspiracy		"I am the milkman. My milk is delicious."
+
+[ ] Festive Bat:
+[ ] Holy Mackerel:			Cod Of Duty			"Modern Warfish"
+[ ] Unarmed Combat:							"Do you need a hand?"
+[ ] Batsaber:								"Something something high ground."
+[ ] Sandman:								"Oh, that’s a baseball!"
+[ ] Candy Cane:
+[ ] Boston Basher:
+[ ] Three-Rune-Blade:
+[ ] Sun-on-a-Stick:			God Damn The Sun
+[ ] Fan O’War:
+[ ] Atomizer:				Anti-Gravity Engine		"Gravity? Who gives a crap about gravity?"
+[ ] Wrap Assassin:
+
+- SOLDIER -
+
+[ ] Festive Rocket Launcher:		Festive Rocket Lawnchair
+[x] Australium Rocket Launcher:		Valve Rocket Lawnchair
+[✓] Original:				Shoot Floor Get Score
+[✓] Direct Hit:				The Ullapool Caber		"This feels a little overpowered for a melee weapon..."
+[-] Festive Black Box:			Yellow Box			"Not quite an Orange Box."
+[x] Australium Black Box:		Gold Box			"Still not an Orange Box."
+[ ] Rocket Jumper: 
+[ ] Liberty Launcher:			Freedom Cannon			"Liberation never felt so explosive."
+[ ] Cow Mangler 5000:
+[-] Beggar’s Bazooka:							"I’m begging you to get hit by this thing."
+[ ] Air Strike:
+
+[o] Shotgun:				Boomstick			"Bang Bang."
+[ ] Reserve Shooter:
+[ ] Panic Attack:			Keep Calm
+[✓] Festive Buff Banner:		Center of Attention		"Why does everyone start shooting at me the moment I blow this horn?"
+[ ] Battalion’s Backup:			Army of One
+[ ] Concheror:
+[o] Gunboats:				Safety First			"Always wear protection, especially when shooting yourself with a rocket launcher"
+[ ] Mantreads:				Goomba Stompers			"1up!"
+[ ] Righteous Bison:
+[ ] B.A.S.E. Jumper:			Air Support
+
+[ ] Shovel:
+[ ] Equalizer:
+[ ] Pain Train: 
+[ ] Half-Zatoichi: 
+[ ] Disciplinary Action:						"Love Deluxe"
+[ ] Market Gardener:
+[✓] Escape Plan:			Tactical Retreat		"The Joestar family's secret technique."
+
+- PYRO -
+
+[ ] Festive Flame Thrower:
+[ ] Australium Flame Thrower:		Hell’s Inferno			"Ashes to ashes, dust to dust"
+[ ] Rainblower: 
+[ ] Nostromo Napalmer:
+[ ] Festive Backburner:
+[ ] Degreaser:				『 Soft & Wet 』
+[ ] Phlogistinator:			『 Propane Nightmare 』	
+
+[-] Festive Flare Gun:							"Sends enemies an emergency signal confirming you do, in fact, want them dead.”
+[ ] Detonator:
+[ ] Manmelter:
+[ ] Scorch Shot:
+
+[ ] Fire Axe:								"Break glass in case of fire."
+[-] Lollichop:				Jawbreaker			"Bad for your teeth in more ways than one."
+[ ] Festive Axtinguisher:
+[ ] Australium Axtinguisher:		Unholy Retribution
+[ ] Postal Pummeler:			Gone Postal			"You probably thought you weren’t going to die today. Surprise."
+[ ] Homewrecker:			Windows Tech Support		"Results may vary based on the color of your machine."
+[ ] Maul:
+[ ] Powerjack:
+[ ] Back Scratcher:
+[ ] Sharpened Volcano Fragment:
+[ ] Third Degree:
+[ ] Neon Annihilator:
+
+- DEMOMAN -
+
+[ ] Festive Grenade Launcher:
+[ ] Australium Grenade Launcher:
+[ ] Loch-n-Load:
+[ ] Iron Bomber:
+[ ] Loose Cannon:			『 Lil’ Bomber 』			"Volare Via. Then get double donked."
+[ ] Ali Baba’s Wee Booties:
+[ ] Bootlegger: 
+
+[ ] Festive Stickybomb Launcher:
+[ ] Australium Stickybomb Launcher:
+[ ] Scottish Resistance:
+[ ] Quickiebomb Launcher:		『 Sticky Fingers 』		"You're about to be saying 'Arrivederci' to your fucking arms."
+[ ] Sticky Jumper:
+[ ] Chargin’ Targe:
+[ ] Splendid Screen: 
+[ ] Tide Turner:			Turn-Based Combat
+
+[-] Bottle:				Crippling Alcoholism		"To clarify, you are the one whom the alcohol is about to cripple."
+[ ] Scottish Handshake:
+[ ] Festive Eyelander: 
+[ ] Australium Eyelander:		Eyecalibur
+[ ] HHH’s Headtaker: 
+[ ] Nessie’s Nine Iron:							"Fore!"
+[ ] Scotsman’s Skullcutter: 
+[ ] Ullapool Caber:			Crocket Kamikaze		"You’re coming down with me!"
+[ ] Claidheamh Mor:
+[ ] Persian Persuader:
+
+- HEAVY -
+
+[ ] Festive Minigun:
+[ ] Australium Minigun:			12-Second Bankruptcy		"She weighs 150kg & fires $200 custom-tooled cartridges at 10,000rpm."
+[ ] Iron Curtain:
+[ ] Natstascha:
+[ ] Brass Beast:
+[✓] Tomislav:				Silent But Deadly
+[x] Australium Tomislav:		Silence is Golden		"Stop screaming so much when I shoot you."
+[ ] Huo-Long Heater:
+
+[✓] Family Business:			Uno Reverse Card		"Be honest. You weren't expecting a heavy to be carrying a shotgun, were you?"
+[ ] Festive Sandvich:
+[x] Robo-Sandvich:			[E.M.P.]			"[Edible Morphine Packet]"
+[✓] Dalokohs Bar (Hale's Own):		Hale’s Own Diabetes		"Of course this gave me diabetes. I mean do you SEE how many of these I've eaten?"
+[ ] Fishcake:
+[ ] Buffalo Steak Sandvich:
+
+[✓] Fists (Hale's Own):							"If you aren't 100% satisfied with our product line, you can take it up with me!"		
+[ ] Apoco-Fists:							"PUNCH HIM SO HARD HE EXPLODES!!!"
+[ ] Killing Gloves of Boxing:
+[ ] Gloves of Running Urgently: 
+[ ] Bread Bite:
+[✓] Warrior’s Spirit:			Right to Bear Arms		"I will kill you with bear hands!"
+[ ] Fists of Steel: 
+[ ] Eviction Notice:
+[ ] Holiday Punch:			Tickle Monster
+
+- ENGINEER -
+
+[ ] Festive Frontier Justice:		Critical Thinking
+[ ] Australium Frontier Justice:
+[ ] Widowmaker:
+[ ] Pomson 6000:
+[ ] Rescue Ranger:
+
+[ ] Wrangler:
+[ ] Giger Counter:
+[ ] Short Circuit:
+
+[ ] Festive Wrench:
+[x] Australium Wrench:							"I couldn’t get a golden wrench, so I got this instead."
+[x] Golden Wrench:							"I couldn’t get a saxxy, so I got this instead."
+[ ] Gunslinger:				The Fun Police			"Your worst nightmare."
+[ ] Southern Hospitality:
+[ ] Jag:
+[ ] Eureka Effect:
+
+[✓] Construction PDA:			Dispenser Dispenser		"It’s a Dispenser Dispenser that Dispenses Dispensers."
+
+- MEDIC -
+
+[ ] Syringe Gun:			Euthanasia
+[ ] Blutsauger: 
+[ ] Australium Blutsauger:
+[ ] Overdose: 
+[✓] Festive Crusader’s Crossbow:	Long Range Lobotomy		"Performing surgeries from a safe and responsible distance."
+
+[ ] Festive Medi Gun:
+[ ] Australium Medi Gun:		『 Golden Experience 』
+[✓] Kritzkrieg:				『 CRAZY DIAMOND 』
+[✓] Quick-Fix:				Proton Pack			"Who you gonna call? MEDIC!"
+[✓] Vaccinator:				Type Advantage			"It’s not very effective…"
+
+[ ] Bonesaw:
+[ ] Ubersaw: 
+[-] Vita-Saw:				Involuntary Organ Transplant	"Your donation is most appreciated."
+[ ] Amputator:
+[-] Solemn Vow:				Hipocritic Oath			"Do Harm."
+
+- SNIPER -
+
+[ ] Festive Sniper Rifle: 
+[ ] Australium Sniper Rifle:
+[ ] AWPer Hand: 
+[ ] Sydney Sleeper:
+[ ] Bazaar Bargain:
+[ ] Machina:
+[ ] Shooting Star:
+[ ] Hitman’s Heatmaker:
+[ ] Classic:
+[ ] Festive Huntsman:			Lucksman			"Aimbot v2.0 VAC-Proof"
+[ ] Fortified Compound:
+
+[ ] Festive Submachine Gun:
+[ ] Australium Submachine Gun:
+[ ] Cleaner’s Carbine:
+[x] Jarate:				Golden Showers			"This can’t be sanitary."
+[✓] Self-Aware Beauty Mark:		Contaminated Specimen		"There’s no way this is sanitary."
+[ ] Razorback: 
+[ ] Darwin’s Danger Shield:
+[ ] Cozy Camper:
+
+[ ] Kukri: 
+[ ] Tribalman’s Shiv:
+[ ] Bushwacka:
+[-] Shahanshah:				Shanashashsahshahnahashnashnashashah	"Good luck pronouncing that."
+
+- SPY -
+
+[ ] Festive Revolver:
+[ ] Big Kill:
+[ ] Festive Ambassador:
+[ ] Australium Ambassador:
+[ ] L’Etranger:
+[ ] Enforcer:
+[ ] Diamondback:
+
+[ ] Sapper:
+[ ] Ap-Sap:
+[ ] Snack Attack:
+[ ] Red-Tape Recorder:
+
+[ ] Festive Knife:			Stabby McStabface
+[-] Australium Knife:			Stabby McStabface			"This is what I get for letting the internet name my $300m research knife."
+[ ] Sharp Dresser:
+[ ] Black Rose: 
+[ ] Your Eternal Reward:		Identity Theft
+[ ] Wanga Prick:
+[ ] Conniver’s Kunai:
+[ ] Big Earner:
+[ ] Spy-cicle:
+
+[ ] Invis Watch:
+[ ] Enthusiast’s Timepiece:
+[ ] Quackenbirdt: 								"Bonus Ducks!"
+[ ] Cloak and Dagger: 
+[ ] Dead Ringer:			Time to Die...?				"Not on my watch!"
+
+- MULTICLASS -
+
+[ ] Frying Pan:				Deep-Fried Defeat
+[ ] Golden Frying Pan:			A Very Expensive Mistake		"You should thank me for killing you with this."
+[ ] The Saxxy:
+[x] Memory Maker:			SFM: Snuff FilmMaker			"Wait, isn't this illegal?"
+[ ] Conscientious Objector:
+[ ] Freedom Staff:
+[✓] Bat Outta Hell:			Sans					"I did a genocide run..."
+[o] Ham Shank:				Fried Chicken				"You call it fried chicken despite the fact it's obviously grilled? And Ham?"
+[ ] Necro Smasher:
+[ ] Crossing Guard:
+[ ] Prinny Machete:

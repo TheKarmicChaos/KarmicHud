@@ -1,0 +1,6 @@
+// eatloop script
+alias eatLoopON "unbind PGUP; eatLoop; alias eatLoopCheck eatLoop; bind PGUP eatLoopOFF"
+alias eatLoopOFF "unbind PGUP; alias eatLoopCheck bind PGUP eatLoopON"
+alias eatLoop "slot2; wait 200; eatLoopCheck"
+eatLoopOFF
+eatLoop

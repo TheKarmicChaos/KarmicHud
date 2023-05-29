@@ -1,0 +1,6 @@
+// attackspam script
+alias attackSpamON "unbind DEL; attackSpamLoop; alias attackSpamCheck attackSpamLoop; bind DEL attackSpamOFF"
+alias attackSpamOFF "unbind DEL; alias attackSpamCheck bind DEL attackSpamON"
+alias attackSpamLoop" +attack; wait 10; -attack; wait 10; attackSpamCheck"
+attackSpamOFF
+attackSpamLoop

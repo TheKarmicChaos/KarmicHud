@@ -2,3 +2,5 @@
 alias personswap "personthird"
 alias personthird "thirdperson; sm_thirdperson; alias personswap personfirst"
 alias personfirst "firstperson; sm_firstperson; alias personswap personthird"
+
+echo ">> scr_personswap was loaded properly."

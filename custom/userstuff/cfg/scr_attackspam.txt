@@ -4,3 +4,5 @@ alias attackSpamOFF "unbind DEL; alias attackSpamCheck bind DEL attackSpamON"
 alias attackSpamLoop" +attack; wait 10; -attack; wait 10; attackSpamCheck"
 attackSpamOFF
 attackSpamLoop
+
+echo ">> scr_attackspam was loaded properly."

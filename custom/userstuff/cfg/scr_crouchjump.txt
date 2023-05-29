@@ -2,4 +2,5 @@
 alias +crouchjump "+jump; +duck"
 alias -crouchjump "-duck; -jump"
 bind "space" "+crouchjump"
-echo "Crouch Jump Loaded Properly."
+
+echo ">> scr_crouchjump was loaded properly."

@@ -4,3 +4,5 @@ alias eatLoopOFF "unbind PGUP; alias eatLoopCheck bind PGUP eatLoopON"
 alias eatLoop "slot2; wait 200; eatLoopCheck"
 eatLoopOFF
 eatLoop
+
+echo ">> scr_eatloop was loaded properly."

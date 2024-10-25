@@ -22,6 +22,15 @@
 // Base Game HUD Tweaks
 // --------------------------------------------------------------
 
+	// Ammo display is moved closer to screen center to be more easily visible during gameplay
+	HudWeaponAmmo
+	{
+		"xpos"			"c135"
+		"ypos"			"r97" //"r55"
+		"wide"			"94"
+		"tall"			"45"
+	}
+
 	// Moves popup for CTF notifications
 	NotificationPanel
 	{

@@ -31,6 +31,13 @@
 		"tall"			"45"
 	}
 
+	// Voicechat bubble moved to left side to appear over 3d playermodel
+	HudVoiceSelfStatus
+	{
+		"xpos" "90"
+		"ypos" "r105"
+	}
+
 	// Moves popup for CTF notifications
 	NotificationPanel
 	{

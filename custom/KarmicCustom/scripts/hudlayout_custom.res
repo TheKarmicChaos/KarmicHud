@@ -38,6 +38,23 @@
 		"MinimumTime"		"1"
 	}
 
+	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
+	HudDeathNotice
+	{
+		"xpos"	 		"r502"
+		"ypos"	 		"18"
+		"wide"	 		"500"
+
+		"MaxDeathNotices" 	"5"
+		"LineHeight"	  	"14"
+		"LineSpacing"	  	"1"
+		"CornerRadius"	  	"2"
+		
+		"LocalPlayerColor"	"65 65 65 255"
+
+		"BaseBackgroundColor"	"TransparentBlack"
+	}
+
 
 }
 

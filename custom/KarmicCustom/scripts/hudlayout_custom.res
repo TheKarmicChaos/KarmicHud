@@ -23,17 +23,20 @@
 // --------------------------------------------------------------
 
 
+	// Moves nametag for looking at players
 	CMainTargetID
 	{
 		"xpos"			"c-126"
 		"ypos"			"285"
 	}
-	
+
+	// Moves nametag for spectating players
 	CSpectatorTargetID
 	{
 		"ypos"			"335"
 	}
 	
+	// Moves nametag for being healed by players
 	CSecondaryTargetID
 	{
 		"xpos"			"c-126"

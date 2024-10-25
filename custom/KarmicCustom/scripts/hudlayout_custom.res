@@ -112,6 +112,12 @@
 		"separator_height"	"4"
 	}
 
+	// Moves mvm money counter to the bottom of the 3d playermodel
+	"CurrencyStatusPanel"
+	{
+		"xpos"				"c-350"
+		"ypos"				"r90"
+	}
 
 }
 

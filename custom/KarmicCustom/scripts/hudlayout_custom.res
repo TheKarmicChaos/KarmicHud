@@ -89,6 +89,13 @@
 		"EngineerY"		"130"	//"150"
 	}
 
+	// Reduced spacing between cp icons
+	HudControlPointIcons
+	{
+		"separator_width"	"1"	// distance between the icons (including their backgrounds)
+		"separator_height"	"4"
+	}
+
 
 }
 

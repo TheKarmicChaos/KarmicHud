@@ -22,6 +22,12 @@
 // Base Game HUD Tweaks
 // --------------------------------------------------------------
 
+	// Moves popup for CTF notifications
+	NotificationPanel
+	{
+		"xpos"					"c-320"
+		"ypos"					"r113"
+	}
 
 	// Moves nametag for looking at players
 	CMainTargetID

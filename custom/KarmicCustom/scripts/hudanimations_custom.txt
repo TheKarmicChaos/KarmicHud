@@ -1,0 +1,84 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//
+// Useful game console commands:
+//	cl_Animationinfo <hudelement name> or <panelname> 
+//		displays all the animatable variables for the hud element
+//
+
+// Hitmarker
+//==================================================================================
+
+
+// Remove Spy Disguise Graphic
+//==================================================================================
+
+event HudSpyDisguiseFadeIn { }
+event HudSpyDisguiseFadeOut { }
+event HudSpyDisguiseChanged { }
+event HudSpyDisguiseHide { }
+
+// Simplify Dead Teammate Indicator
+//==================================================================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 19 Accel 0 0.3
+	Animate SkullPanel ypos 20 Accel 0 0.3
+	Animate respawntime ypos 13 Accel 0 0.3
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 6 Accel 0 0.3
+	Animate SkullPanel ypos 7 Accel 0 0.3
+	Animate respawntime ypos 0 Accel 0 0.3
+
+	SetVisible DeathPanel  0 0.3
+	SetVisible SkullPanel  0 0.3
+	SetVisible respawntime 0 0
+}
+
+
+
+// Don't Move Chatbox
+//==================================================================================
+//event CompetitiveGame_LowerChatWindow { }
+//event CompetitiveGame_RestoreChatWindow { }
+//event HudTournament_MoveChatWindow { }

@@ -11,3 +11,4 @@
 * "scripts/hudanimations_custom.txt"
 * "scripts/hudlayout_custom.res"
 * all files in "resource/ui_custom/ui"
+* adding new files to "resource/ui/" as needed

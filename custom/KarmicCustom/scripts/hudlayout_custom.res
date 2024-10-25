@@ -22,6 +22,23 @@
 // Base Game HUD Tweaks
 // --------------------------------------------------------------
 
+
+	CMainTargetID
+	{
+		"xpos"			"c-126"
+		"ypos"			"285"
+	}
+	
+	CSpectatorTargetID
+	{
+		"ypos"			"335"
+	}
+	
+	CSecondaryTargetID
+	{
+		"xpos"			"c-126"
+		"ypos"			"335"
+	}
 	
 	// Scales indicator size with damage taken
 	HudDamageIndicator

@@ -81,6 +81,14 @@
 		"BaseBackgroundColor"	"TransparentBlack"
 	}
 
+	// Moves achievement HUD tracker to just under the contract tracker on the right side
+	"HudAchievementTracker"
+	{
+		"xpos"			"r285"
+		"NormalY"		"130"	//"150" // if contract is active
+		"EngineerY"		"130"	//"150"
+	}
+
 
 }
 

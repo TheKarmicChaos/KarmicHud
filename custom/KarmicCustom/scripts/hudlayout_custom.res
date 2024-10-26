@@ -34,10 +34,20 @@
 	// Stickybomb counter moved alongside ammo display
 	HudDemomanPipes
 	{
-		"xpos"			"c203"
-		"ypos"			"r94" 	//"r52"
+		"xpos"			"c210"
+		"ypos"			"r95" 	//"r52"
 		"wide"			"100"
 		"tall"			"50"
+	}
+
+	// Moves engineer's metal counter alongside ammo display
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"c215" 	//"r162"
+		"ypos"					"r192" 	//"r152"
+		"wide"					"116"
+		"tall"  				"180"
 	}
 
 	// Expands & relocates ubercharge hud element to be able to use more of the screen

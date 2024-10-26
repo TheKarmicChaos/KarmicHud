@@ -31,6 +31,14 @@
 		"tall"			"45"
 	}
 
+	// Expands & relocates ubercharge hud element to be able to use more of the screen
+	HudMedicCharge
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+	}
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{

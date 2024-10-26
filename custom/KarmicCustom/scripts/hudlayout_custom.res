@@ -57,7 +57,7 @@
 	CMainTargetID
 	{
 		"xpos"			"c-126"
-		"ypos"			"285"
+		"ypos"			"335"
 	}
 
 	// Moves nametag for spectating players
@@ -70,7 +70,7 @@
 	CSecondaryTargetID
 	{
 		"xpos"			"c-126"
-		"ypos"			"335"
+		"ypos"			"301"
 	}
 	
 	// Scales indicator size with damage taken

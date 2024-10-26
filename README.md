@@ -3,10 +3,12 @@ My HUD does not currently support "cl_hud_minmode 1" so disable it if you use it
 Everything here works in casual.
 
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicCustom."
+
 Then, download the repo and copy everything you want from 'KarmicCustom' into that folder and you should be good to go. You will need to manually merge any file conflicts if you already have existing files in your custom folder. Below is a description of each part of my setup so you know which files to copy if you only want certain things.
 
 # Config Files
 *These are all located in 'KarmicCustom\cfg'*
+
 I would highly recommend not using these unless you want to play with my exact setup, as these files contain my binds, scripts, controls, game settings, and viewmodels. Feel free to use them as reference or copy them and modify them to your needs, but if you are just looking to install my HUD and/or crosshairs, don't bother with anything beyond 'disable_transparency.cfg' and 'enable_transparency.cfg.'
 
 # Crosshairs & Weapon Changes

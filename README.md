@@ -15,7 +15,7 @@ I would highly recommend not using these unless you want to play with my exact s
 To install my crosshairs & weapon changes (which currently only includes replacing the explosion particle for visibility), you only need those files listed above. To update your crosshairs, simply replace those same files with the newer ones from the repo.
 
 # Custom HUD
-*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in KarmicCustom/scripts', 3 of which are txt and 3 are res files.*
+*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in KarmicCustom\scripts', 3 of which are txt and 3 are res files.*
 
 The custom HUD is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
 
@@ -27,7 +27,7 @@ If you are looking to use transparent viewmodels, install the HUD files as well 
 * Download GCFScape
 * Use it to open 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\tf2_misc_dir.vpk' and extract the necessary updated files listed below from '\scripts\' and '\resources\'
 * In your custom usermod directory, replace 'scripts\hudanimations_tf.txt' with the updated version.
-* Copy the updated 'scripts/hudlayout.res' file & rename it to 'hudlayout_base.res', then use it to replace your existing 'scripts\hudlayout_base.res' file. **DO NOT replace the existing 'scripts/hudlayout.res' file.**
+* Copy the updated 'scripts\hudlayout.res' file & rename it to 'hudlayout_base.res', then use it to replace your existing 'scripts\hudlayout_base.res' file. **DO NOT replace the existing 'scripts\hudlayout.res' file.**
 * replace the contents of your 'resources\ui_base\ui\' directory with the updated files from '\resources\ui\'
 
 If the HUD is still broken, that means Valve made an incompatible change to a very very old res file (which they basically never do). New res files should still be completely compatible with the existing HUD elements.

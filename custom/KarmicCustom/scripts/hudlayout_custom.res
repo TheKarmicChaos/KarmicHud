@@ -39,6 +39,24 @@
 		"wide"			"f0"
 		"tall"			"480"
 	}
+	
+	// TODO: figure out how to decrease alpha for the loose cannon charge bar
+	// Moves bar to just under crosshair & makes it transparent
+	HudDemomanCharge
+	{
+		"xpos"			"cs-0.5-5"
+		"ypos"			"c55"
+		"alpha"			"100"
+	}	
+
+	// Moves bar to just under crosshair & makes it transparent
+	HudBowCharge
+	{
+		"xpos"			"cs-0.5-5"
+		"ypos"			"c55"
+		"alpha"			"100"
+	}
+
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{

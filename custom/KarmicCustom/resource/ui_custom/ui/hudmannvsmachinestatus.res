@@ -13,6 +13,6 @@
 	"InWorldCurrencyPanel"
 	{
 		"xpos"				"cs-0.25"
-		"ypos"				"r125"
+		"ypos"				"r110"
 	}
 }

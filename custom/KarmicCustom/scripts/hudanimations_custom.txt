@@ -1,6 +1,16 @@
 // Hitmarker
 //==================================================================================
 
+event DamagedPlayer
+{
+	StopEvent HitMarker 	0.0
+	RunEvent HitMarker 	0.01
+}
+
+event HitMarker
+{
+}
+
 
 // Remove Spy Disguise Graphic
 //==================================================================================

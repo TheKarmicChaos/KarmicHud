@@ -17,7 +17,7 @@ I would highly recommend not using these unless you want to play with my exact s
 To install my crosshairs & weapon changes (which currently only includes replacing the explosion particle for visibility), you only need those files listed above. To update your crosshairs, simply replace those same files with the newer ones from the repo.
 
 # Custom HUD
-*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in KarmicCustom\scripts', 3 of which are txt and 3 are res files.*
+*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in KarmicCustom\scripts'*
 
 The custom HUD is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
 

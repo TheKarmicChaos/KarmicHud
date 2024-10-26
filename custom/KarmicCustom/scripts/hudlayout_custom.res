@@ -26,9 +26,18 @@
 	HudWeaponAmmo
 	{
 		"xpos"			"c135"
-		"ypos"			"r97" //"r55"
+		"ypos"			"r97" 	//"r55"
 		"wide"			"94"
 		"tall"			"45"
+	}
+
+	// Stickybomb counter moved alongside ammo display
+	HudDemomanPipes
+	{
+		"xpos"			"c203"
+		"ypos"			"r94" 	//"r52"
+		"wide"			"100"
+		"tall"			"50"
 	}
 
 	// Expands & relocates ubercharge hud element to be able to use more of the screen

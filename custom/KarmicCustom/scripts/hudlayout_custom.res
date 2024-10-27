@@ -21,33 +21,60 @@
 
 // Base Game HUD Tweaks
 // --------------------------------------------------------------
+// Left Side
+// --------------------------------------------------------------
 
-	// Ammo display is moved closer to screen center to be more easily visible during gameplay
-	HudWeaponAmmo
+	// Moves engineer's buildings HUD
+	BuildingStatus_Engineer
 	{
-		"xpos"			"c135"
-		"ypos"			"r97" 	//"r55"
-		"wide"			"94"
-		"tall"			"45"
+		"xpos"			"-20"
+		"ypos"			"c-120"
+		"wide"			"640"
+		"tall"			"480"
+		"PaintBackgroundType"	"2"
 	}
 
-	// Stickybomb counter moved alongside ammo display
-	HudDemomanPipes
+	// Moves spy's buildings HUD
+	BuildingStatus_Spy
 	{
-		"xpos"			"c210"
-		"ypos"			"r95" 	//"r52"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"-20"
+		"ypos"			"c-120"
+		"wide"			"640"
+		"tall"			"480"
+		"PaintBackgroundType"	"2"
 	}
 
-	// Moves engineer's metal counter alongside ammo display
-	CHudAccountPanel
+	// Voicechat bubble moved to left side to appear over 3d playermodel
+	HudVoiceSelfStatus
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c215" 	//"r162"
-		"ypos"					"r192" 	//"r152"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos" 			"90"
+		"ypos" 			"r105"
+	}
+
+	// Moves mvm money counter to the bottom of the 3d playermodel
+	"CurrencyStatusPanel"
+	{
+		"xpos"			"c-350"
+		"ypos"			"r90"
+	}
+
+
+// Center Screen
+// --------------------------------------------------------------
+	
+	// Scales indicator size with damage taken
+	HudDamageIndicator
+	{
+		"fieldName"		"HudDamageIndicator"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"MinimumWidth" 		"12"
+		"MaximumWidth"		"60"
+		"StartRadius"		"80"
+		"EndRadius"		"80"
+		"MinimumHeight"		"30"
+		"MaximumHeight"		"60"
+		"MinimumTime"		"1"
 	}
 
 	// Expands & relocates ubercharge hud element to be able to use more of the screen
@@ -76,20 +103,6 @@
 		"alpha"			"100"
 	}
 
-	// Voicechat bubble moved to left side to appear over 3d playermodel
-	HudVoiceSelfStatus
-	{
-		"xpos" "90"
-		"ypos" "r105"
-	}
-
-	// Moves popup for CTF notifications
-	NotificationPanel
-	{
-		"xpos"					"c-320"
-		"ypos"					"r113"
-	}
-
 	// Moves nametag for looking at players
 	CMainTargetID
 	{
@@ -97,33 +110,36 @@
 		"ypos"			"335"
 	}
 
-	// Moves nametag for spectating players
-	CSpectatorTargetID
-	{
-		"ypos"			"335"
-	}
-	
 	// Moves nametag for being healed by players
 	CSecondaryTargetID
 	{
 		"xpos"			"c-126"
 		"ypos"			"301"
 	}
-	
-	// Scales indicator size with damage taken
-	HudDamageIndicator
+
+	// Moves nametag for spectating players
+	CSpectatorTargetID
 	{
-		"fieldName"		"HudDamageIndicator"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"MinimumWidth" 		"12"
-		"MaximumWidth"		"60"
-		"StartRadius"		"80"
-		"EndRadius"		"80"
-		"MinimumHeight"		"30"
-		"MaximumHeight"		"60"
-		"MinimumTime"		"1"
+		"ypos"			"335"
 	}
+
+	// Moves popup for CTF notifications
+	NotificationPanel
+	{
+		"xpos"			"c-320"
+		"ypos"			"r113"
+	}
+
+	// Reduced spacing between cp icons
+	HudControlPointIcons
+	{
+		"separator_width"	"1"	// distance between the icons (including their backgrounds)
+		"separator_height"	"4"
+	}
+
+
+// Right Side
+// --------------------------------------------------------------
 
 	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
 	HudDeathNotice
@@ -150,20 +166,32 @@
 		"EngineerY"		"130"	//"150"
 	}
 
-	// Reduced spacing between cp icons
-	HudControlPointIcons
+	// Ammo display is moved closer to screen center to be more easily visible during gameplay
+	HudWeaponAmmo
 	{
-		"separator_width"	"1"	// distance between the icons (including their backgrounds)
-		"separator_height"	"4"
+		"xpos"			"c135"
+		"ypos"			"r97" 	//"r55"
+		"wide"			"94"
+		"tall"			"45"
 	}
 
-	// Moves mvm money counter to the bottom of the 3d playermodel
-	"CurrencyStatusPanel"
+	// Stickybomb counter moved alongside ammo display
+	HudDemomanPipes
 	{
-		"xpos"				"c-350"
-		"ypos"				"r90"
+		"xpos"			"c210"
+		"ypos"			"r95" 	//"r52"
+		"wide"			"100"
+		"tall"			"50"
 	}
 
+	// Moves engineer's metal counter alongside ammo display
+	CHudAccountPanel
+	{
+		"xpos"			"c215" 	//"r162"
+		"ypos"			"r192" 	//"r152"
+		"wide"			"116"
+		"tall"  		"180"
+	}
 }
 
 

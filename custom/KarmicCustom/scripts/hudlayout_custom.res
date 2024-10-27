@@ -29,9 +29,6 @@
 	{
 		"xpos"			"-20"
 		"ypos"			"c-120"
-		"wide"			"640"
-		"tall"			"480"
-		"PaintBackgroundType"	"2"
 	}
 
 	// Moves spy's buildings HUD
@@ -39,9 +36,6 @@
 	{
 		"xpos"			"-20"
 		"ypos"			"c-120"
-		"wide"			"640"
-		"tall"			"480"
-		"PaintBackgroundType"	"2"
 	}
 
 	// Voicechat bubble moved to left side to appear over 3d playermodel

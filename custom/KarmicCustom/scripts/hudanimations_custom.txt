@@ -46,11 +46,20 @@ event TeamStatus_PlayerAlive
 }
 
 
-
-
-
-// Don't Move Chatbox
+// Relocate Chatbox After Casual Round Ends
 //==================================================================================
-//event CompetitiveGame_LowerChatWindow { }
-//event CompetitiveGame_RestoreChatWindow { }
-//event HudTournament_MoveChatWindow { }
+
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat ypos r120 Accel 0 0.2
+	Animate HudChat xpos -2 Accel 0 0.2
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos 265 Accel 0 0.2
+	Animate HudChat xpos -2 Accel 0 0.2
+}
+
+
+//==================================================================================

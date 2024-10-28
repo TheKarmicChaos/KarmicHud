@@ -1,9 +1,8 @@
 "UnlitGeneric"
 {
 "$translucent" 1
-"$basetexture" "vgui\logos\crosshair_melee_sword"
+"$basetexture" "vgui\logos\crosshair_beggars"
 "$vertexcolor" 1
 "$no_fullbright" 1
 "$ignorez" 1
 }
-

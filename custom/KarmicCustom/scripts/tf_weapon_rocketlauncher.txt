@@ -79,7 +79,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_rocket_beggars"
+				"file"		"vgui/logos/crosshair_beggars"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

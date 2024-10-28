@@ -68,7 +68,7 @@ WeaponData
 
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_melee_ball"
+				"file"		"vgui/logos/crosshair_wrap"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

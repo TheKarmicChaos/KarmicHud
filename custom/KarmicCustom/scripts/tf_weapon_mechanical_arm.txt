@@ -72,7 +72,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_dragons_fury"
+				"file"		"vgui/logos/crosshair_short_circuit"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

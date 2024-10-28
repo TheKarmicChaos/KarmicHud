@@ -61,7 +61,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_medic"
+				"file"		"vgui/logos/crosshair_medigun"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

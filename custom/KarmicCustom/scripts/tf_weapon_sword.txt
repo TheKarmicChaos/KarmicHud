@@ -68,7 +68,7 @@
 
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_melee_sword"
+				"file"		"vgui/logos/crosshair_melee"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

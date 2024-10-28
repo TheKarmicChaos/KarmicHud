@@ -71,7 +71,7 @@
 
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_melee_wrench"
+				"file"		"vgui/logos/crosshair_wrench"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

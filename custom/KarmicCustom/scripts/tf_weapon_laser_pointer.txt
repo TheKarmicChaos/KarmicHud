@@ -79,7 +79,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_wrangler"
+				"file"		"vgui/logos/crosshair_generic"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

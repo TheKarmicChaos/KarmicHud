@@ -82,7 +82,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_flare"
+				"file"		"vgui/logos/crosshair_melter"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

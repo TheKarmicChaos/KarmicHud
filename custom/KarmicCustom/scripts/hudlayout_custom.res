@@ -156,7 +156,7 @@
 	"HudAchievementTracker"
 	{
 		"xpos"			"r285"
-		"NormalY"		"130"	//"150" // if contract is active
+		"NormalY"		"140"
 		"EngineerY"		"130"	//"150"
 	}
 

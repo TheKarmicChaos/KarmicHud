@@ -83,7 +83,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_pipe"
+				"file"		"vgui/logos/crosshair_cannon"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

@@ -71,7 +71,7 @@
 
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_cleaver"
+				"file"		"vgui/logos/crosshair_jar_cleaver"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

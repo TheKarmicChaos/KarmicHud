@@ -48,6 +48,18 @@
 		"xpos"			"8"
 	}
 	
+	"NoGCMessage"
+	{
+		"xpos"			"45"
+		"ypos"			"95"
+	}
+
+	"NoGCImage"
+	{
+		"xpos"			"50"
+		"ypos"			"108"
+	}
+
 	"Notifications_ShowButtonPanel"
 	{
 		"xpos"			"r158"

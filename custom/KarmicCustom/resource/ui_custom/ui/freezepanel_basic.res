@@ -2,14 +2,6 @@
 
 "Resource/UI/FreezePanel_Basic.res"
 {
-	// WIP
-	"itempanel"
-	{
-		"xpos"			"r200"
-		"tall"			"200"
-		"max_text_height"	"200"
-	}	
-	
 	"FreezePanelBase"
 	{
 		"xpos"			"c-133"

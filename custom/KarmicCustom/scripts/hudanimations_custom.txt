@@ -52,14 +52,14 @@ event TeamStatus_PlayerAlive
 
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat ypos r120 Accel 0 0.2
-	Animate HudChat xpos -7 Accel 0 0.2
+	Animate HudChat ypos r116 Accel 0 0.3		// also is now animated instead of just teleporting
+	Animate HudChat xpos -8 Accel 0 0.3
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat ypos 265 Accel 0 0.2
-	Animate HudChat xpos -7 Accel 0 0.2
+	Animate HudChat ypos 265 Accel 0 0.3
+	Animate HudChat xpos -8 Accel 0 0.3
 }
 
 

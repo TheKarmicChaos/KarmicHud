@@ -7,7 +7,7 @@
 	"classmodelpanelBG"
 	{
 		"xpos"			"cs-1-142"
-		"ypos"			"r119"
+		"ypos"			"r114"
 		"zpos"			"1"
 		"wide"			"125"
 		"tall"			"70"

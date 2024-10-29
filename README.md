@@ -4,8 +4,8 @@ Everything here works in casual.
 
 In order for the crosshairs to work, you need to add the following two commands to your autoexec.cfg:
 
-cl_crosshair_file ""
-cl_crosshair_scale 32
+* cl_crosshair_file ""
+* cl_crosshair_scale 32
 
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicCustom."
 

@@ -2,6 +2,11 @@
 My HUD does not currently support "cl_hud_minmode 1" so disable it if you use it. This shouldn't be necessary if you just want my crosshairs, however.
 Everything here works in casual.
 
+In order for the crosshairs to work, you need to add the following two commands to your autoexec.cfg:
+
+* cl_crosshair_file ""
+* cl_crosshair_scale 32
+
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicCustom."
 
 Then, download the repo and copy everything you want from 'KarmicCustom' into that folder and you should be good to go. You will need to manually merge any file conflicts if you already have existing files in your custom folder. Below is a description of each part of my setup so you know which files to copy if you only want certain things.

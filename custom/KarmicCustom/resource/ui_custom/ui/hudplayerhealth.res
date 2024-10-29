@@ -8,7 +8,7 @@
 		"xpos"			"67"
 		"ypos"			"rs1"
 		"wide"			"p0.3"
-		"tall"			"154"
+		"tall"			"150"
 		"HealthBonusPosAdj"	"20"
 	}
 

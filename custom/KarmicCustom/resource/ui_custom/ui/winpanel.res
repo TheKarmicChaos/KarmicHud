@@ -10,13 +10,13 @@
 		{
 			"ypos"			"r403"
 			"tall"			"30"
-			"alpha"			"125"
+			"alpha"			"150"
 		}
 		"RedScoreBG"
 		{
 			"ypos"			"r403"
 			"tall"			"30"
-			"alpha"			"125"
+			"alpha"			"150"
 		}
 		"BlueTeamLabel"
 		{
@@ -60,7 +60,7 @@
 	{
 		"ypos"			"122" 	//"r215+147"
 		"tall"			"135"
-		"alpha"			"125"
+		"alpha"			"150"
 	}
 	"ShadedBar"
 	{

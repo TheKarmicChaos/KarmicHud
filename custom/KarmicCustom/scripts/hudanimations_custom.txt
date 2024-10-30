@@ -52,9 +52,9 @@ event TeamStatus_PlayerAlive
 
 event HudTournament_ShowTimerCompetitive
 {
-	Animate CountdownLabel		ypos 50 	Linear 0 0
-	Animate CountdownLabelShadow 	ypos 50 	Linear 0 0
-	Animate CountdownBG 		ypos 50 	Linear 0 0
+	Animate CountdownLabel		ypos 36 	Linear 0 0
+	Animate CountdownLabelShadow 	ypos 36 	Linear 0 0
+	Animate CountdownBG 		ypos 36 	Linear 0 0
 
 	SetVisible CountdownBG   	1 0
 	SetVisible CountdownLabel  	1 0
@@ -63,8 +63,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_MoveTimerDown
 {
-	Animate CountdownLabel 		ypos 50 Linear 0 0
-	Animate CountdownLabelShadow 	ypos 50 Linear 0 0
+	Animate CountdownLabel 		ypos 36 Linear 0 0
+	Animate CountdownLabelShadow 	ypos 36 Linear 0 0
 
 	SetVisible CountdownBG 		0 5
 	SetVisible CountdownLabel 	1 0

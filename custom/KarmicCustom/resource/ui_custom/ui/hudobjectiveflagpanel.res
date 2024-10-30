@@ -5,7 +5,7 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ypos"			"8"
+		"ypos"			"0"
 	}
 														
 	"OutlineImage"
@@ -17,20 +17,43 @@
 	"CarriedImage"
 	{
 		"xpos"			"c-30"
-		"ypos"			"r72"
+		"ypos"			"r64"
 		"wide"			"60"
 		"tall"			"60"
-	}		
-	
+	}
+
+	"BlueFlag"
+	{
+		"ypos"			"r87"
+
+		"if_hybrid"
+		{
+			"ypos"		"r87"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r87"
+		}
+	}
+			
+	"RedFlag"
+	{
+		"ypos"			"r87"
+
+		"if_hybrid"
+		{
+			"ypos"		"r87"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r87"
+		}
+	}
+
 	"PlayingTo"
 	{
-		"ypos"			"r35"	// "r28"
 		"font"			"HudFontSmallest"
-	}
-	
-	"PlayingToBG"
-	{
-		"ypos"			"r38"	// "r31"
-		"alpha"			"150"
 	}
 }

@@ -7,7 +7,7 @@
 	{
 		"ypos"			"0"
 	}
-														
+									
 	"OutlineImage"
 	{
 		"visible"		"0"
@@ -17,7 +17,7 @@
 	"CarriedImage"
 	{
 		"xpos"			"c-30"
-		"ypos"			"r64"
+		"ypos"			"r70"
 		"wide"			"60"
 		"tall"			"60"
 	}
@@ -25,11 +25,6 @@
 	"BlueFlag"
 	{
 		"ypos"			"r87"
-
-		"if_hybrid"
-		{
-			"ypos"		"r87"
-		}
 
 		"if_specialdelivery"
 		{
@@ -40,11 +35,6 @@
 	"RedFlag"
 	{
 		"ypos"			"r87"
-
-		"if_hybrid"
-		{
-			"ypos"		"r87"
-		}
 
 		"if_specialdelivery"
 		{

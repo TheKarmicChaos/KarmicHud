@@ -9,14 +9,14 @@
 
 		"FreezePanelBG"
 		{
-			"alpha"			"100"
+			"alpha"			"150"
 		}
 
 		"NemesisSubPanel"
 		{
 			"NemesisPanelBG"
 			{
-				"alpha"			"100"
+				"alpha"			"150"
 			}
 	}
 }

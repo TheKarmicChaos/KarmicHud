@@ -116,6 +116,13 @@
 	{
 		"ypos"			"335"
 	}
+	
+	// Moves "on the bright side" stats panel
+	StatPanel
+	{
+		"xpos"			"c-133"
+		"ypos"			"335"
+	}
 
 	// Moves popup for CTF notifications
 	NotificationPanel

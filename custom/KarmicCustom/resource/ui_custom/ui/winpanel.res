@@ -28,13 +28,15 @@
 		{
 			"textAlignment"		"west"
 			"xpos"			"56"
-			"ypos"			"r423"
+			"ypos"			"r433"
+			"tall"			"60"
 		}
 		"BlueTeamScoreDropshadow"
 		{
 			"textAlignment"		"west"
 			"xpos"			"57"
-			"ypos"			"r422"
+			"ypos"			"r432"
+			"tall"			"60"
 		}	
 		"RedTeamLabel"
 		{
@@ -46,13 +48,15 @@
 		{
 			"textAlignment"		"east"
 			"xpos"			"224"
-			"ypos"			"r423"
+			"ypos"			"r433"
+			"tall"			"60"
 		}
 		"RedTeamScoreDropshadow"
 		{
 			"textAlignment"		"east"
 			"xpos"			"225"
-			"ypos"			"r422"
+			"ypos"			"r432"
+			"tall"			"60"
 		}
 	}
 

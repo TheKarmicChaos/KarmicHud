@@ -87,7 +87,7 @@
 		"xpos"			"cs-0.5-5"
 		"ypos"			"c55"
 		"alpha"			"100"
-	}	
+	}
 
 	// Moves bar to just under crosshair & makes it transparent
 	HudBowCharge
@@ -121,7 +121,7 @@
 	StatPanel
 	{
 		"xpos"			"c-133"
-		"ypos"			"335"
+		"ypos"			"342"
 	}
 
 	// Moves popup for CTF notifications
@@ -194,6 +194,4 @@
 		"tall"  		"180"
 	}
 }
-
-
 

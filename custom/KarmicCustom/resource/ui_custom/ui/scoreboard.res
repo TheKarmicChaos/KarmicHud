@@ -205,8 +205,7 @@
 		"pin_to_sibling"	"TimerAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}				
-
+	}
 
 	"MainBG"
 	{
@@ -232,20 +231,10 @@
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"320"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"autoresize"		"1"
 		"linespacing"		"18"
 		"linegap"		"1"
 		"fgcolor"		"blue"
 		//"show_columns"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"RedPlayerList"
 	{
@@ -256,22 +245,10 @@
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"320"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"autoresize"		"3"
 		"linespacing"		"18"
 		"linegap"		"1"
-		"fgcolor"		"red"
 		//"show_columns"		"0"
-
- 		if_mvm
- 		{
- 			"visible"		"0"
- 		}
 	}
-
 
 	"Spectators"
 	{
@@ -316,13 +293,31 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
+
+	"LocalStatsBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"LocalStatsBG"
+		"xpos"			"-20"
+		"ypos"			"98"
+		"zpos"			"-1"
+		"wide"			"110"
+		"tall"			"250"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"TFThinLineBorder"
+		"border"		"TFFatLineBorderOpaque"
+		"alpha"			"140"
+	}						
 	"ShadedBar"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"100" 	//"130"
-		"tall"			"f0"
+		"xpos"			"-20"
+		"ypos"			"118"
+		"wide"			"105" 	//"130"
+		"tall"			"210"
 	}
 	"ClassImage"
 	{
@@ -349,28 +344,6 @@
 	{
 		"ypos"			"r22" 	//"385"
 	}
-	"HorizontalLine"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"			"115"
-		"ypos"			"397"
-		"zpos"			"3"
-		"wide"			"465"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"127 127 127 153"
-		"PaintBackgroundType"	"0"
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
-	}
 	"PlayerScoreLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -387,16 +360,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
+
 
 	"LocalPlayerStatsPanel"
 	{
-		"xpos"			"-35"
+		"xpos"			"-45"
 		"ypos"			"10"
 		"wide"			"600"
 		"tall"			"448"
@@ -404,180 +373,162 @@
 		"KillsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r230"
+			"ypos"			"r370"
 		}		
 		"DeathsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r220"
+			"ypos"			"r360"
 		}						
 		"AssistsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r210"
+			"ypos"			"r350"
 		}
 		"DestructionLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r200"
+			"ypos"			"r340"
 		}												
 		"Kills"
 		{
 			"xpos"			"100"
-			"ypos"			"r230"
+			"ypos"			"r370"
 		}						
 		"Deaths"
 		{
 			"xpos"			"100"
-			"ypos"			"r220"
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%gametype%"
-			"textAlignment"		"east"
-			"xpos"			"435"
-			"ypos"			"32"
-			"zpos"			"3"
-			"wide"			"145"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor"		"185 177 153 255"
+			"ypos"			"r360"
 		}							
 		"Assists"
 		{
 			"xpos"			"100"
-			"ypos"			"r210"
+			"ypos"			"r350"
 		}						
 		"Destruction"
 		{
 			"xpos"			"100"
-			"ypos"			"r200"
+			"ypos"			"r340"
 		}						
 		"CapturesLabel"
 		{
 			"xpos"			"-5"
-			"ypos"			"r280"
+			"ypos"			"r320"
 		}						
 		"DefensesLabel"
 		{
 			"xpos"			"-5"
-			"ypos"			"r270"
+			"ypos"			"r310"
 		}						
 		"DominationLabel"
 		{
 			"xpos"			"-5"
-			"ypos"			"r260"
+			"ypos"			"r300"
 		}						
 		"RevengeLabel"
 		{
 			"xpos"			"-5"
-			"ypos"			"r250"
+			"ypos"			"r290"
 		}						
 		"Captures"
 		{
 			"xpos"			"100"
-			"ypos"			"r280"
+			"ypos"			"r320"
 		}						
 		"Defenses"
 		{
 			"xpos"			"100"
-			"ypos"			"r270"
+			"ypos"			"r310"
 		}						
 		"Domination"
 		{
 			"xpos"			"100"
-			"ypos"			"r260"
+			"ypos"			"r300"
 		}						
 		"Revenge"
 		{
 			"xpos"			"100"
-			"ypos"			"r250"
+			"ypos"			"r290"
 		}						
 		"HealingLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r330"
+			"ypos"			"r270"
 		}						
 		"InvulnLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r320"
+			"ypos"			"r260"
 		}						
 		"TeleportsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r310"
+			"ypos"			"r250"
 		}						
 		"HeadshotsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r300"
+			"ypos"			"r240"
 		}						
 		"Healing"
 		{
 			"xpos"			"100"
-			"ypos"			"r330"
+			"ypos"			"r270"
 		}						
 		"Invuln"
 		{
 			"xpos"			"100"
-			"ypos"			"r320"
+			"ypos"			"r260"
 		}						
 		"Teleports"
 		{
 			"xpos"			"100"
-			"ypos"			"r310"
+			"ypos"			"r250"
 		}						
 		"Headshots"
 		{
 			"xpos"			"100"
-			"ypos"			"r300"
+			"ypos"			"r240"
 		}
 		"BackstabsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r380"
+			"ypos"			"r220"
 		}
 		"Backstabs"
 		{
 			"xpos"			"100"
-			"ypos"			"r380"
+			"ypos"			"r220"
 		}		
 		"BonusLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r370"
+			"ypos"			"r210"
 		}
 		"Bonus"
 		{
 			"xpos"			"100"
-			"ypos"			"r370"
+			"ypos"			"r210"
 		}
 		"SupportLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r360"
+			"ypos"			"r200"
 		}
 		"Support"
 		{
 			"xpos"			"100"
-			"ypos"			"r360"
+			"ypos"			"r200"
 		}
 		"DamageLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r350"
+			"ypos"			"r190"
 		}
 		"Damage"
 		{
 			"xpos"			"100"
-			"ypos"			"r350"
+			"ypos"			"r190"
 		}
 	}
 

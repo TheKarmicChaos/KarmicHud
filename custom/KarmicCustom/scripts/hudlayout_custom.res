@@ -80,6 +80,15 @@
 		"tall"			"480"
 	}
 	
+	// Expands & relocates sticky counter to be able to use more of the screen
+	HudDemomanPipes
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+	}
+
 	// TODO: figure out how to decrease alpha for the loose cannon charge bar
 	// Moves bar to just under crosshair & makes it transparent
 	HudDemomanCharge

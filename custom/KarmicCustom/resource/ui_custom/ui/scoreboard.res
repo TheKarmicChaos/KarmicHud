@@ -1,4 +1,4 @@
-// Condenses the scoreboard to take up less of the screen, and moves player stats to the left hand side
+// Condenses the scoreboard to take up less of the screen
 
 "Resource/UI/Scoreboard.res"
 {
@@ -213,7 +213,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"98"
 		"wide"			"640"
-		"tall"			"250"	// "325" // use for 32 players
+		"tall"			"245" 	// "325" // use for 32 players
 		"border"		"TFFatLineBorderOpaque"
 		"alpha"			"140"
 	}
@@ -224,25 +224,18 @@
 	}
 	"BluePlayerList"
 	{
-		"ControlName"		"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
 		"xpos"			"cs-1"
 		"ypos"			"100"
-		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"320"
 		"linespacing"		"18"
 		"linegap"		"1"
-		"fgcolor"		"blue"
 		//"show_columns"		"0"
 	}
 	"RedPlayerList"
 	{
-		"ControlName"		"SectionedListPanel"
-		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
 		"ypos"			"100"
-		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"320"
 		"linespacing"		"18"
@@ -250,6 +243,7 @@
 		//"show_columns"		"0"
 	}
 
+	// TODO: this
 	"Spectators"
 	{
 		"ControlName"		"CExLabel"
@@ -266,12 +260,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"		"428"
-		}
-	}	
+	}
 	"SpectatorsInQueue"
 	{
 		"ControlName"		"CExLabel"
@@ -288,37 +277,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 
-	"LocalStatsBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"LocalStatsBG"
-		"xpos"			"-20"
-		"ypos"			"98"
-		"zpos"			"-1"
-		"wide"			"110"
-		"tall"			"250"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"TFThinLineBorder"
-		"border"		"TFFatLineBorderOpaque"
-		"alpha"			"140"
-	}						
-	"ShadedBar"
-	{
-		"xpos"			"-20"
-		"ypos"			"118"
-		"wide"			"105" 	//"130"
-		"tall"			"210"
-	}
+
 	"ClassImage"
 	{
 		"ypos"			"r92"
@@ -329,206 +290,279 @@
 	}
 	"PlayerNameBG"
 	{
-		"ypos"			"r35" 	//"372"
+		"ypos"			"r57" 	//"372"
 		"alpha"			"100"
+		"tall"			"57"
+		"wide"			"495"
 	}
 	"PlayerNameLabel"
 	{
-		"ypos"			"r30"	//"377"
+		"ypos"			"r24"	//"377"
 	}
 	"ServerLabelNew"
 	{
-		"ypos"			"r32" 	//"375"
+		"xpos"			"325"
+		"ypos"			"r16" 	//"375"
 	}
 	"MapName"
 	{
-		"ypos"			"r22" 	//"385"
+		"xpos"			"325"
+		"ypos"			"r25" 	//"385"
 	}
-	"PlayerScoreLabel"
+				
+	"ShadedBar"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerScoreLabel"
-		"font"		"ScoreboardMedium"
-		"labelText"		"%playerscore%"
-		"textAlignment"	"east"
-		"xpos"			"440"
-		"ypos"			"377"
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"111"	// "-20"
+		"ypos"			"r52" 	// "118"
+		"wide"			"484"	// "103" 	//"130"
+		"tall"			"29"	// "210"
 	}
-
-
 	"LocalPlayerStatsPanel"
 	{
-		"xpos"			"-45"
-		"ypos"			"10"
-		"wide"			"600"
-		"tall"			"448"
+		"xpos"			"111"	// "-45"
+		"ypos"			"r54" 	// "10"
+		"wide"			"484"	// "600"
+		"tall"			"480"	// "448"
 
 		"KillsLabel"
 		{
 			"xpos"			"0"
-			"ypos"			"r370"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}		
 		"DeathsLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r360"
+			"xpos"			"30"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"AssistsLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r350"
+			"xpos"			"60"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}
 		"DestructionLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r340"
-		}												
+			"xpos"			"90"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}									
 		"Kills"
 		{
-			"xpos"			"100"
-			"ypos"			"r370"
+			"xpos"			"0"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Deaths"
 		{
-			"xpos"			"100"
-			"ypos"			"r360"
+			"xpos"			"30"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}							
 		"Assists"
 		{
-			"xpos"			"100"
-			"ypos"			"r350"
+			"xpos"			"60"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Destruction"
 		{
-			"xpos"			"100"
-			"ypos"			"r340"
+			"xpos"			"90"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"CapturesLabel"
 		{
-			"xpos"			"-5"
-			"ypos"			"r320"
+			"xpos"			"120"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"DefensesLabel"
 		{
-			"xpos"			"-5"
-			"ypos"			"r310"
+			"xpos"			"150"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"DominationLabel"
 		{
-			"xpos"			"-5"
-			"ypos"			"r300"
+			"xpos"			"180"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"RevengeLabel"
 		{
-			"xpos"			"-5"
-			"ypos"			"r290"
+			"xpos"			"210"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"Captures"
 		{
-			"xpos"			"100"
-			"ypos"			"r320"
+			"xpos"			"120"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Defenses"
 		{
-			"xpos"			"100"
-			"ypos"			"r310"
+			"xpos"			"150"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Domination"
 		{
-			"xpos"			"100"
-			"ypos"			"r300"
+			"xpos"			"180"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Revenge"
 		{
-			"xpos"			"100"
-			"ypos"			"r290"
+			"xpos"			"210"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"HealingLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r270"
+			"xpos"			"240"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"InvulnLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r260"
+			"xpos"			"270"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"TeleportsLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r250"
+			"xpos"			"300"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}						
 		"HeadshotsLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r240"
-		}						
+			"xpos"			"330"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}	
 		"Healing"
 		{
-			"xpos"			"100"
-			"ypos"			"r270"
+			"xpos"			"240"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Invuln"
 		{
-			"xpos"			"100"
-			"ypos"			"r260"
+			"xpos"			"270"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Teleports"
 		{
-			"xpos"			"100"
-			"ypos"			"r250"
+			"xpos"			"300"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}						
 		"Headshots"
 		{
-			"xpos"			"100"
-			"ypos"			"r240"
+			"xpos"			"330"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}
 		"BackstabsLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r220"
+			"xpos"			"360"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}
 		"Backstabs"
 		{
-			"xpos"			"100"
-			"ypos"			"r220"
+			"xpos"			"360"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}		
 		"BonusLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r210"
+			"xpos"			"390"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}
 		"Bonus"
 		{
-			"xpos"			"100"
-			"ypos"			"r210"
+			"xpos"			"390"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}
 		"SupportLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r200"
+			"xpos"			"420"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}
 		"Support"
 		{
-			"xpos"			"100"
-			"ypos"			"r200"
+			"xpos"			"420"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}
 		"DamageLabel"
 		{
-			"xpos"			"0"
-			"ypos"			"r190"
+			"xpos"			"450"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
 		}
 		"Damage"
 		{
-			"xpos"			"100"
-			"ypos"			"r190"
+			"xpos"			"450"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
 		}
 	}
 

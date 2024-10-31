@@ -184,15 +184,6 @@
 		"tall"			"45"
 	}
 
-	// Stickybomb counter moved alongside ammo display
-	HudDemomanPipes
-	{
-		"xpos"			"c210"
-		"ypos"			"r95" 	//"r52"
-		"wide"			"100"
-		"tall"			"50"
-	}
-
 	// Moves engineer's metal counter alongside ammo display
 	CHudAccountPanel
 	{

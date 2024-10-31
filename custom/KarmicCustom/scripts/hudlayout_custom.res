@@ -89,7 +89,6 @@
 		"tall"			"480"
 	}
 
-	// TODO: figure out how to decrease alpha for the loose cannon charge bar
 	// Moves bar to just under crosshair & makes it transparent
 	HudDemomanCharge
 	{

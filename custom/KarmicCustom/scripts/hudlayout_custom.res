@@ -79,6 +79,15 @@
 		"wide"			"f0"
 		"tall"			"480"
 	}
+
+	// Expands & relocates engineer's metal counter to be able to use more of the screen
+	CHudAccountPanel
+	{
+		"xpos"			"0" 	//"c215"
+		"ypos"			"0" 	//"r192"
+		"wide"			"f0"
+		"tall"  		"480"
+	}
 	
 	// Expands & relocates sticky counter to be able to use more of the screen
 	HudDemomanPipes
@@ -182,15 +191,6 @@
 		"ypos"			"r97" 	//"r55"
 		"wide"			"94"
 		"tall"			"45"
-	}
-
-	// Moves engineer's metal counter alongside ammo display
-	CHudAccountPanel
-	{
-		"xpos"			"c215" 	//"r162"
-		"ypos"			"r192" 	//"r152"
-		"wide"			"116"
-		"tall"  		"180"
 	}
 }
 

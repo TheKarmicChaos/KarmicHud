@@ -12,8 +12,9 @@
 	"ItemEffectMeterBG"
 	{
 		"xpos"			"10" 	//"12"
+		"ypos"			"4"
 		"wide"			"100" 	//"76"
-		"tall"			"50"	//"44"
+		"tall"			"44"	//"44"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"			

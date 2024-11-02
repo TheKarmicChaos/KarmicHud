@@ -5,6 +5,7 @@
 	"topbar"
 	{
 		"tall"			"0"	
+		"tall_minmode"		"0"
 	}
 	"BottomBar"
 	{

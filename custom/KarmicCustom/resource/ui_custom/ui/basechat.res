@@ -4,7 +4,6 @@
 {
 	"HudChat"
 	{
-		"xpos"			"0"
 		"ypos"			"265"
 	}
 }

@@ -90,8 +90,8 @@
 	}									
 	"AmmoNoClip"
 	{
-
-		"ypos_minmode"		"2"
+		"ypos"			"0"
+		"ypos_minmode"		"0"
 		"wide_minmode"		"63"
 		"tall_minmode"		"30"
 
@@ -105,8 +105,8 @@
 	}	
 	"AmmoNoClipShadow"
 	{
-
-		"ypos_minmode"		"3"
+		"ypos"			"1"
+		"ypos_minmode"		"1"
 		"wide_minmode"		"63"
 		"tall_minmode"		"30"
 

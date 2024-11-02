@@ -10,28 +10,51 @@
 	
 	"PopFileLabel"
 	{
-		"xpos"			"300"
-		"ypos"			"r72"
+		"xpos"			"c-200+10"
+		"ypos"			"c8"
+		"font"			"HudFontSmall"
+		"textAlignment"		"west"
 	}
 
 	"DifficultyContainer"
 	{
-		"xpos"			"116"
-		"ypos"			"r72"
+		"xpos"			"cs-1+200-10"
+		"ypos"			"c8"
+
+		"DifficultyLabel"
+		{
+			"textAlignment"		"east"
+		}
+		
+		"DifficultyValue"
+		{
+			"textAlignment"		"east"
+		}
+
 	}
 	
 	"PlayerListBackground"
 	{
 		"xpos"			"cs-0.5"
+		"ypos"			"c-153"
 	}
 	
 	"MvMPlayerList"
 	{
 		"xpos"			"cs-0.5"
+		"ypos"			"c-149"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"xpos"			"cs-0.5"
+		"ypos"			"c3"	//"230"
+
+		"CreditsLabel"
+		{
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
 	}
 }

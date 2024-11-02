@@ -261,7 +261,7 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		"autoResize"	"0"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -285,8 +285,6 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos"			"r79"
-			"tall"			"79"
 		}
 	}
 	"ShadedBar"
@@ -295,11 +293,6 @@
 		"ypos"			"r52" 	// "118"
 		"wide"			"484"	// "103" 	//"130"
 		"tall"			"29"	// "210"
-		if_mvm
-		{
-			"ypos"			"r73"
-			"tall"			"50"
-		}
 	}
 
 	"PlayerNameLabel"
@@ -363,16 +356,16 @@
 	// MvM decorative line
 	"HorizontalLine"
 	{
-		"xpos"			"115"
-		"wide"			"476"
+		"xpos"			"cs-0.5"
+		"zpos"			"11"
+		"wide"			"386"
 
 		if_mvm
 		{
-			"ypos"			"r52"
+			"ypos"			"c29"
 			"visible"		"1"
 		}
 	}
-
 
 	"LocalPlayerStatsPanel"
 	{

@@ -24,17 +24,18 @@
 // Left Side
 // --------------------------------------------------------------
 
+
 	// Moves engineer's buildings HUD
 	BuildingStatus_Engineer
 	{
-		"xpos"			"-20"
-		"ypos"			"c-120"
+		"xpos"			"-12"
+		"ypos"			"c-120" // "c-120"
 	}
 
 	// Moves spy's buildings HUD
 	BuildingStatus_Spy
 	{
-		"xpos"			"-20"
+		"xpos"			"-12"
 		"ypos"			"c-120"
 	}
 

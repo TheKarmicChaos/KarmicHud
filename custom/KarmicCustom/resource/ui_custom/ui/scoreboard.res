@@ -616,8 +616,115 @@
 		}
 	}
 
+	"LocalPlayerDuelStatsPanel"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"r60"
+		"zpos"			"3"
+		"wide"			"484"
+		"tall"			"53"
+
+		"DuelingLabel"
 		{
-			"visible"		"1"
+			"font"			"ScoreboardSmall"
+			"textAlignment"		"center"
+			"xpos"			"cs-0.5"
+			"ypos"			"4"
+			"wide"			"484"
+			"tall"			"20"
+		}
+
+		"DuelingIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"DuelingIcon"
+			"xpos"			"cs-0.5"
+			"ypos"			"17"
+			"wide"			"32"
+			"tall"			"32"
+		}
+
+		"LocalPlayerData"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"LocalPlayerData"
+			"xpos"			"cs-1-42"
+			"ypos"			"0"
+			"wide"			"200"
+			"tall"			"53"
+	
+			"AvatarBGPanel"
+			{
+				"xpos"			"158"
+				"ypos"			"8"
+				"wide"			"27"
+				"tall"			"27"
+			}
+			"AvatarImage"
+			{
+				"xpos"			"160"
+				"ypos"			"10"
+				"wide"			"23"
+				"tall"			"23"
+			}
+			"AvatarTextLabel"
+			{
+				"xpos"			"50"
+				"ypos"			"5"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"18"
+				"textAlignment"		"east"
+			}
+			"Score"
+			{
+				"xpos"			"50"
+				"ypos"			"17"
+				"wide"			"100"
+				"tall"			"20"
+				"textAlignment"		"east"
+				"font"			"ScoreboardMediumSmall"
+			}
+		}
+
+		"OpponentData"
+		{
+			"xpos"			"c42"
+			"ypos"			"0"
+			"wide"			"200"
+			"tall"			"53"
+	
+			"AvatarBGPanel"
+			{
+				"xpos"			"8"
+				"ypos"			"8"
+				"wide"			"27"
+				"tall"			"27"
+			}
+			"AvatarImage"
+			{
+				"xpos"			"10"
+				"ypos"			"10"
+				"wide"			"23"
+				"tall"			"23"
+			}
+			"AvatarTextLabel"
+			{	
+				"xpos"			"50"
+				"ypos"			"5"
+				"wide"			"100"
+				"tall"			"18"
+				"textAlignment"		"west"
+			}
+			"Score"
+			{
+				"xpos"			"50"
+				"ypos"			"17"
+				"wide"			"200"
+				"tall"			"20"
+				"textAlignment"		"west"
+				"font"			"ScoreboardMediumSmall"
+			}
 		}
 	}
 }

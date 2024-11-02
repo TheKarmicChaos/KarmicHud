@@ -13,7 +13,6 @@
 		"ping_width"		"25"
 	}
 
-
 	"BlueHeaderAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -196,16 +195,6 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	"ServerTimeLeft"
-	{
-		"xpos"			"25"
-		"ypos"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"pin_to_sibling"	"TimerAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
 
 	"MainBG"
 	{
@@ -216,11 +205,10 @@
 		"tall"			"245" 	// "325" // use for 32 players
 		"border"		"TFFatLineBorderOpaque"
 		"alpha"			"140"
-	}
-	"ServerLabel"
-	{
-		"xpos"			"11"
-		"ypos"			"60"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BluePlayerList"
 	{
@@ -294,7 +282,26 @@
 		"alpha"			"100"
 		"tall"			"57"
 		"wide"			"495"
+		if_mvm
+		{
+			"visible"		"1"
+			"ypos"			"r79"
+			"tall"			"79"
+		}
 	}
+	"ShadedBar"
+	{
+		"xpos"			"111"	// "-20"
+		"ypos"			"r52" 	// "118"
+		"wide"			"484"	// "103" 	//"130"
+		"tall"			"29"	// "210"
+		if_mvm
+		{
+			"ypos"			"r73"
+			"tall"			"50"
+		}
+	}
+
 	"PlayerNameLabel"
 	{
 		"ypos"			"r24"	//"377"
@@ -309,14 +316,64 @@
 		"xpos"			"325"
 		"ypos"			"r25" 	//"385"
 	}
-				
-	"ShadedBar"
+
+
+	// MvM server label
+	"ServerLabel"
 	{
-		"xpos"			"111"	// "-20"
-		"ypos"			"r52" 	// "118"
-		"wide"			"484"	// "103" 	//"130"
-		"tall"			"29"	// "210"
+		"font"			"ScoreboardVerySmall"
+		"textAlignment"		"east"
+		"xpos"			"325"
+		"ypos"			"r16"
+		"zpos"			"3"
+		"wide"			"265"
+		"tall"			"12"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		if_mvm
+		{
+			"xpos"			"325"
+			"ypos"			"r16"
+			"visible"		"1"
+		}
 	}
+	// MvM server time left label
+	"ServerTimeLeft"
+	{
+		"font"			"ScoreboardVerySmall"
+		"textAlignment"		"east"
+		"xpos"			"325"
+		"ypos"			"r25"
+		"zpos"			"3"
+		"wide"			"265"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+		
+		if_mvm
+		{
+			"xpos"			"325"
+			"ypos"			"r25"
+			"visible"		"1"
+		}
+	}
+	// MvM decorative line
+	"HorizontalLine"
+	{
+		"xpos"			"115"
+		"wide"			"476"
+
+		if_mvm
+		{
+			"ypos"			"r52"
+			"visible"		"1"
+		}
+	}
+
+
 	"LocalPlayerStatsPanel"
 	{
 		"xpos"			"111"	// "-45"
@@ -566,21 +623,6 @@
 		}
 	}
 
-	"MvMScoreboard"
-	{
-		"ControlName"		"CTFHudMannVsMachineScoreboard"
-		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"10"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"1"
-		
-		"verbose"			"1"
-		
-		if_mvm
 		{
 			"visible"		"1"
 		}

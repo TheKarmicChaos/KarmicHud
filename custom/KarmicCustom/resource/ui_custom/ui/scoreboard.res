@@ -231,42 +231,14 @@
 		//"show_columns"		"0"
 	}
 
-	// TODO: this
 	"Spectators"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%spectators%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"357"
-		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"ypos"			"357+54"
 	}
 	"SpectatorsInQueue"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"348"
-		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"ypos"			"348+54"
 	}
-
 
 	"ClassImage"
 	{

@@ -618,10 +618,10 @@
 
 	"LocalPlayerDuelStatsPanel"
 	{
-		"xpos"			"cs-0.5"
-		"ypos"			"r60"
+		"xpos"			"cs-0.5-75"
+		"ypos"			"r60"	
 		"zpos"			"3"
-		"wide"			"484"
+		"wide"			"f0"
 		"tall"			"53"
 
 		"DuelingLabel"
@@ -629,7 +629,7 @@
 			"font"			"ScoreboardSmall"
 			"textAlignment"		"center"
 			"xpos"			"cs-0.5"
-			"ypos"			"4"
+			"ypos"			"3"
 			"wide"			"484"
 			"tall"			"20"
 		}
@@ -639,16 +639,16 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"DuelingIcon"
 			"xpos"			"cs-0.5"
-			"ypos"			"17"
-			"wide"			"32"
-			"tall"			"32"
+			"ypos"			"12"
+			"wide"			"27"
+			"tall"			"27"
 		}
 
 		"LocalPlayerData"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"LocalPlayerData"
-			"xpos"			"cs-1-42"
+			"xpos"			"cs-1-15"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
@@ -689,7 +689,7 @@
 
 		"OpponentData"
 		{
-			"xpos"			"c42"
+			"xpos"			"c22"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
@@ -710,7 +710,7 @@
 			}
 			"AvatarTextLabel"
 			{	
-				"xpos"			"50"
+				"xpos"			"44"
 				"ypos"			"5"
 				"wide"			"100"
 				"tall"			"18"
@@ -718,7 +718,7 @@
 			}
 			"Score"
 			{
-				"xpos"			"50"
+				"xpos"			"44"
 				"ypos"			"17"
 				"wide"			"200"
 				"tall"			"20"

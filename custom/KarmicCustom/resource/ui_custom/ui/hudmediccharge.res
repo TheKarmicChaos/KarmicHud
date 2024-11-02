@@ -29,11 +29,16 @@
 	{
 		"xpos"			"1"
 		"ypos"			"-19"
+		"xpos_minmode"		"1"
+		"ypos_minmode"		"-19"
 		"wide"			"86"
 		"tall"			"15"
+
 		"labelText"		"#TF_UberchargeMinHUD"
+		"labelText_minmode"	"#TF_UberchargeMinHUD"
 		"textAlignment"		"south"
 		"font"			"HudFontSmallest"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -42,11 +47,16 @@
 	{
 		"xpos"			"12"
 		"ypos"			"-19"
+		"xpos_minmode"		"12"
+		"ypos_minmode"		"-19"
 		"wide"			"86"
 		"tall"			"15"
+
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
+		"labelText_minmode"	"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"		"south"
 		"font"			"HudFontSmallest"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -56,8 +66,11 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
 		"tall"			"6"
 		"alpha"			"150"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -67,8 +80,11 @@
 	{	
 		"xpos"			"1"
 		"ypos"			"0"
+		"xpos_minmode"		"1"
+		"ypos_minmode"		"0"
 		"tall"			"6"
 		"alpha"			"150"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -78,8 +94,11 @@
 	{
 		"xpos"			"23"
 		"ypos"			"0"
+		"xpos_minmode"		"23"
+		"ypos_minmode"		"0"
 		"tall"			"6"
 		"alpha"			"150"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -89,8 +108,11 @@
 	{	
 		"xpos"			"45"
 		"ypos"			"0"
+		"xpos_minmode"		"45"
+		"ypos_minmode"		"0"
 		"tall"			"6"
 		"alpha"			"150"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -100,8 +122,11 @@
 	{	
 		"xpos"			"67"
 		"ypos"			"0"
+		"xpos_minmode"		"67"
+		"ypos_minmode"		"0"
 		"tall"			"6"
 		"alpha"			"150"
+
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -130,7 +155,9 @@
 		"ypos"			"0"
 		"wide"			"20"
 		"tall"			"20"
+		"visible_minmode"	"1"
 		"alpha"			"240"
+
 		"pin_to_sibling"	"ResistIconAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"

@@ -77,6 +77,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -86,6 +88,7 @@
 	{
 		"xpos"			"0" 	//"c215"
 		"ypos"			"0" 	//"r192"
+		"ypos_minmode"		"0"
 		"wide"			"f0"
 		"tall"  		"480"
 	}
@@ -97,6 +100,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
+		"wide_minmode"		"f0"
 	}
 
 	// Moves bar to just under crosshair & makes it transparent
@@ -104,6 +110,10 @@
 	{
 		"xpos"			"cs-0.5-5"
 		"ypos"			"c55"
+		"xpos_minmode"		"cs-0.5-5"
+		"ypos_minmode"		"c55"
+		"wide"			"60"
+		"wide_minmode"		"60"
 		"alpha"			"100"
 	}
 
@@ -112,6 +122,10 @@
 	{
 		"xpos"			"cs-0.5-5"
 		"ypos"			"c55"
+		"xpos_minmode"		"cs-0.5-5"
+		"ypos_minmode"		"c55"
+		"wide"			"60"
+		"wide_minmode"		"60"
 		"alpha"			"100"
 	}
 
@@ -185,13 +199,15 @@
 		"EngineerY"		"130"	//"150"
 	}
 
-	// Ammo display is moved closer to screen center to be more easily visible during gameplay
+	// Expands & relocates ammo display to be able to use more of the screen
 	HudWeaponAmmo
 	{
-		"xpos"			"c135"
-		"ypos"			"r97" 	//"r55"
-		"wide"			"94"
-		"tall"			"45"
+		"xpos"			"0"
+		"ypos"			"0"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 }
 

@@ -22,8 +22,11 @@
 	{
 		"xpos"			"cs-0.5"
 		"ypos"			"c48"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"c48"
 		"wide"			"80"
 		"tall"			"6"
+		"wide_minmode"		"80"
 		"alpha"			"150"
 	}
 
@@ -38,25 +41,33 @@
 		{
 			"xpos"			"38"
 			"ypos"			"16"
+			"ypos_minmode"		"16"
 			"wide"			"12"
 			"tall"			"12"
+			"wide_minmode"		"12"
+			"tall_minmode"		"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"alpha"			"200"
+
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"		"1"
-			"image"			"../hud/ico_stickybomb_red_faded"
-			"image"			"../hud/ico_stickybomb_blue_faded"
-			"alpha"			"175"
+			"teambg_2"		"../hud/ico_stickybomb_red_faded"
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 		}
 		
 		"NumPipesLabel"
 		{
 			"xpos"			"52"
 			"ypos"			"13"
+			"xpos_minmode"		"52"
+			"ypos_minmode"		"13"
 			"wide"			"15"
 			"tall"			"20"
-			"font"			"HudFontSmall"
 			"alpha"			"200"
+
+			"font"			"HudFontSmall"
+			"font_minmode"		"HudFontSmall"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -76,25 +87,33 @@
 		{
 			"xpos"			"38"
 			"ypos"			"16"
+			"ypos_minmode"		"16"
 			"wide"			"12"
 			"tall"			"12"
+			"wide_minmode"		"12"
+			"tall_minmode"		"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"alpha"			"125"
+
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"		"1"
-			"image"			"../hud/ico_stickybomb_red_faded"
-			"image"			"../hud/ico_stickybomb_blue_faded"
-			"alpha"			"150"
+			"teambg_2"		"../hud/ico_stickybomb_red_faded"
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 		}
 
 		"NumPipesLabel"
 		{
 			"xpos"			"52"
 			"ypos"			"13"
+			"xpos_minmode"		"52"
+			"ypos_minmode"		"13"
 			"wide"			"15"
 			"tall"			"20"
+			"alpha"			"75"
+
 			"font"			"HudFontSmall"
-			"alpha"			"100"
+			"font_minmode"		"HudFontSmall"
 		}
 		"NumPipesLabelDropshadow"
 		{

@@ -3,7 +3,9 @@
 "Resource/UI/HudDemomanCharge.res"
 {	
 	"ChargeMeter"
-	{	
-		"alpha"		"100"
+	{
+		"xpos"			"10"
+		"xpos_minmode"		"10"
+		"alpha"			"100"
 	}
 }

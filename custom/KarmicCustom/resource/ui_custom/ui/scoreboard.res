@@ -380,28 +380,7 @@
 			"ypos"			"0"
 			"textAlignment"		"center"
 			"wide"			"30"
-		}		
-		"DeathsLabel"
-		{
-			"xpos"			"30"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"AssistsLabel"
-		{
-			"xpos"			"60"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
 		}
-		"DestructionLabel"
-		{
-			"xpos"			"90"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}									
 		"Kills"
 		{
 			"xpos"			"0"
@@ -409,7 +388,14 @@
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
+		}
+		"DeathsLabel"
+		{
+			"xpos"			"30"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
 		"Deaths"
 		{
 			"xpos"			"30"
@@ -417,7 +403,14 @@
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}							
+		}
+		"AssistsLabel"
+		{
+			"xpos"			"60"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
 		"Assists"
 		{
 			"xpos"			"60"
@@ -425,130 +418,92 @@
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
-		"Destruction"
+		}
+		"DamageLabel"
+		{
+			"xpos"			"90"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Damage"
 		{
 			"xpos"			"90"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
-		"CapturesLabel"
-		{
-			"xpos"			"120"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"DefensesLabel"
-		{
-			"xpos"			"150"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"DominationLabel"
-		{
-			"xpos"			"180"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"RevengeLabel"
-		{
-			"xpos"			"210"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"Captures"
-		{
-			"xpos"			"120"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}						
-		"Defenses"
-		{
-			"xpos"			"150"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}						
-		"Domination"
-		{
-			"xpos"			"180"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}						
-		"Revenge"
-		{
-			"xpos"			"210"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}						
+		}
 		"HealingLabel"
 		{
-			"xpos"			"240"
+			"xpos"			"120"
 			"ypos"			"0"
 			"textAlignment"		"center"
 			"wide"			"30"
-		}						
-		"InvulnLabel"
-		{
-			"xpos"			"270"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"TeleportsLabel"
-		{
-			"xpos"			"300"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}						
-		"HeadshotsLabel"
-		{
-			"xpos"			"330"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}	
+		}
 		"Healing"
 		{
-			"xpos"			"240"
+			"xpos"			"120"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
+		}
+		"InvulnLabel"
+		{
+			"xpos"			"150"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
 		"Invuln"
 		{
-			"xpos"			"270"
+			"xpos"			"150"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
+		}
+		"DestructionLabel"
+		{
+			"xpos"			"180"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Destruction"
+		{
+			"xpos"			"180"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
+		}
+		"TeleportsLabel"
+		{
+			"xpos"			"210"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
 		"Teleports"
 		{
-			"xpos"			"300"
+			"xpos"			"210"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}						
+		}
+		"HeadshotsLabel"
+		{
+			"xpos"			"240"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
 		"Headshots"
 		{
-			"xpos"			"330"
+			"xpos"			"240"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
@@ -556,29 +511,89 @@
 		}
 		"BackstabsLabel"
 		{
-			"xpos"			"360"
+			"xpos"			"270"
 			"ypos"			"0"
 			"textAlignment"		"center"
 			"wide"			"30"
 		}
 		"Backstabs"
 		{
+			"xpos"			"270"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
+		}
+		"CapturesLabel"
+		{
+			"xpos"			"300"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Captures"
+		{
+			"xpos"			"300"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
+		}
+		"DefensesLabel"
+		{
+			"xpos"			"330"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Defenses"
+		{
+			"xpos"			"330"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
+		}
+		"DominationLabel"
+		{
+			"xpos"			"360"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Domination"
+		{
 			"xpos"			"360"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
 			"font"			"ItemFontNameSmall"
-		}		
-		"BonusLabel"
+		}
+		"RevengeLabel"
 		{
 			"xpos"			"390"
 			"ypos"			"0"
 			"textAlignment"		"center"
 			"wide"			"30"
 		}
-		"Bonus"
+		"Revenge"
 		{
 			"xpos"			"390"
+			"ypos"			"10"
+			"textAlignment"		"center"
+			"wide"			"30"
+			"font"			"ItemFontNameSmall"
+		}
+		"BonusLabel"
+		{
+			"xpos"			"420"
+			"ypos"			"0"
+			"textAlignment"		"center"
+			"wide"			"30"
+		}
+		"Bonus"
+		{
+			"xpos"			"420"
 			"ypos"			"10"
 			"textAlignment"		"center"
 			"wide"			"30"
@@ -586,27 +601,12 @@
 		}
 		"SupportLabel"
 		{
-			"xpos"			"420"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}
-		"Support"
-		{
-			"xpos"			"420"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}
-		"DamageLabel"
-		{
 			"xpos"			"450"
 			"ypos"			"0"
 			"textAlignment"		"center"
 			"wide"			"30"
 		}
-		"Damage"
+		"Support"
 		{
 			"xpos"			"450"
 			"ypos"			"10"

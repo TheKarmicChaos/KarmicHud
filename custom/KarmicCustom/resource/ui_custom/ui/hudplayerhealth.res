@@ -7,9 +7,13 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
 		"wide"			"f0"
 		"tall"			"f0"
+
 		"HealthBonusPosAdj"	"20"
+		"HealthBonusPosAdj_minmode"	"15"
 	}
 
 
@@ -19,6 +23,8 @@
 		"fieldName"		"HealthCrossAnchor"
 		"xpos"			"127"
 		"ypos"			"r130"
+		"xpos_minmode"		"c-155+10"
+		"ypos_minmode"		"c35-10"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -28,14 +34,28 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
+		"xpos_minmode"		"-1"
+		"ypos_minmode"		"-1"
+		"wide"			"51"
+		"tall"			"51"
+		"wide_minmode"		"23"
+		"tall_minmode"		"23"
+
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"	
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
+		"xpos_minmode"		"-2"
+		"ypos_minmode"		"-2"
+		"wide"			"55"
+		"tall"			"55"
+		"wide_minmode"		"25"
+		"tall_minmode"		"25"
+
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -44,6 +64,13 @@
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
+		"xpos_minmode"		"-2"
+		"ypos_minmode"		"-2"
+		"wide"			"55"
+		"tall"			"55"
+		"wide_minmode"		"25"
+		"tall_minmode"		"25"
+
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -57,6 +84,8 @@
 		"fieldName"		"HealthNumsAnchor"
 		"xpos"			"202"
 		"ypos"			"r107"
+		"xpos_minmode"		"c-119+10"
+		"ypos_minmode"		"c35-10"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -67,11 +96,18 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"8"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"0"
 		"wide"			"200"
 		"tall"			"40"
+		"wide_minmode"		"150"
+		"tall_minmode"		"30"
+
 		"textAlignment"		"south-west"
 		"font"			"HudFontGiantBold"
+		"font_minmode"		"HudFontMediumBigBold"
 		"fgcolor"		"TanLight"
+
 		"pin_to_sibling"	"HealthNumsAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -80,17 +116,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
+
 		"xpos"			"1"
-		"ypos"			"1"
+		"ypos"			"2"
 		"zpos"			"7"
+		"xpos_minmode"		"1"
+		"ypos_minmode"		"1"
 		"wide"			"200"
 		"tall"			"40"
+		"wide_minmode"		"150"
+		"tall_minmode"		"30"
 		"visible"		"1"
 		"enabled"		"1"
+
 		"labelText"		"%Health%"
 		"textAlignment"		"south-west"
 		"font"			"HudFontGiantBold"
+		"font_minmode"		"HudFontMediumBigBold"
 		"fgcolor"		"Black"
+
 		"pin_to_sibling"	"HealthNumsAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -100,11 +144,18 @@
 		"xpos"			"-80"
 		"ypos"			"8"
 		"zpos"			"6"
+		"xpos_minmode"		"-42"
+		"ypos_minmode"		"0"
 		"wide"			"80"
 		"tall"			"27"
+		"wide_minmode"		"40"
+		"tall_minmode"		"27"
+
 		"textAlignment"		"south-east"
 		"font"			"HudFontMediumSmall"
+		"font_minmode"		"HudFontSmall"
 		"fgcolor"		"TanLight"
+
 		"pin_to_sibling"	"HealthNumsAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -113,17 +164,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+
 		"xpos"			"-79"
 		"ypos"			"9"
 		"zpos"			"5"
+		"xpos_minmode"		"-41"
+		"ypos_minmode"		"1"
 		"wide"			"80"
 		"tall"			"27"
+		"wide_minmode"		"40"
+		"tall_minmode"		"27"
 		"visible"		"1"
 		"enabled"		"1"
+
 		"labelText"		"%MaxHealth%"
 		"textAlignment"		"south-east"
 		"font"			"HudFontMediumSmall"
+		"font_minmode"		"HudFontSmall"
 		"fgcolor"		"TransparentBlack"
+
 		"pin_to_sibling"	"HealthNumsAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"

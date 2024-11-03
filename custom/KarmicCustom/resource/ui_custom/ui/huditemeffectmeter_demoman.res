@@ -4,28 +4,29 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c130"
-		"ypos"			"r47"
+		"xpos"			"c204"
+		"ypos"			"r89"
 		"xpos_minmode"		"c213"
 		"ypos_minmode"		"r53"
 	}
-	
 	"ItemEffectMeterBG"
 	{
-		"ypos"			"-3"				
+		"wide"			"76"
+		"tall"			"41"			
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"xpos_minmode"		"25"
 		"ypos_minmode"		"23"
 	}
-	
 	"ItemEffectMeterCount"
 	{
 		"xpos"			"23"
 		"ypos"			"9"
 		"xpos_minmode"		"25"
+		"wide"			"44"
+
+		"font"			"HudFontMediumSmall"
 		"font_minmode"		"HudFontMediumSmall"
 	}
 }

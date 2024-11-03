@@ -31,9 +31,10 @@
 	"ItemEffectMeterCount"
 	{
 		"xpos"			"42"
-		"ypos"			"16"
+		"ypos"			"19"
 		"xpos_minmode"		"25"
 		"ypos_minmode"		"9"
+		"font"			"HudFontMediumSmall"
 		"font_minmode"		"HudFontMediumSmall"
 	}
 }

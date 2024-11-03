@@ -9,23 +9,25 @@
 		"xpos_minmode"		"c213"
 		"ypos_minmode"		"r53"
 	}
-	
 	"ItemEffectMeterBG"
 	{
 		"wide"			"76"
-		"tall"			"41"			
+		"tall"			"41"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"xpos"			"25"
-		"ypos"			"23"
+		"ypos"			"22"
 		"xpos_minmode"		"25"
 		"ypos_minmode"		"23"
 	}
-	
 	"ItemEffectMeterCount"
 	{
 		"xpos"			"23"
 		"ypos"			"9"
+		"wide"			"44"
+
+		"font"			"HudFontMediumSmall"
+		"font_minmode"		"HudFontMediumSmall"
 	}
 }

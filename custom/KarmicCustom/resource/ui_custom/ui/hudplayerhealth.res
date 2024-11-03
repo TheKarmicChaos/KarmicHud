@@ -120,7 +120,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow"
 
 		"xpos"			"1"
-		"ypos"			"2"
+		"ypos"			"1"
 		"zpos"			"7"
 		"xpos_minmode"		"1"
 		"ypos_minmode"		"1"

@@ -22,11 +22,11 @@ I would highly recommend not using these unless you want to play with my exact s
 To install my crosshairs & weapon changes (which currently only includes replacing the explosion particle for visibility), you only need those files listed above. To update your crosshairs, simply replace those same files with the newer ones from the repo.
 
 # Custom HUD
-*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in KarmicCustom\scripts'*
+*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in 'KarmicCustom\scripts'*
 
-The custom HUD is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
+The custom HUD is modular; it is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
 
-If you want to modify an existing res file the game uses (all of which should be in '\resource\ui_base\ui\') make a copy of it from '\resource\ui_base\ui' into both '\resource\ui_custom\ui' and '\resource\ui\'. Delete most of the contents of the copy in '\resource\ui\' and add two #base redirects to the copies in '\resource\ui_custom\ui' and '\resource\ui_base\ui' **in that order.** See the other files for examples. You can then modify the copy in 'resource\ui_custom\ui' to your heart's content, and your changes will show up in-game!
+If you want to modify an existing res file the game uses (all of which should be in '\resource\ui_base\ui\') make a copy of it from '\resource\ui_base\ui\' into both '\resource\ui_custom\ui\' and '\resource\ui\'. Delete most of the contents of the copy in '\resource\ui\' and add two #base redirects to the copies in '\resource\ui_custom\ui\' and '\resource\ui_base\ui\' **in that order.** See the other files I've made in '\resource\ui\' for examples. You can then modify the copy in '\resource\ui_custom\ui\' to your heart's content, and your changes will show up in-game!
 
 If you are looking to use transparent viewmodels, install the HUD files as well as 'materials\vgui\replay\' and the two cfg files 'disable_transparency.cfg' and 'enable_transparency.cfg.' You can toggle transparent viewmodels (they are off by default) by executing these cfgs in the ingame console, or you can put them in your autoexec or class cfg files like I did. Installing these extra files is not necessary if you don't want to use transparent viewmodels.
 

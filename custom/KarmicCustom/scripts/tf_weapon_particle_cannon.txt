@@ -80,7 +80,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_rocket"
+				"file"		"vgui/logos/crosshair_circle"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

@@ -4,8 +4,10 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c209"
+		"xpos"			"c204"
 		"ypos"			"r89"
+		"xpos_minmode"		"c213"
+		"ypos_minmode"		"r53"
 	}
 	
 	"ItemEffectMeterBG"
@@ -15,13 +17,15 @@
 	}
 	"ItemEffectMeterLabel"
 	{
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"			"25"
+		"ypos"			"23"
+		"xpos_minmode"		"25"
+		"ypos_minmode"		"23"
 	}
 	
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"23"
-		"ypos"					"9"
+		"xpos"			"23"
+		"ypos"			"9"
 	}
 }

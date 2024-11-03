@@ -7,6 +7,8 @@
 		"x_offset"		"0"
 		"xpos"			"c189"
 		"ypos"			"r59"
+		"xpos_minmode"		"c213"
+		"ypos_minmode"		"r53"
 	}
 	
 	"ItemEffectMeterBG"
@@ -19,13 +21,19 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"xpos"					"45"
-		"ypos"					"34"
+		"xpos"			"45"
+		"ypos"			"34"
+		"xpos_minmode"		"25"
+		"ypos_minmode"		"23"
+		"textAlignment_minmode"	"center"
 	}
 
 	"ItemEffectMeterCount"
 	{
-		"xpos"					"42"
-		"ypos"					"16"
-	}	
+		"xpos"			"42"
+		"ypos"			"16"
+		"xpos_minmode"		"25"
+		"ypos_minmode"		"9"
+		"font_minmode"		"HudFontMediumSmall"
+	}
 }

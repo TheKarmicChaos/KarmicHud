@@ -23,6 +23,16 @@ event HudSpyDisguiseChanged { }
 event HudSpyDisguiseHide { }
 
 
+// Decrease the alpha of Health Bonus Pulse
+//==================================================================================
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
 // Simplify & Fix Dead Teammate Indicator
 //==================================================================================
 

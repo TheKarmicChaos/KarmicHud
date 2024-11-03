@@ -13,7 +13,7 @@
 		"tall"			"f0"
 
 		"HealthBonusPosAdj"	"20"
-		"HealthBonusPosAdj_minmode" "40"
+		"HealthBonusPosAdj_minmode" "35"	//"45"
 	}
 
 
@@ -23,7 +23,7 @@
 		"fieldName"		"HealthCrossAnchor"
 		"xpos"			"127"
 		"ypos"			"r130"
-		"xpos_minmode"		"215"	//"c-136+10"
+		"xpos_minmode"		"210"	//"253"	//"c-136+10"
 		"ypos_minmode"		"c35-10"
 		"wide"			"10"
 		"tall"			"10"
@@ -34,12 +34,12 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"xpos_minmode"		"-1"
-		"ypos_minmode"		"-1"
+		"xpos_minmode"		"62-8"
+		"ypos_minmode"		"17-8"
 		"wide"			"51"
 		"tall"			"51"
-		"wide_minmode"		"23"
-		"tall_minmode"		"23"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
 		"visible_minmode"	"0"
 
 		"pin_to_sibling"	"HealthCrossAnchor"
@@ -50,12 +50,12 @@
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"xpos_minmode"		"-9999"	//"-2"
-		"ypos_minmode"		"-2"
+		"xpos_minmode"		"-9999" 	//"62-9"
+		"ypos_minmode"		"17-9"
 		"wide"			"55"
 		"tall"			"55"
-		"wide_minmode"		"25"
-		"tall_minmode"		"25"
+		"wide_minmode"		"18"
+		"tall_minmode"		"18"
 		"visible_minmode"	"0"
 
 		"pin_to_sibling"	"HealthCrossAnchor"
@@ -66,12 +66,12 @@
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"xpos_minmode"		"48"
-		"ypos_minmode"		"6"
+		"xpos_minmode"		"62-13"
+		"ypos_minmode"		"17-13"
 		"wide"			"55"
 		"tall"			"55"
-		"wide_minmode"		"25"
-		"tall_minmode"		"25"
+		"wide_minmode"		"26"
+		"tall_minmode"		"26"
 
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -198,7 +198,7 @@
 		"fieldName"		"StatusAnchor"
 		"xpos"			"153"
 		"ypos"			"r147"
-		"xpos_minmode"		"223"	//"c-139+10"
+		"xpos_minmode"		"170"	//"c-139+10"
 		"ypos_minmode"		"r187"
 		"wide"			"10"
 		"tall"			"10"
@@ -209,6 +209,10 @@
 	{
 		"xpos"			"-46"
 		"ypos"			"-3"
+		"xpos_minmode"		"45-12"
+		"ypos_minmode"		"10-12"
+		"wide_minmode"		"24"
+		"tall_minmode"		"24"
 
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

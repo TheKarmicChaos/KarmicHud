@@ -13,7 +13,7 @@
 		"tall"			"f0"
 
 		"HealthBonusPosAdj"	"20"
-		"HealthBonusPosAdj_minmode"	"15"
+		"HealthBonusPosAdj_minmode" "40"
 	}
 
 
@@ -23,8 +23,8 @@
 		"fieldName"		"HealthCrossAnchor"
 		"xpos"			"127"
 		"ypos"			"r130"
-		"xpos_minmode"		"c-136+10"
-		"ypos_minmode"		"c34-10"
+		"xpos_minmode"		"215"	//"c-136+10"
+		"ypos_minmode"		"c35-10"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -40,6 +40,7 @@
 		"tall"			"51"
 		"wide_minmode"		"23"
 		"tall_minmode"		"23"
+		"visible_minmode"	"0"
 
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -49,12 +50,13 @@
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"xpos_minmode"		"-2"
+		"xpos_minmode"		"-9999"	//"-2"
 		"ypos_minmode"		"-2"
 		"wide"			"55"
 		"tall"			"55"
 		"wide_minmode"		"25"
 		"tall_minmode"		"25"
+		"visible_minmode"	"0"
 
 		"pin_to_sibling"	"HealthCrossAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -64,8 +66,8 @@
 	{
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"xpos_minmode"		"-2"
-		"ypos_minmode"		"-2"
+		"xpos_minmode"		"38"
+		"ypos_minmode"		"6"
 		"wide"			"55"
 		"tall"			"55"
 		"wide_minmode"		"25"
@@ -84,8 +86,8 @@
 		"fieldName"		"HealthNumsAnchor"
 		"xpos"			"202"
 		"ypos"			"r107"
-		"xpos_minmode"		"c-109+10"
-		"ypos_minmode"		"c35-10"
+		"xpos_minmode"		"252"	//"c-109+10"
+		"ypos_minmode"		"c37-10"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -196,6 +198,8 @@
 		"fieldName"		"StatusAnchor"
 		"xpos"			"153"
 		"ypos"			"r147"
+		"xpos_minmode"		"223"	//"c-139+10"
+		"ypos_minmode"		"r187"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -205,6 +209,7 @@
 	{
 		"xpos"			"-46"
 		"ypos"			"-3"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -216,6 +221,9 @@
 	"PlayerStatusBleedImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -223,6 +231,9 @@
 	"PlayerStatusHookBleedImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -230,6 +241,9 @@
 	"PlayerStatusMilkImage"
 	{
 		"xpos"			"32"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -237,6 +251,9 @@
 	"PlayerStatusGasImage"
 	{
 		"xpos"			"32"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -244,6 +261,9 @@
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -251,6 +271,9 @@
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -258,6 +281,9 @@
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -265,6 +291,9 @@
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -272,6 +301,9 @@
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -279,6 +311,9 @@
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -286,6 +321,9 @@
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -293,6 +331,9 @@
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -300,6 +341,9 @@
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -307,6 +351,9 @@
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -314,6 +361,9 @@
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -321,6 +371,9 @@
 	"PlayerStatus_SpyMarked"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -328,6 +381,9 @@
 	"PlayerStatus_Parachute"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -335,6 +391,9 @@
 	"PlayerStatusSlowed"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -342,6 +401,9 @@
 	"PlayerStatus_RuneStrength"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -349,6 +411,9 @@
 	"PlayerStatus_RuneHaste"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -356,6 +421,9 @@
 	"PlayerStatus_RuneRegen"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -363,6 +431,9 @@
 	"PlayerStatus_RuneResist"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -370,6 +441,9 @@
 	"PlayerStatus_RuneVampire"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -377,6 +451,9 @@
 	"PlayerStatus_RuneReflect"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -384,6 +461,9 @@
 	"PlayerStatus_RunePrecision"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -391,6 +471,9 @@
 	"PlayerStatus_RuneAgility"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -398,6 +481,9 @@
 	"PlayerStatus_RuneKnockout"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -405,6 +491,9 @@
 	"PlayerStatus_RuneKing"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -412,6 +501,9 @@
 	"PlayerStatus_RunePlague"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
@@ -419,6 +511,9 @@
 	"PlayerStatus_RuneSupernova"
 	{
 		"xpos"			"0"
+		"wide_minmode"		"16"
+		"tall_minmode"		"16"
+
 		"pin_to_sibling"	"StatusAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"

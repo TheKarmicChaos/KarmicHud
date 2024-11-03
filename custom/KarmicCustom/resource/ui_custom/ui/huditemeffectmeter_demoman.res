@@ -23,7 +23,7 @@
 	{
 		"xpos"			"23"
 		"ypos"			"9"
-		"xpos_minmode"		"25"
+		"xpos_minmode"		"23"
 		"wide"			"44"
 
 		"font"			"HudFontMediumSmall"

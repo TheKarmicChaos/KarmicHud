@@ -25,7 +25,7 @@
 	{
 		"xpos"			"23"
 		"ypos"			"9"
-		"xpos_minmode"		"25"
+		"xpos_minmode"		"23"
 		"ypos_minmode"		"9"
 		"wide"			"44"
 

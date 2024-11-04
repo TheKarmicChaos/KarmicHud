@@ -72,14 +72,14 @@
 	}
 	"KillStreakIcon"
 	{
-		"xpos"			"10"
-		"ypos"			"20"
-		"xpos_minmode"		"30"
-		"ypos_minmode"		"16"
-		"wide"			"8"
-		"tall"			"8"
-		"wide_minmode"		"8"
-		"tall_minmode"		"8"
+		"xpos"			"9"
+		"ypos"			"19"
+		"xpos_minmode"		"22"
+		"ypos_minmode"		"14"
+		"wide"			"10"
+		"tall"			"10"
+		"wide_minmode"		"10"
+		"tall_minmode"		"10"
 	}
 
 	"SpectatorGUIHealth"

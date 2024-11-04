@@ -55,6 +55,8 @@
 	{
 		"xpos" 			"90"
 		"ypos" 			"r105"
+		"xpos_minmode"		"100"
+		"ypos_minmode"		"r75"
 	}
 
 	// Moves mvm money counter to the bottom of the 3d playermodel

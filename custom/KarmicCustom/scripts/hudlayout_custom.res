@@ -39,6 +39,17 @@
 		"ypos"			"c-120"
 	}
 
+	// Relocates the player's HP popups (ie +150) to be above health panel
+	CHealthAccountPanel
+	{
+		"xpos"			"217"
+		"ypos"			"310"
+		"xpos_minmode"		"267"
+		"ypos_minmode"		"220"
+		"wide"			"f0"
+		"tall"  		"f0"
+	}
+
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{

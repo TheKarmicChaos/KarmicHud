@@ -98,13 +98,13 @@ event HudTournament_MoveTimerDown
 event CompetitiveGame_LowerChatWindow
 {
 	Animate HudChat ypos 310 Accel 0 0.3		// also is now animated instead of just teleporting
-	// Animate HudChat xpos 0 Accel 0 0.3
+	//Animate HudChat xpos -5 Accel 0 0.3
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat ypos 265 Accel 0 0.3
-	// Animate HudChat xpos 0 Accel 0 0.3
+	//Animate HudChat xpos -5 Accel 0 0.3
 }
 
 // Move the survey popup & make it go away faster

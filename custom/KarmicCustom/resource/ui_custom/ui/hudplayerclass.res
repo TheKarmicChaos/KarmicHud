@@ -8,9 +8,12 @@
 	{
 		"xpos"			"cs-1-142"
 		"ypos"			"r114"
+		"xpos_minmode"		"-99999"
 		"zpos"			"1"
 		"wide"			"125"
 		"tall"			"70"
+
+
 		"image"			"../hud/charge_red_bg"
 		"teambg_2"		"../hud/charge_red_bg"
 		"teambg_3"		"../hud/charge_blue_bg"
@@ -25,6 +28,7 @@
 		"xpos"			"c-360"
 		"ypos"			"r340"
 		"zpos"			"2"
+		"xpos_minmode"		"c-330"
 		"wide"			"100"
 		"tall"			"480"
 		"autoResize"		"0"

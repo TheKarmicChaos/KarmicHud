@@ -99,6 +99,10 @@
 	"EventPromo"
 	{
 		"xpos"			"8"
+		"Background"
+		{
+			//"visible"		"0"	// Uncomment this line if you want to get rid of the store promos
+		}
 	}
 
 	"CharacterSetupButton"

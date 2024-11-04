@@ -5,7 +5,8 @@
 	"FreezePanelBase"
 	{
 		"xpos"			"c-133"
-		"ypos"			"175"
+		"ypos"			"160"	// "175"
+		"ypos_minmode"		"160"
 
 		"FreezePanelBG"
 		{

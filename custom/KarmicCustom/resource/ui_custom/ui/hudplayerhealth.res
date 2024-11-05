@@ -12,7 +12,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 
-		"HealthBonusPosAdj"	"20"
+		"HealthBonusPosAdj"	"30"
 		"HealthBonusPosAdj_minmode" "35"	//"45"
 	}
 
@@ -21,8 +21,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HealthCrossAnchor"
-		"xpos"			"127"
-		"ypos"			"r130"
+		"xpos"			"165"
+		"ypos"			"r131"
 		"xpos_minmode"		"290"	//"c-136+10"
 		"ypos_minmode"		"c35-10"
 		"wide"			"10"
@@ -36,8 +36,8 @@
 		"ypos"			"0"
 		"xpos_minmode"		"62-8"
 		"ypos_minmode"		"17-8"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"38"
+		"tall"			"38"
 		"wide_minmode"		"16"
 		"tall_minmode"		"16"
 		"visible_minmode"	"0"
@@ -52,8 +52,8 @@
 		"ypos"			"-2"
 		"xpos_minmode"		"-9999" 	//"62-9"
 		"ypos_minmode"		"17-9"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"42"
+		"tall"			"42"
 		"wide_minmode"		"18"
 		"tall_minmode"		"18"
 		"visible_minmode"	"0"
@@ -68,8 +68,8 @@
 		"ypos"			"-2"
 		"xpos_minmode"		"62-13"
 		"ypos_minmode"		"17-13"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"42"
+		"tall"			"42"
 		"wide_minmode"		"26"
 		"tall_minmode"		"26"
 
@@ -200,8 +200,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"StatusAnchor"
-		"xpos"			"153"
-		"ypos"			"r147"
+		"xpos"			"136"
+		"ypos"			"r150"
 		"xpos_minmode"		"256"	//"c-139+10"
 		"ypos_minmode"		"r227"
 		"wide"			"10"
@@ -211,8 +211,8 @@
 	}
 	"PlayerStatus_WheelOfDoom"
 	{
-		"xpos"			"-46"
-		"ypos"			"-3"
+		"xpos"			"-27"
+		"ypos"			"0"
 		"xpos_minmode"		"45-12"
 		"ypos_minmode"		"10-12"
 		"wide_minmode"		"24"

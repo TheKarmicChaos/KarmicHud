@@ -3,14 +3,13 @@
 "Resource/UI/HudPlayerClass.res"
 {
 
-	// TODO: Try other dimensions & hud shapes for this background to find one that looks better
 	"classmodelpanelBG"
 	{
 		"xpos"			"cs-1-142"
 		"ypos"			"r114"
 		"xpos_minmode"		"-99999"
 		"zpos"			"1"
-		"wide"			"125"
+		"wide"			"120"
 		"tall"			"70"
 
 

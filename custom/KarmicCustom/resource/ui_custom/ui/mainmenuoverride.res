@@ -50,14 +50,14 @@
 	
 	"NoGCMessage"
 	{
-		"xpos"			"45"
-		"ypos"			"95"
+		"xpos"			"13"
+		"ypos"			"93"
 	}
 
 	"NoGCImage"
 	{
-		"xpos"			"50"
-		"ypos"			"108"
+		"xpos"			"18"
+		"ypos"			"106"
 	}
 
 	"Notifications_ShowButtonPanel"

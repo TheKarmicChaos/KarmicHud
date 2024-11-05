@@ -15,7 +15,7 @@
 		"enabled"		"1"
 
 		"buffer_between_visible"	"5"
-		"overlap_offset_y"			"35"
-		"overlap_offset_x"			"10"
+		"overlap_offset_y"		"35"
+		"overlap_offset_x"		"10"
 	}
 }

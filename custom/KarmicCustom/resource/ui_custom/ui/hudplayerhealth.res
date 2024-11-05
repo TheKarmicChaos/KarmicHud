@@ -12,7 +12,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 
-		"HealthBonusPosAdj"	"30"
+		"HealthBonusPosAdj"	"35"
 		"HealthBonusPosAdj_minmode" "35"	//"45"
 	}
 

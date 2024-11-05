@@ -24,19 +24,39 @@
 // Left Side
 // --------------------------------------------------------------
 
+	// Moves generic hud menu (used for voicelines)
+	HudMenuAnchor
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"HudMenuAnchor"
+		"xpos"			"-10"
+		"ypos"			"-10-45"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	HudMenu
+	{
+		"pin_to_sibling"	"HudMenuAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+	}
 
 	// Moves engineer's buildings HUD
 	BuildingStatus_Engineer
 	{
 		"xpos"			"-12"
-		"ypos"			"c-120" // "c-120"
+		"ypos"			"c79" // "c-120"
+		//"ypos_minmode"		"c-120" //"c-60" //"c80"
 	}
 
 	// Moves spy's buildings HUD
 	BuildingStatus_Spy
 	{
 		"xpos"			"-12"
-		"ypos"			"c-120"
+		"ypos"			"10" //"c-120"
+		"ypos_minmode"		"10"
 	}
 
 	// Relocates the player's HP popups (ie +150) to be above health panel
@@ -53,8 +73,9 @@
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{
-		"xpos" 			"90"
+		"xpos" 			"98"
 		"ypos" 			"r105"
+		"zpos"			"-99"
 		"xpos_minmode"		"100"
 		"ypos_minmode"		"r75"
 	}
@@ -62,8 +83,10 @@
 	// Moves mvm money counter to the bottom of the 3d playermodel
 	"CurrencyStatusPanel"
 	{
-		"xpos"			"c-350"
+		"xpos"			"c-300"
 		"ypos"			"r90"
+		"xpos_minmode"		"c-295"
+		"ypos_minmode"		"r90"
 	}
 
 

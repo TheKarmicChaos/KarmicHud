@@ -20,7 +20,6 @@
 	"Background"
 	{
 		"visible"		"0"
-		"enabled"		"0"
 	}
 	
 	"Icon"
@@ -33,6 +32,7 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
+		"visible_minmode"	"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
 		"iconColor"		"255 255 255 255"

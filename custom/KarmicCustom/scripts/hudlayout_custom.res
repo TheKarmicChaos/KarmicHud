@@ -64,7 +64,7 @@
 	{
 		"xpos"			"217"
 		"ypos"			"310"
-		"xpos_minmode"		"267"
+		"xpos_minmode"		"342"
 		"ypos_minmode"		"220"
 		"wide"			"f0"
 		"tall"  		"f0"

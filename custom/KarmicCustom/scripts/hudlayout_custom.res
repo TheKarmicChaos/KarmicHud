@@ -73,8 +73,8 @@
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{
-		"xpos" 			"98"
-		"ypos" 			"r105"
+		"xpos" 			"118"
+		"ypos" 			"r110"
 		"zpos"			"-99"
 		"xpos_minmode"		"100"
 		"ypos_minmode"		"r75"
@@ -83,7 +83,7 @@
 	// Moves mvm money counter to the bottom of the 3d playermodel
 	"CurrencyStatusPanel"
 	{
-		"xpos"			"c-300"
+		"xpos"			"c-280"
 		"ypos"			"r90"
 		"xpos_minmode"		"c-295"
 		"ypos_minmode"		"r90"

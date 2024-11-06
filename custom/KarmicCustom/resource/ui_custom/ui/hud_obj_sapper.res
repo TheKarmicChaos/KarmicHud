@@ -1,190 +1,113 @@
-// Removes the background from the sapper building hud
+// Shrinks the sapper building hud & moves it to the bottom left corner (with the engineer hud)
 
 "Resource/UI/hud_obj_sapper.res"
 {
 	"BuildingStatusItem"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
-		"tall"			"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"wide"			"160"
+		"tall"			"28"
 	}
 	
 	"Background"
 	{
-		"visible"		"0"
+		"xpos"			"8"
+		"ypos"			"0"
+		"wide"			"120"
+		"tall"			"28"
+		"visible_minmode"	"0"
+		"scaleImage"		"0"
+		"icon"			"obj_status_background_red"
+
 	}
 	
 	"Icon"
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
-		"xpos"			"24"
-		"ypos"			"1"
-		"wide"			"28"
-		"tall"			"28"
-		"visible"		"1"
-		"enabled"		"1"
-		"visible_minmode"	"0"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"xpos"			"28"
+		"ypos"			"3"
+		"wide"			"24"
+		"tall"			"24"
 	}
 	
 	"NotBuiltPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
+		"xpos"			"8"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"31"
-		"visible"		"1"
+		"tall"			"28"
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"60"
+			"xpos"			"52"
 			"ypos"			"0"
 			"wide"			"200"
-			"tall"			"31"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_sapper_not_built"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"tall"			"28"
 		}
 	}
+
 	
 	"BuiltPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BuiltPanel"
-		"xpos"			"0"
+		"xpos"			"8"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"43"
-		"visible"		"0"
+		"tall"			"28"
 
 		"Health"
 		{	
-			"ControlName"	"CBuildingHealthBar"
-			"fieldName"		"Health"
-			"font"			"Default"
-			"xpos"			"13"
-			"ypos"			"2"
-			"wide"			"8"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"xpos"			"12"
+			"ypos"			"3"
+			"wide"			"7"
+			"tall"			"23"
 		}
 
 		"BuildingPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
-			"ypos"			"0"
+			"xpos"			"52"
+			"ypos"			"-1"
 			"wide"			"100"
-			"tall"			"31"
-			"visible"		"0"
+			"tall"			"28"
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
-				"xpos"			"0"
+				"font"			"HudFontSmallest"
+				"xpos"			"6"
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
 			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"BuildingProgress"
-				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"16"
+				"ypos"			"19"
 				"wide"			"50"
-				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"tall"			"5"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RunningPanel"
-			"xpos"			"55"
-			"ypos"			"0"
+			"xpos"			"42"
+			"ypos"			"-1"
 			"wide"			"100"
-			"tall"			"31"
-			"visible"		"0"
+			"tall"			"28"
 			
 			"TargetIcon"
 			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"TargetIcon"
-				"xpos"			"0"
+				"xpos"			"1"
 				"ypos"			"5"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"	
-				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
 			}
 			
 			"TargetHealth"
 			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"TargetHealth"
-				"font"			"Default"
 				"xpos"			"22"
 				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"wide"			"38"
+				"tall"			"5"
 			}
 		}
 	}

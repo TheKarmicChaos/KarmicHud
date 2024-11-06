@@ -48,15 +48,15 @@
 	{
 		"xpos"			"-12"
 		"ypos"			"c79" // "c-120"
-		//"ypos_minmode"		"c-120" //"c-60" //"c80"
+		"xpos_minmode"		"-15"
 	}
 
 	// Moves spy's buildings HUD
 	BuildingStatus_Spy
 	{
 		"xpos"			"-12"
-		"ypos"			"10" //"c-120"
-		"ypos_minmode"		"10"
+		"ypos"			"c79+48" //"c-120"
+		"xpos_minmode"		"-15"
 	}
 
 	// Relocates the player's HP popups (ie +150) to be above health panel

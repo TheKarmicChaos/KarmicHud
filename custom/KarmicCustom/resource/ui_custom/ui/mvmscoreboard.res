@@ -5,7 +5,7 @@
 	"WaveStatusPanel"
 	{
 		"xpos"				"c-300"
-		"ypos"				"-7"
+		"ypos"				"0"
 	}
 	
 	"PopFileLabel"

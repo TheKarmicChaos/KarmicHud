@@ -5,16 +5,16 @@
 {
 	"MainBackground"
 	{
-		"xpos"			"3"
-		"ypos"			"10"
+		"xpos"			"8"
+		"ypos"			"15"
 		"wide"			"434"
 		"tall"			"80"
 	}
 
 	"SpyIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"-2"
+		"xpos"			"5"
+		"ypos"			"3"
 		"wide"			"35"
 		"tall"			"35"
 	}
@@ -22,8 +22,8 @@
 	"TitleLabel"
 	{	
 		"font"			"HudFontMediumBold"
-		"xpos"			"35"			// align me to the left edge of the first selection
-		"ypos"			"-3"
+		"xpos"			"40"
+		"ypos"			"2"
 		"wide"			"360"
 		"tall"			"38"
 	}
@@ -31,29 +31,29 @@
 	"TitleLabelDropshadow"
 	{	
 		"font"			"HudFontMediumBold"
-		"xpos"			"35"			// align me to the left edge of the first selection
-		"ypos"			"-2"
+		"xpos"			"41"
+		"ypos"			"3"
 		"wide"			"360"
 		"tall"			"38"
 	}	
 	
 	"ToggleLabel"
 	{	
-		"xpos"			"140"
-		"ypos"			"14"
+		"xpos"			"146"
+		"ypos"			"19"
 	}
 	
 	"CancelLabel"
 	{	
-		"xpos"			"225"
-		"ypos"			"14"
+		"xpos"			"230"
+		"ypos"			"19"
 		"textAlignment"		"east"
 	}
 
 	"Divider"
 	{
-		"xpos"			"18"
-		"ypos"			"27"
+		"xpos"			"23"
+		"ypos"			"32"
 		"wide"			"410"
 		"tall"			"1"
 	}
@@ -63,8 +63,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"classAnchor"
-		"xpos"			"20-10"
-		"ypos"			"24-10"
+		"xpos"			"25-10"
+		"ypos"			"28-10"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"

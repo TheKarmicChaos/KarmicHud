@@ -189,10 +189,10 @@
 	"HudMenuSpyDisguise"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"c52"
-		"ypos_minmode"		"c65"
-		"wide"			"440"
-		"tall"			"200"
+		"ypos"			"c47"
+		"ypos_minmode"		"c60"
+		"wide"			"450"
+		"tall"			"110"
 	}
 
 	// Moves "on the bright side" stats panel

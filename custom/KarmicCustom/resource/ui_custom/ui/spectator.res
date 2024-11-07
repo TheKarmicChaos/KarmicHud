@@ -4,7 +4,7 @@
 {
 	"topbar"
 	{
-		"tall"			"0"	
+		"tall"			"0"
 		"tall_minmode"		"0"
 	}
 	"BottomBar"
@@ -24,12 +24,14 @@
 
 	"MapLabel"
 	{
-		"font"			"HudFontSmallestBold"
-		"xpos"			"r270"
+		"xpos"			"r245"
 		"ypos"			"0"
 		"wide"			"240"
 		"tall"			"19"
-		"visible"		"0" 	// Feel free to re-enable, but it will overlap with "Queued for Casual" in the top right corner
+		"visible"		"1"
+		"visible_minmode"	"0"
+
+		"font"			"HudFontSmall"
 	}
 	"ClassOrTeamLabel"
 	{

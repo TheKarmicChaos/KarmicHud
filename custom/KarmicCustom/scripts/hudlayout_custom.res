@@ -185,6 +185,16 @@
 		"ypos"			"335"
 	}
 	
+	// Moves spy's disguise menu
+	"HudMenuSpyDisguise"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c52"
+		"ypos_minmode"		"c65"
+		"wide"			"440"
+		"tall"			"200"
+	}
+
 	// Moves "on the bright side" stats panel
 	StatPanel
 	{

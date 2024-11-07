@@ -9,53 +9,69 @@
 		"ypos"			"15"
 		"wide"			"434"
 		"tall"			"80"
+		"visible_minmode"	"0"
 	}
 
 	"SpyIcon"
 	{
-		"xpos"			"5"
+		"xpos"			"3"
 		"ypos"			"3"
 		"wide"			"35"
 		"tall"			"35"
+		"visible_minmode"	"0"
 	}
 	
 	"TitleLabel"
 	{	
-		"font"			"HudFontMediumBold"
-		"xpos"			"40"
+		"xpos"			"38"
 		"ypos"			"2"
 		"wide"			"360"
 		"tall"			"38"
+		"visible_minmode"	"0"
+
+		"font"			"HudFontMediumBold"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
-		"font"			"HudFontMediumBold"
-		"xpos"			"41"
+		"xpos"			"39"
 		"ypos"			"3"
 		"wide"			"360"
 		"tall"			"38"
+		"visible_minmode"	"0"
+
+		"font"			"HudFontMediumBold"
 	}	
 	
 	"ToggleLabel"
 	{	
-		"xpos"			"146"
-		"ypos"			"19"
+		"xpos"			"150"
+		"ypos"			"18"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"21"
+		"wide_minmode"		"450"
+
+		"textAlignment_minmode"	"center"
+		"font"			"SpectatorKeyHints"
 	}
 	
 	"CancelLabel"
 	{	
 		"xpos"			"230"
-		"ypos"			"19"
+		"ypos"			"18"
+		"visible_minmode"	"0"
+
 		"textAlignment"		"east"
+		"font"			"SpectatorKeyHints"
 	}
 
 	"Divider"
 	{
-		"xpos"			"23"
+		"xpos"			"19"
 		"ypos"			"32"
-		"wide"			"410"
+		"wide"			"414"
 		"tall"			"1"
+		"visible_minmode"	"0"
 	}
 
 

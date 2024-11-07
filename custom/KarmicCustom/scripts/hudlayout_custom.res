@@ -184,13 +184,43 @@
 	{
 		"ypos"			"335"
 	}
+
+	// Moves engie's build PDA menu
+	"HudMenuEngyBuild"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c53"
+		"ypos_minmode"		"c46"
+		"wide"			"450"
+		"tall"			"110"
+	}
+	
+	// Moves engie's destroy PDA menu
+	"HudMenuEngyDestroy"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c53"
+		"ypos_minmode"		"c46"
+		"wide"			"450"
+		"tall"			"110"
+	}
+
+	// Moves the eureka effect's teleport menu
+	"HudEurekaEffectTeleportMenu"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c53"
+		"ypos_minmode"		"c46"
+		"wide"			"250"
+		"tall"			"110"
+	}
 	
 	// Moves spy's disguise menu
 	"HudMenuSpyDisguise"
 	{
 		"xpos"			"cs-0.5"
 		"ypos"			"c47"
-		"ypos_minmode"		"c60"
+		"ypos_minmode"		"c50"
 		"wide"			"450"
 		"tall"			"110"
 	}

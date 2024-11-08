@@ -84,18 +84,18 @@
 
 	"SpectatorGUIHealth"
 	{
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"0"
+		"ypos"			"0"
 		"xpos_minmode"		"0"
 		"ypos_minmode"		"0"
-		"wide"			"32"
-		"tall"			"64"
-		"wide_minmode"		"24"
+		"wide"			"28"
+		"tall"			"35"
+		"wide_minmode"		"28"
+		"tall_minmode"		"28"
 	
-		"HealthBonusPosAdj"		"9"
-		"HealthBonusPosAdj_minmode"	"10"
+		"HealthBonusPosAdj"		"12"
+		"HealthBonusPosAdj_minmode"	"12"
 		"HealthDeathWarning"		"0.49"
-		"TextColor"			"HudOffWhite"
 	}
 	
 	"MoveableSubPanel"

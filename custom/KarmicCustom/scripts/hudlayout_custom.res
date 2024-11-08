@@ -80,12 +80,21 @@
 		"ypos_minmode"		"r75"
 	}
 
+	// Expands & relocates spy disguise panel to be able to use more of the screen
+	DisguiseStatus
+	{
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"f0"
+	}
+
 	// Moves mvm money counter to the bottom of the 3d playermodel
 	"CurrencyStatusPanel"
 	{
 		"xpos"			"c-280"
 		"ypos"			"r90"
-		"xpos_minmode"		"c-295"
+		"xpos_minmode"		"c-280"
 		"ypos_minmode"		"r90"
 	}
 
@@ -220,7 +229,7 @@
 	{
 		"xpos"			"cs-0.5"
 		"ypos"			"c47"
-		"ypos_minmode"		"c50"
+		"ypos_minmode"		"c55"
 		"wide"			"450"
 		"tall"			"110"
 	}

@@ -59,8 +59,8 @@
 		"wide"			"32"
 		"tall"			"32"
 	
-		"HealthDeathWarning"		"0.49"
 		"HealthBonusPosAdj"		"12"
 		"HealthBonusPosAdj_minmode"	"12"
+		"HealthDeathWarning"		"0.66"
 	}
 }

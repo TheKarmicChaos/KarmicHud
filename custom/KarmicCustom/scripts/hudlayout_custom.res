@@ -294,5 +294,36 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	}
-}
 
+	// Relocates voicechat popup & adds the avatar
+	HudVoiceStatus
+	{
+		"xpos" 			"r137"
+		"ypos" 			"-2"
+		"wide" 			"140"
+		"tall" 			"480"
+
+		"item_wide"		"135"
+		
+		"show_avatar"		"1"
+		"avatar_xpos"		"-9"
+		"avatar_ypos"		"1"
+		"avatar_zpos"		"-1"
+		"avatar_wide"		"14"
+		"avatar_tall"		"14"
+		
+		"show_dead_icon"	"1"
+		"dead_xpos"		"1"
+		"dead_ypos"		"0"
+		"dead_wide"		"16"
+		"dead_tall"		"16"
+		
+		"show_voice_icon"	"1"
+		"icon_ypos"		"0"
+		"icon_xpos"		"15"
+		"icon_tall"		"16"
+		"icon_wide"		"16"
+		
+		"text_xpos"		"33"
+	}
+}

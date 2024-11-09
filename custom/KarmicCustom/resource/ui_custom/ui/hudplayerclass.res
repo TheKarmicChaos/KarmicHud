@@ -2,6 +2,10 @@
 
 "Resource/UI/HudPlayerClass.res"
 {
+	"HudPlayerClass"
+	{
+		"ypos_minmode"		"0" //"18"		
+	}
 
 	"classmodelpanelBG"
 	{

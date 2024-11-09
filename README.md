@@ -1,6 +1,5 @@
 ## Notes on Installation:
-My HUD does not currently support "cl_hud_minmode 1" so disable it if you use it. This shouldn't be necessary if you just want my crosshairs, however.
-Everything here works in casual.
+My HUD now supports "cl_hud_minmode 1". Everything here works in casual.
 
 In order for the crosshairs to work, you need to add the following two commands to your autoexec.cfg:
 

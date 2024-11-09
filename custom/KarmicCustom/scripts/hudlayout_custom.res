@@ -234,6 +234,16 @@
 		"tall"			"110"
 	}
 
+	// Moves the ingame taunt menu
+	"HudMenuTauntSelection"
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c47"
+		"ypos_minmode"		"c55"
+		"wide"			"450"
+		"tall"			"110"
+	}
+
 	// Moves "on the bright side" stats panel
 	StatPanel
 	{

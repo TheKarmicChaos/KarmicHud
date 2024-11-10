@@ -128,17 +128,18 @@
 		"tall"			"480"
 	}
 
-	// Expands & relocates engineer's metal counter to be able to use more of the screen
-	CHudAccountPanel
+	// Moves sticky/loose cannon/huntsman charge bar to just under crosshair
+	HudDemomanCharge
 	{
-		"xpos"			"0" 	//"c215"
-		"ypos"			"0" 	//"r192"
-		"zpos"			"5"
-		"ypos_minmode"		"0"
-		"wide"			"f0"
-		"tall"  		"480"
+		"xpos"			"cs-0.5-5"
+		"ypos"			"c43"
+		"xpos_minmode"		"cs-0.5-5"
+		"ypos_minmode"		"c43"
+		"wide"			"60"
+		"tall"			"5"
+		"wide_minmode"		"60"
 	}
-	
+
 	// Expands & relocates sticky counter to be able to use more of the screen
 	HudDemomanPipes
 	{
@@ -151,30 +152,15 @@
 		"wide_minmode"		"f0"
 	}
 
-	// Moves sticky/loose cannon charge bar to just under crosshair & makes it transparent
-	HudDemomanCharge
+	// Expands & relocates engineer's metal counter to be able to use more of the screen
+	CHudAccountPanel
 	{
-		"xpos"			"cs-0.5-5"
-		"ypos"			"c55"
-		"xpos_minmode"		"cs-0.5-5"
-		"ypos_minmode"		"c55"
-		"wide"			"60"
-		"tall"			"5"
-		"wide_minmode"		"60"
-		"alpha"			"100"
-	}
-
-	// Moves bar to just under crosshair & makes it transparent
-	HudBowCharge
-	{
-		"xpos"			"cs-0.5-5"
-		"ypos"			"c55"
-		"xpos_minmode"		"cs-0.5-5"
-		"ypos_minmode"		"c55"
-		"wide"			"60"
-		"tall"			"5"
-		"wide_minmode"		"60"
-		"alpha"			"100"
+		"xpos"			"0" 	//"c215"
+		"ypos"			"0" 	//"r192"
+		"zpos"			"5"
+		"ypos_minmode"		"0"
+		"wide"			"f0"
+		"tall"  		"480"
 	}
 
 	// Moves nametag for looking at players

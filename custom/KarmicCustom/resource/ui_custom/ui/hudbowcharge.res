@@ -1,10 +1,9 @@
-// Fixes minmode support
+// Hides the older bow charge meter
 
 "Resource/UI/HudBowCharge.res"
 {	
 	"ChargeMeter"
 	{	
-		"xpos"			"10"
-		"xpos_minmode"		"10"
+		"visible"		"0"
 	}
 }

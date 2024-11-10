@@ -27,11 +27,11 @@
 
 	"ChargeLabel"
 	{
-		"xpos"			"1"
-		"ypos"			"-16"
-		"xpos_minmode"		"1"
-		"ypos_minmode"		"-20"
-		"wide"			"80"
+		"xpos"			"0"
+		"ypos"			"-19"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"-19"
+		"wide"			"81"
 		"tall"			"15"
 
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -45,11 +45,11 @@
 	}
 	"IndividualChargesLabel"
 	{
-		"xpos"			"0"
-		"ypos"			"-16"
-		"xpos_minmode"		"0"
-		"ypos_minmode"		"-20"
-		"wide"			"80"
+		"xpos"			"-1"
+		"ypos"			"-19"
+		"xpos_minmode"		"-1"
+		"ypos_minmode"		"-19"
+		"wide"			"81"
 		"tall"			"15"
 
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
@@ -148,7 +148,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ResistIconAnchor"
 		"xpos"			"cs-1-20"
-		"ypos"			"cs-1+32"
+		"ypos"			"cs-1+36"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"

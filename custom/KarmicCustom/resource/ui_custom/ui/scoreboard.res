@@ -215,7 +215,7 @@
 		"xpos"			"cs-1"
 		"ypos"			"100"
 		"wide"			"310"
-		"tall"			"320"
+		"tall"			"240"	// "320" // use for 32 players
 		"linespacing"		"18"
 		"linegap"		"1"
 		//"show_columns"		"0"
@@ -225,7 +225,7 @@
 		"xpos"			"c0"
 		"ypos"			"100"
 		"wide"			"310"
-		"tall"			"320"
+		"tall"			"240"	// "320" // use for 32 players
 		"linespacing"		"18"
 		"linegap"		"1"
 		//"show_columns"		"0"
@@ -264,7 +264,7 @@
 		"xpos"			"111"	// "-20"
 		"ypos"			"r52" 	// "118"
 		"wide"			"484"	// "103" 	//"130"
-		"tall"			"29"	// "210"
+		"tall"			"30"	// "210"
 	}
 
 	"PlayerNameLabel"

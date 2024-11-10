@@ -1,4 +1,4 @@
-// Moves pomson charge meter
+// Moves bison charge meter
 
 "Resource/UI/HudItemEffectMeter_Raygun.res"
 {

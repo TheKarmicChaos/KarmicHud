@@ -150,7 +150,7 @@
 		"wide_minmode"		"f0"
 	}
 
-	// Moves bar to just under crosshair & makes it transparent
+	// Moves sticky/loose cannon charge bar to just under crosshair & makes it transparent
 	HudDemomanCharge
 	{
 		"xpos"			"cs-0.5-5"

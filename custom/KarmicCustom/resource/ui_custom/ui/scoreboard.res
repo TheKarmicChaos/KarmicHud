@@ -1,4 +1,4 @@
-// Condenses the scoreboard to take up less of the screen
+// Condenses the scoreboard to take up less of the screen & redesigns the player stats panel with icons
 
 "Resource/UI/Scoreboard.res"
 {
@@ -342,249 +342,714 @@
 	"LocalPlayerStatsPanel"
 	{
 		"xpos"			"111"	// "-45"
-		"ypos"			"r54" 	// "10"
+		"ypos"			"r53" 	// "10"
 		"wide"			"484"	// "600"
 		"tall"			"480"	// "448"
 
+		"LabelAnchor"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"kdaAnchor"
+			"xpos"			"-10"
+			"ypos"			"-10"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"KillsLabel"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ScoreboardVerySmall"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Kills"
 		{
-			"xpos"			"0"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
+			"xpos"			"1"
+			"ypos"			"-8"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameLarger"
+			"pin_to_sibling"	"KillsLabel"
 		}
+		"KillsShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"KillsShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"font"			"ItemFontNameLarger"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%kills%"
+
+			"pin_to_sibling"	"Kills"
+		}
+		"KillsIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"KillsIcon"
+			"xpos"			"-5"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_kills"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_kills"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_kills_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"KillsLabel"
+		}
+
 		"DeathsLabel"
 		{
-			"xpos"			"30"
+			"xpos"			"32"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ScoreboardVerySmall"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Deaths"
 		{
-			"xpos"			"30"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
+			"xpos"			"1"
+			"ypos"			"-8"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameLarger"
+			"pin_to_sibling"	"DeathsLabel"
 		}
+		"DeathsShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DeathsShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"font"			"ItemFontNameLarger"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%deaths%"
+
+			"pin_to_sibling"	"Deaths"
+		}
+		"DeathsIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"DeathsIcon"
+			"xpos"			"-5"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_score"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_score"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_score_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"DeathsLabel"
+		}
+
 		"AssistsLabel"
 		{
-			"xpos"			"60"
+			"xpos"			"64"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Assists"
 		{
-			"xpos"			"60"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
+			"xpos"			"1"
+			"ypos"			"-8"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameLarger"
+			"pin_to_sibling"	"AssistsLabel"
 		}
+		"AssistsShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"AssistsShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"font"			"ItemFontNameLarger"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%assists%"
+
+			"pin_to_sibling"	"Assists"
+		}
+		"AssistsIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"AssistsIcon"
+			"xpos"			"-5"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_support"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_support"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_support_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"AssistsLabel"
+		}
+
+
+		// ------------------------------------------------------------------------------------------------------
+
+
 		"DamageLabel"
 		{
-			"xpos"			"90"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"100"
+			"ypos"			"3"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Damage"
 		{
-			"xpos"			"90"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"0"
+			"ypos"			"-11"
+			"wide"			"32"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"DamageLabel"
 		}
+		"DamageShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DamageShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"font"			"ItemFontNameSmall"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%damage%"
+
+			"pin_to_sibling"	"Damage"
+		}
+		"DamageIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"DamageIcon"
+			"xpos"			"-8"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_damage"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_damage"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_damage_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"DamageLabel"
+		}
+
 		"HealingLabel"
 		{
-			"xpos"			"120"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"132"
+			"ypos"			"3"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Healing"
 		{
-			"xpos"			"120"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"0"
+			"ypos"			"-11"
+			"wide"			"32"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"HealingLabel"
 		}
-		"InvulnLabel"
+		"HealingShadow"
 		{
-			"xpos"			"150"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}
-		"Invuln"
-		{
-			"xpos"			"150"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"ControlName"		"CExLabel"
+			"fieldName"		"HealingShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
 			"font"			"ItemFontNameSmall"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%healing%"
+
+			"pin_to_sibling"	"Healing"
 		}
+		"HealingIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"HealingIcon"
+			"xpos"			"-8"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_health"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_health"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_health_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"HealingLabel"
+		}
+
+		"SupportLabel"
+		{
+			"xpos"			"164"
+			"ypos"			"3"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"pin_to_sibling"	"LabelAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		}
+		"Support"
+		{
+			"xpos"			"0"
+			"ypos"			"-11"
+			"wide"			"32"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"SupportLabel"
+		}
+		"SupportShadow"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"SupportShadow"
+
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"font"			"ItemFontNameSmall"
+			"textAlignment"		"north"
+			"fgcolor"		"Black"
+			"labelText"		"%support%"
+
+			"pin_to_sibling"	"Support"
+		}
+		"SupportIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"SupportIcon"
+			"xpos"			"-8"
+			"ypos"			"-8"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"competitive/competitive_scoreboard_icons_support"
+			"teambg_2"		"competitive/competitive_scoreboard_icons_support"
+			"teambg_3"		"competitive/competitive_scoreboard_icons_support_blu"
+			"alpha"			"180"
+			"pin_to_sibling"	"SupportLabel"
+		}
+
+
+		// ------------------------------------------------------------------------------------------------------
+
+
+
 		"DestructionLabel"
 		{
-			"xpos"			"180"
+			"xpos"			"240"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"50"
+			"textAlignment"		"north"
 		}
 		"Destruction"
 		{
-			"xpos"			"180"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"240"
+			"ypos"			"7"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"DestructionIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"DestructionIcon"
+			"xpos"			"240+7"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/ico_demolish"
+			"alpha"			"100"
+		}
+
 		"TeleportsLabel"
 		{
-			"xpos"			"210"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"240"
+			"ypos"			"15"
+			"wide"			"50"
+			"textAlignment"		"north"
 		}
 		"Teleports"
 		{
-			"xpos"			"210"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"240"
+			"ypos"			"22"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"TeleportsIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"TeleportsIcon"
+			"xpos"			"240+7"
+			"ypos"			"21"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/hud_obj_status_tele_exit"
+			"alpha"			"100"
+		}
+
+		// ------------------------------------------------------------------------------------------------------
+
 		"HeadshotsLabel"
 		{
-			"xpos"			"240"
+			"xpos"			"290"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"50"
+			"textAlignment"		"north"
 		}
 		"Headshots"
 		{
-			"xpos"			"240"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"290"
+			"ypos"			"7"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"HeadshotsIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"HeadshotsIcon"
+			"xpos"			"290+7"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/leaderboard_class_sniper"
+			"alpha"			"100"
+		}
+
 		"BackstabsLabel"
 		{
-			"xpos"			"270"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"290"
+			"ypos"			"15"
+			"wide"			"50"
+			"textAlignment"		"north"
 		}
 		"Backstabs"
 		{
-			"xpos"			"270"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"290"
+			"ypos"			"22"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"BackstabsIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BackstabsIcon"
+			"xpos"			"290+7"
+			"ypos"			"21"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/leaderboard_class_spy"
+			"alpha"			"100"
+		}
+
+		// ------------------------------------------------------------------------------------------------------
+
 		"CapturesLabel"
 		{
-			"xpos"			"300"
+			"xpos"			"340"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"textAlignment"		"north"
+			"wide"			"40"
 		}
 		"Captures"
 		{
-			"xpos"			"300"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"340"
+			"ypos"			"7"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"CapturesIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"CapturesIcon"
+			"xpos"			"340+7"
+			"ypos"			"7"
+			"zpos"			"-1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/cart_point_neutral"
+			"teambg_1"		"../hud/cart_point_neutral"
+			"teambg_2"		"../hud/cart_point_red"
+			"teambg_3"		"../hud/cart_point_blue"
+			"alpha"			"200"
+		}
+
+
 		"DefensesLabel"
 		{
-			"xpos"			"330"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"340"
+			"ypos"			"15"
+			"textAlignment"		"north"
+			"wide"			"40"
 		}
 		"Defenses"
 		{
-			"xpos"			"330"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"340"
+			"ypos"			"22"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"DefensesIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"DefensesIcon"
+			"xpos"			"340+7"
+			"ypos"			"21"
+			"zpos"			"-1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/cart_blocked"
+			"alpha"			"200"
+		}
+
+		// ------------------------------------------------------------------------------------------------------
+
 		"DominationLabel"
-		{
-			"xpos"			"360"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}
-		"Domination"
-		{
-			"xpos"			"360"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
-		}
-		"RevengeLabel"
 		{
 			"xpos"			"390"
 			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"wide"			"50"
+			"textAlignment"		"north"
+		}
+		"Domination"
+		{
+			"xpos"			"390"
+			"ypos"			"7"
+			"wide"			"50"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameSmall"
+		}
+		"DominationIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"DominationIcon"
+			"xpos"			"390+7"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/leaderboard_dominated"
+			"alpha"			"150"
+		}
+
+		"RevengeLabel"
+		{
+			"xpos"			"390"
+			"ypos"			"15"
+			"wide"			"50"
+			"textAlignment"		"north"
 		}
 		"Revenge"
 		{
 			"xpos"			"390"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"ypos"			"22"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
+		"RevengeIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RevengeIcon"
+			"xpos"			"390+7"
+			"ypos"			"21"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/leaderboard_nemesis"
+			"alpha"			"150"
+		}
+
+		// ------------------------------------------------------------------------------------------------------
+
+		"InvulnLabel"
+		{
+			"xpos"			"440"
+			"ypos"			"0"
+			"wide"			"50"
+			"textAlignment"		"north"
+		}
+		"Invuln"
+		{
+			"xpos"			"440"
+			"ypos"			"7"
+			"wide"			"50"
+			"textAlignment"		"north"
+			"font"			"ItemFontNameSmall"
+		}
+		"InvulnIcon"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"InvulnIcon"
+			"xpos"			"440+7"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"9"
+			"tall"			"9"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../sprites/healbeam_red"
+			"teambg_2"		"../sprites/healbeam_red"
+			"teambg_3"		"../sprites/healbeam_blue"
+			"alpha"			"240"
+		}
+
 		"BonusLabel"
 		{
-			"xpos"			"420"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"440"
+			"ypos"			"14"
+			"textAlignment"		"north"
+			"wide"			"50"
 		}
 		"Bonus"
 		{
-			"xpos"			"420"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
+			"xpos"			"440"
+			"ypos"			"21"
+			"wide"			"50"
+			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
 		}
-		"SupportLabel"
+		"BonusIcon"
 		{
-			"xpos"			"450"
-			"ypos"			"0"
-			"textAlignment"		"center"
-			"wide"			"30"
-		}
-		"Support"
-		{
-			"xpos"			"450"
-			"ypos"			"10"
-			"textAlignment"		"center"
-			"wide"			"30"
-			"font"			"ItemFontNameSmall"
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BonusIcon"
+			"xpos"			"440+4"
+			"ypos"			"20"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"		"1"
+			"image"			"../hud/leaderboard_duck"
+			"alpha"			"150"
 		}
 	}
 

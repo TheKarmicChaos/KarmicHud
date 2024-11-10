@@ -133,6 +133,7 @@
 	{
 		"xpos"			"0" 	//"c215"
 		"ypos"			"0" 	//"r192"
+		"zpos"			"5"
 		"ypos_minmode"		"0"
 		"wide"			"f0"
 		"tall"  		"480"
@@ -158,6 +159,7 @@
 		"xpos_minmode"		"cs-0.5-5"
 		"ypos_minmode"		"c55"
 		"wide"			"60"
+		"tall"			"5"
 		"wide_minmode"		"60"
 		"alpha"			"100"
 	}
@@ -170,6 +172,7 @@
 		"xpos_minmode"		"cs-0.5-5"
 		"ypos_minmode"		"c55"
 		"wide"			"60"
+		"tall"			"5"
 		"wide_minmode"		"60"
 		"alpha"			"100"
 	}

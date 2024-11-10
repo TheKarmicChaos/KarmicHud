@@ -1,4 +1,5 @@
-// Moves charge meter for non-cleaver scout secondaries & medic shield (broken in minmode)
+// Moves charge meter for non-cleaver scout secondaries & medic shield (still broken in minmode)
+// TODO: Find a way to fix this
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
@@ -6,17 +7,44 @@
 	{
 		"xpos"			"c189"
 		"ypos"			"r54"
-		"xpos_minmode"		"c155"
-		"ypos_minmode"		"r34" 	//"r24"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"c49"	//"r34"
+		"wide_minmode"		"50"
 	}
 |	"ItemEffectMeterLabel"
 	{
-		"ypos_minmode"		"-5"
-		"xpos_minmode"		"52"
+		"zpos"			"2"
+		"ypos_minmode"		"0"
+		"xpos_minmode"		"0"
+		"tall_minmode"		"5"
+		"wide_minmode"		"50"
+		"textAlignment_minmode"	"center"
+		"font_minmode"		"ScoreboardSmallest"
+		"dulltext_minmode"	"1"
+		"brighttext_minmode"	"0"
+		"visible_minmode"	"1"
+	}
+	"ChargeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"5"
+		"visible"		"0"
+		"visible_minmode"	"0"
+		"enabled"		"1"
+		"labelText"		"#TF_Ball"
+		"textAlignment"		"center"
+		"fgcolor"		"Black"
+		"font"			"ScoreboardSmallest"
 	}
 	"ItemEffectMeter"
 	{
-		"ypos_minmode"		"1"
-		"tall_minmode"		"4"
+		"zpos"			"2"
+		"tall_minmode"		"5"
+		"alpha_minmode"		"100"
 	}
 }

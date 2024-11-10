@@ -6,9 +6,9 @@
 	"Background"
 	{
 		"xpos"			"c140"
-		"ypos"			"r103"
-		"wide"			"118"
-		"tall"			"57"
+		"ypos"			"r101"
+		"wide"			"113"
+		"tall"			"56"
 		"visible"		"0"
 		"visible_minmode"	"0"
 	}
@@ -17,7 +17,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ChargeBarAnchor"
-		"xpos"			"cs-1-43"
+		"xpos"			"cs-1-40"
 		"ypos"			"cs-1+55"
 		"wide"			"10"
 		"tall"			"10"
@@ -28,10 +28,10 @@
 	"ChargeLabel"
 	{
 		"xpos"			"1"
-		"ypos"			"-19"
+		"ypos"			"-16"
 		"xpos_minmode"		"1"
-		"ypos_minmode"		"-19"
-		"wide"			"86"
+		"ypos_minmode"		"-20"
+		"wide"			"80"
 		"tall"			"15"
 
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -45,11 +45,11 @@
 	}
 	"IndividualChargesLabel"
 	{
-		"xpos"			"12"
-		"ypos"			"-19"
-		"xpos_minmode"		"12"
-		"ypos_minmode"		"-19"
-		"wide"			"86"
+		"xpos"			"0"
+		"ypos"			"-16"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"-20"
+		"wide"			"80"
 		"tall"			"15"
 
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
@@ -68,8 +68,9 @@
 		"ypos"			"0"
 		"xpos_minmode"		"0"
 		"ypos_minmode"		"0"
-		"tall"			"6"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide"			"80"
+		"alpha"			"100"
 
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -78,12 +79,13 @@
 
 	"ChargeMeter1"
 	{	
-		"xpos"			"1"
+		"xpos"			"0"
 		"ypos"			"0"
-		"xpos_minmode"		"1"
+		"xpos_minmode"		"0"
 		"ypos_minmode"		"0"
-		"tall"			"6"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide"			"19"
+		"alpha"			"100"
 
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -92,12 +94,13 @@
 
 	"ChargeMeter2"
 	{
-		"xpos"			"23"
+		"xpos"			"20"
 		"ypos"			"0"
-		"xpos_minmode"		"23"
+		"xpos_minmode"		"20"
 		"ypos_minmode"		"0"
-		"tall"			"6"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide"			"19"
+		"alpha"			"100"
 
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -106,12 +109,13 @@
 
 	"ChargeMeter3"
 	{	
-		"xpos"			"45"
+		"xpos"			"40"
 		"ypos"			"0"
-		"xpos_minmode"		"45"
+		"xpos_minmode"		"40"
 		"ypos_minmode"		"0"
-		"tall"			"6"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide"			"19"
+		"alpha"			"100"
 
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -120,12 +124,13 @@
 
 	"ChargeMeter4"
 	{	
-		"xpos"			"67"
+		"xpos"			"60"
 		"ypos"			"0"
-		"xpos_minmode"		"67"
+		"xpos_minmode"		"60"
 		"ypos_minmode"		"0"
-		"tall"			"6"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide"			"19"
+		"alpha"			"100"
 
 		"pin_to_sibling"	"ChargeBarAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -142,8 +147,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ResistIconAnchor"
-		"xpos"			"cs-1-10"
-		"ypos"			"cs-1+33"
+		"xpos"			"cs-1-21"
+		"ypos"			"cs-1+32"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"
@@ -153,8 +158,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"16"
+		"tall"			"16"
 		"visible_minmode"	"1"
 		"alpha"			"240"
 

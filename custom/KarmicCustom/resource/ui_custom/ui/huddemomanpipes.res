@@ -9,31 +9,34 @@
 
 	"ChargeLabel"
 	{
-		"xpos"			"cs-1-40"
-		"ypos"			"cs-0.5+50"
-		"wide"			"41"
-		"tall"			"16"
-		"labelText"		""
-		//"image"		"../hud/leaderboard_class_demoknight"
-		//"scaleImage"		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c49"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"c49"
+		"wide"			"80"
+		"tall"			"5"
+		"wide_minmode"		"60"
+
+		"font"			"ScoreboardSmallest"
+		"fgcolor_override"	"Black"
 	}
 
 	"ChargeMeter"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"c48"
+		"ypos"			"c49"
 		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c48"
+		"ypos_minmode"		"c49"
 		"wide"			"80"
-		"tall"			"6"
-		"wide_minmode"		"80"
-		"alpha"			"150"
+		"tall"			"5"
+		"wide_minmode"		"60"
+		"alpha"			"80"
 	}
 
 	"PipesPresentPanel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+50"
+		"ypos"			"cs-0.5+49"
 		"wide"			"100"
 		"tall"			"50"
 		

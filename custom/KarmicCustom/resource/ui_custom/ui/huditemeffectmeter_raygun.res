@@ -1,4 +1,4 @@
-// Moves bison charge meter
+// Moves bison charge meter & reduces its size in minmode
 
 "Resource/UI/HudItemEffectMeter_Raygun.res"
 {
@@ -6,17 +6,34 @@
 	{
 		"xpos"			"c189"
 		"ypos"			"r53"
-		"xpos_minmode"		"c155"
-		"ypos_minmode"		"r24"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"c55"	//"r24"
+		"wide_minmode"		"50"
 	}
 	"ItemEffectMeterLabel"
 	{
-		"ypos_minmode"		"-5"
-		"xpos_minmode"		"52"
+		"visible_minmode"	"0"
+	}
+	"ChargeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"5"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Bison"
+		"textAlignment"		"center"
+		"fgcolor"		"Black"
+		"font"			"ScoreboardSmallest"
 	}
 	"ItemEffectMeter"
 	{
-		"ypos_minmode"		"1"
-		"tall_minmode"		"4"
+		"tall_minmode"		"5"
+		"alpha_minmode"		"100"
 	}
 }

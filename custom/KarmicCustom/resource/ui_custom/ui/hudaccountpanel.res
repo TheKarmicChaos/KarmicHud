@@ -19,6 +19,7 @@
 	{
 		"xpos"			"cs-1-10"
 		"ypos"			"cs-0.5+56"
+		"zpos"			"5"
 		"wide"			"10"
 		"tall"			"10"
 	}
@@ -27,6 +28,7 @@
 	{
 		"xpos"			"cs-0.5+3"
 		"ypos"			"cs-0.5+57"
+		"zpos"			"5"
 		"wide"			"55"
 		"tall"			"26"
 		"font"			"HudFontSmall"

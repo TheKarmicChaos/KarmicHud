@@ -30,7 +30,7 @@
 		"wide"			"80"
 		"tall"			"5"
 		"wide_minmode"		"60"
-		"alpha"			"80"
+		"alpha"			"100"
 	}
 
 	"PipesPresentPanel"
@@ -82,7 +82,7 @@
 	"NoPipesPresentPanel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+50"
+		"ypos"			"cs-0.5+49"
 		"wide"			"100"
 		"tall"			"50"
 		

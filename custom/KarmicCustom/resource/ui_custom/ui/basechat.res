@@ -1,5 +1,5 @@
 // Relocates & resizes chat box
-// position is overridden by hudanimations once a round ends
+// Position is overridden by hudanimations once a round ends
 
 "Resource/UI/BaseChat.res"
 {
@@ -30,5 +30,4 @@
 		"xpos"			"4"
 		"wide"	 		"250"
 	}
-
 }

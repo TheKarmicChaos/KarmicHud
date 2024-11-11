@@ -359,7 +359,7 @@
 		}
 		"KillsLabel"
 		{
-			"xpos"			"0"
+			"xpos"			"0+11"
 			"ypos"			"0"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -420,7 +420,7 @@
 
 		"DeathsLabel"
 		{
-			"xpos"			"32"
+			"xpos"			"32+11"
 			"ypos"			"0"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -481,7 +481,7 @@
 
 		"AssistsLabel"
 		{
-			"xpos"			"64"
+			"xpos"			"64+11"
 			"ypos"			"0"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -545,7 +545,7 @@
 
 		"DamageLabel"
 		{
-			"xpos"			"100"
+			"xpos"			"100+22"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -605,7 +605,7 @@
 
 		"HealingLabel"
 		{
-			"xpos"			"132"
+			"xpos"			"132+22"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -665,7 +665,7 @@
 
 		"SupportLabel"
 		{
-			"xpos"			"164"
+			"xpos"			"164+22"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -730,25 +730,26 @@
 
 		"DestructionLabel"
 		{
-			"xpos"			"240"
+			"xpos"			"240-11"
 			"ypos"			"0"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Destruction"
 		{
-			"xpos"			"240"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"DestructionLabel"
 		}
 		"DestructionIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"DestructionIcon"
-			"xpos"			"240+7"
-			"ypos"			"7"
+			"xpos"			"0-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -757,29 +758,31 @@
 			"scaleImage"		"1"
 			"image"			"../hud/ico_demolish"
 			"alpha"			"100"
+			"pin_to_sibling"	"DestructionLabel"
 		}
 
 		"TeleportsLabel"
 		{
-			"xpos"			"240"
+			"xpos"			"240-11"
 			"ypos"			"15"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Teleports"
 		{
-			"xpos"			"240"
-			"ypos"			"22"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"TeleportsLabel"
 		}
 		"TeleportsIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"TeleportsIcon"
-			"xpos"			"240+7"
-			"ypos"			"21"
+			"xpos"			"0-7"
+			"ypos"			"-6"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -788,31 +791,33 @@
 			"scaleImage"		"1"
 			"image"			"../hud/hud_obj_status_tele_exit"
 			"alpha"			"100"
+			"pin_to_sibling"	"TeleportsLabel"
 		}
 
 		// ------------------------------------------------------------------------------------------------------
 
 		"HeadshotsLabel"
 		{
-			"xpos"			"290"
+			"xpos"			"290-11"
 			"ypos"			"0"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Headshots"
 		{
-			"xpos"			"290"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"HeadshotsLabel"
 		}
 		"HeadshotsIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"HeadshotsIcon"
-			"xpos"			"290+7"
-			"ypos"			"7"
+			"xpos"			"0-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"10"
 			"tall"			"10"
@@ -821,29 +826,31 @@
 			"scaleImage"		"1"
 			"image"			"../hud/leaderboard_class_sniper"
 			"alpha"			"100"
+			"pin_to_sibling"	"HeadshotsLabel"
 		}
 
 		"BackstabsLabel"
 		{
-			"xpos"			"290"
+			"xpos"			"290-11"
 			"ypos"			"15"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Backstabs"
 		{
-			"xpos"			"290"
-			"ypos"			"22"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"BackstabsLabel"
 		}
 		"BackstabsIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BackstabsIcon"
-			"xpos"			"290+7"
-			"ypos"			"21"
+			"xpos"			"0-7"
+			"ypos"			"-6"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -852,31 +859,33 @@
 			"scaleImage"		"1"
 			"image"			"../hud/leaderboard_class_spy"
 			"alpha"			"100"
+			"pin_to_sibling"	"BackstabsLabel"
 		}
 
 		// ------------------------------------------------------------------------------------------------------
 
 		"CapturesLabel"
 		{
-			"xpos"			"340"
+			"xpos"			"340-11"
 			"ypos"			"0"
 			"textAlignment"		"north"
 			"wide"			"40"
 		}
 		"Captures"
 		{
-			"xpos"			"340"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"CapturesLabel"
 		}
 		"CapturesIcon"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"CapturesIcon"
-			"xpos"			"340+7"
-			"ypos"			"7"
+			"xpos"			"0-7"
+			"ypos"			"-7"
 			"zpos"			"-1"
 			"wide"			"9"
 			"tall"			"9"
@@ -888,30 +897,32 @@
 			"teambg_2"		"../hud/cart_point_red"
 			"teambg_3"		"../hud/cart_point_blue"
 			"alpha"			"200"
+			"pin_to_sibling"	"CapturesLabel"
 		}
 
 
 		"DefensesLabel"
 		{
-			"xpos"			"340"
+			"xpos"			"340-11"
 			"ypos"			"15"
 			"textAlignment"		"north"
 			"wide"			"40"
 		}
 		"Defenses"
 		{
-			"xpos"			"340"
-			"ypos"			"22"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"DefensesLabel"
 		}
 		"DefensesIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"DefensesIcon"
-			"xpos"			"340+7"
-			"ypos"			"21"
+			"xpos"			"0-7"
+			"ypos"			"-6"
 			"zpos"			"-1"
 			"wide"			"9"
 			"tall"			"9"
@@ -920,31 +931,33 @@
 			"scaleImage"		"1"
 			"image"			"../hud/cart_blocked"
 			"alpha"			"200"
+			"pin_to_sibling"	"DefensesLabel"
 		}
 
 		// ------------------------------------------------------------------------------------------------------
 
 		"DominationLabel"
 		{
-			"xpos"			"390"
+			"xpos"			"390-11"
 			"ypos"			"0"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Domination"
 		{
-			"xpos"			"390"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"DominationLabel"
 		}
 		"DominationIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"DominationIcon"
-			"xpos"			"390+7"
-			"ypos"			"7"
+			"xpos"			"0-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -953,29 +966,31 @@
 			"scaleImage"		"1"
 			"image"			"../hud/leaderboard_dominated"
 			"alpha"			"150"
+			"pin_to_sibling"	"DominationLabel"
 		}
 
 		"RevengeLabel"
 		{
-			"xpos"			"390"
+			"xpos"			"390-11"
 			"ypos"			"15"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Revenge"
 		{
-			"xpos"			"390"
-			"ypos"			"22"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"RevengeLabel"
 		}
 		"RevengeIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RevengeIcon"
-			"xpos"			"390+7"
-			"ypos"			"21"
+			"xpos"			"0-7"
+			"ypos"			"-6"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -984,31 +999,33 @@
 			"scaleImage"		"1"
 			"image"			"../hud/leaderboard_nemesis"
 			"alpha"			"150"
+			"pin_to_sibling"	"RevengeLabel"
 		}
 
 		// ------------------------------------------------------------------------------------------------------
 
 		"InvulnLabel"
 		{
-			"xpos"			"440"
+			"xpos"			"440-11"
 			"ypos"			"0"
 			"wide"			"50"
 			"textAlignment"		"north"
 		}
 		"Invuln"
 		{
-			"xpos"			"440"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"InvulnLabel"
 		}
 		"InvulnIcon"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"InvulnIcon"
-			"xpos"			"440+7"
-			"ypos"			"7"
+			"xpos"			"0-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
@@ -1019,29 +1036,31 @@
 			"teambg_2"		"../sprites/healbeam_red"
 			"teambg_3"		"../sprites/healbeam_blue"
 			"alpha"			"240"
+			"pin_to_sibling"	"InvulnLabel"
 		}
 
 		"BonusLabel"
 		{
-			"xpos"			"440"
+			"xpos"			"440-11"
 			"ypos"			"14"
 			"textAlignment"		"north"
 			"wide"			"50"
 		}
 		"Bonus"
 		{
-			"xpos"			"440"
-			"ypos"			"21"
+			"xpos"			"0"
+			"ypos"			"-7"
 			"wide"			"50"
 			"textAlignment"		"north"
 			"font"			"ItemFontNameSmall"
+			"pin_to_sibling"	"BonusLabel"
 		}
 		"BonusIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BonusIcon"
-			"xpos"			"440+4"
-			"ypos"			"20"
+			"xpos"			"0-4"
+			"ypos"			"-6"
 			"zpos"			"1"
 			"wide"			"12"
 			"tall"			"12"
@@ -1050,6 +1069,7 @@
 			"scaleImage"		"1"
 			"image"			"../hud/leaderboard_duck"
 			"alpha"			"150"
+			"pin_to_sibling"	"BonusLabel"
 		}
 	}
 

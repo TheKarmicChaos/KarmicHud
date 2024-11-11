@@ -30,7 +30,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudMenuAnchor"
 		"xpos"			"-10"
-		"ypos"			"-10-45"
+		"ypos"			"-10-41"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"1"

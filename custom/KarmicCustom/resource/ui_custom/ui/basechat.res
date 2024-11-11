@@ -1,10 +1,34 @@
-// Moves chat (overridden by hudanimations once a round ends)
+// Relocates & resizes chat box
+// position is overridden by hudanimations once a round ends
 
 "Resource/UI/BaseChat.res"
 {
 	"HudChat"
 	{
-		"xpos"			"-5"	//"10"
-		"ypos"			"225"	//"3"	//"265"
+		"xpos"			"4"	//"10"
+		"ypos"			"245"	//"3"	//"265"
+		"wide"	 		"258"
+		"tall"	 		"121"
 	}
+	"ChatFiltersButton"
+	{
+		"xpos"			"8"
+		"ypos"			"2"
+		"wide"			"35"
+		"tall"			"6"
+	}
+	"HudChatHistory"
+	{
+		"xpos"			"4"
+		"ypos"			"9"
+		"wide"	 		"250"
+		"textAlignment"		"north-west"
+		"font"			"ChatFont"
+	}
+	ChatInputLine
+	{
+		"xpos"			"4"
+		"wide"	 		"250"
+	}
+
 }

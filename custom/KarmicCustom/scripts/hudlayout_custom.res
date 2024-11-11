@@ -24,6 +24,14 @@
 // Left Side
 // --------------------------------------------------------------
 
+	// Moves engineer's buildings HUD
+	BuildingStatus_Engineer
+	{
+		"xpos"			"-12"
+		"ypos"			"10"
+		"xpos_minmode"		"-15"
+	}
+
 	// Moves generic hud menu (used for voicelines)
 	HudMenuAnchor
 	{
@@ -41,14 +49,6 @@
 		"pin_to_sibling"	"HudMenuAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
-
-	// Moves engineer's buildings HUD
-	BuildingStatus_Engineer
-	{
-		"xpos"			"-12"
-		"ypos"			"c79" // "c-120"
-		"xpos_minmode"		"-15"
 	}
 
 	// Moves spy's buildings HUD

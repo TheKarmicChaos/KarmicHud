@@ -22,7 +22,6 @@
 		"xpos"			"4"
 		"ypos"			"9"
 		"wide"	 		"250"
-		"textAlignment"		"north-west"
 		"font"			"ChatFont"
 	}
 	ChatInputLine

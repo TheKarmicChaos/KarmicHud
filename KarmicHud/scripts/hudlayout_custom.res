@@ -98,6 +98,15 @@
 		"ypos_minmode"		"r90"
 	}
 
+	// Moves the closed captions to the bottom left corner, where we can use it to display debug messages
+	HudCloseCaption
+	{
+		"xpos"		"4"
+		"ypos"		"rs1-4"
+		"wide"		"150"
+		"tall"		"134"
+	}
+
 
 // Center Screen
 // --------------------------------------------------------------

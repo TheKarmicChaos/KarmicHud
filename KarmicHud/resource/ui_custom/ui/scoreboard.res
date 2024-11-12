@@ -545,7 +545,7 @@
 
 		"DamageLabel"
 		{
-			"xpos"			"100+22"
+			"xpos"			"100+19"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -605,7 +605,7 @@
 
 		"HealingLabel"
 		{
-			"xpos"			"132+22"
+			"xpos"			"132+19"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"
@@ -665,7 +665,7 @@
 
 		"SupportLabel"
 		{
-			"xpos"			"164+22"
+			"xpos"			"164+19"
 			"ypos"			"3"
 			"wide"			"32"
 			"textAlignment"		"north"

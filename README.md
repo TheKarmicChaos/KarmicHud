@@ -6,22 +6,22 @@ In order for the crosshairs to work, you need to add the following two commands 
 * cl_crosshair_file ""
 * cl_crosshair_scale 32
 
-To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicCustom."
+To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicHud."
 
-Then, download the repo and copy everything you want from 'KarmicCustom' into that folder and you should be good to go. You will need to manually merge any file conflicts if you already have existing files in your custom folder. Below is a description of each part of my setup so you know which files to copy if you only want certain things.
+Then, download the repo and copy everything you want from 'KarmicHud' into that folder and you should be good to go. You will need to manually merge any file conflicts if you already have existing files in your custom folder. Below is a description of each part of my setup so you know which files to copy if you only want certain things.
 
 # Config Files
-*These are all located in 'KarmicCustom\cfg'*
+*These are all located in 'KarmicHud\cfg'*
 
 I would highly recommend not using these unless you want to play with my exact setup, as these files contain my binds, scripts, controls, game settings, and viewmodels. Feel free to use them as reference or copy them and modify them to your needs, but if you are just looking to install my HUD and/or crosshairs, don't bother with anything beyond 'disable_transparency.cfg' and 'enable_transparency.cfg.'
 
 # Crosshairs & Weapon Changes
-*These are the 'tf_weapon_' txt files located in 'KarmicCustom\scripts', and the files in 'KarmicCustom\materials\vgui\logos\'* 
+*These are the 'tf_weapon_' txt files located in 'KarmicHud\scripts', and the files in 'KarmicHud\materials\vgui\logos\'* 
 
 To install my crosshairs & weapon changes (which currently only includes replacing the explosion particle for visibility), you only need those files listed above. To update your crosshairs, simply replace those same files with the newer ones from the repo.
 
 # Custom HUD
-*These are the files in 'KarmicCustom\resource\' and the 6 "hud" files in 'KarmicCustom\scripts'*
+*These are the files in 'KarmicHud\resource\' and the 6 "hud" files in 'KarmicHud\scripts'*
 
 The custom HUD is modular; it is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
 

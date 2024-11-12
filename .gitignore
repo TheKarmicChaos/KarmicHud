@@ -1,7 +1,5 @@
 # First, ignore everything in the master directory
 /*
 # Now, whitelist the specific files
-!.gitignore
 !README.md
 !KarmicHud/
-!Item Names.txt

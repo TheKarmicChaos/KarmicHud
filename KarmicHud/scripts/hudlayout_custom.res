@@ -103,8 +103,9 @@
 	{
 		"xpos"		"4"
 		"ypos"		"rs1-4"
-		"wide"		"150"
+		"wide"		"130"
 		"tall"		"134"
+		"BgAlpha"	"128"
 	}
 
 

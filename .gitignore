@@ -3,4 +3,5 @@
 # Now, whitelist the specific files
 !.gitignore
 !README.md
-!custom/
+!KarmicHud/
+!Item Names.txt

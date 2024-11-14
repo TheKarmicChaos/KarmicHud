@@ -9,18 +9,33 @@
 		"tall"			"25"
 		if_match
 		{
-			"visible"		"0"	// comment out this line to re-enable the border background
+			"visible"				"1"	// comment out this line to re-enable the border background
+			"visible_minmode"		"0"
 		}
 	}
 
+	"RoundCounter"
+	{
+		"fieldName"			"RoundCounter"
+		"xpos"				"cs-0.5"
+		"ypos"				"-2"
+		"zpos"				"1"		
+		"wide"				"300"
+		"tall"				"100"
+		"visible"			"1"
+		"enabled"			"1"
+	}	
+
 	"TeamStatus"
 	{
-		"team1_base_x"		"c-45"
-		"team1_max_expand"	"133"
+		"team1_base_x"				"c-45"
+		"team1_base_x_minmode"		"c-35"
+		"team1_max_expand"			"133"
 
-		"team2_base_x"		"c47"
-		"team2_max_expand"	"133"
-		"tall"			"29"
+		"team2_base_x"				"c47"
+		"team2_base_x_minmode"		"c35"
+		"team2_max_expand"			"133"
+		"tall"						"29"
 
 		"playerpanels_kv"
 		{

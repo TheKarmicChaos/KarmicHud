@@ -32,9 +32,10 @@
 
 	"Background"
 	{
-		//"ypos"			"-1"
-		//"zpos"			"5"
-		//"wide"			"o3.833"
-		//"tall"			"35"
+		//"ypos"				"-1"
+		//"zpos"				"5"
+		//"wide"				"o3.833"
+		//"tall"				"35"
+		"tall_minmode"			"0"
 	}
 }

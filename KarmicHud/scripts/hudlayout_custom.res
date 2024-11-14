@@ -98,13 +98,14 @@
 		"ypos_minmode"		"r90"
 	}
 
-	// Moves the closed captions to the bottom left corner, where we can use it to display debug messages
+	// Moves the close captions to the bottom left corner
 	HudCloseCaption
 	{
 		"xpos"		"4"
 		"ypos"		"rs1-4"
 		"wide"		"130"
 		"tall"		"134"
+
 		"BgAlpha"	"128"
 	}
 

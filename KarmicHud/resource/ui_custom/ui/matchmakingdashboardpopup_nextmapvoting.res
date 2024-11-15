@@ -15,6 +15,11 @@
 				"enabled"			"0"
 			}
 
+			"TimeRemainingProgressBar"
+			{
+				"ypos"			"14"
+			}
+
 			"MapChoice0"
 			{
 				"ypos"			"-5"

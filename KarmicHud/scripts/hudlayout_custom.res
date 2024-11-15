@@ -98,15 +98,16 @@
 		"ypos_minmode"		"r90"
 	}
 
-	// Moves the close captions to the bottom left corner
+	// Shrinks & moves the close captions popup to the bottom left corner
 	HudCloseCaption
 	{
-		"xpos"		"4"
-		"ypos"		"rs1-4"
-		"wide"		"130"
-		"tall"		"134"
-
-		"BgAlpha"	"128"
+		"xpos"				"4"
+		"ypos"				"rs1-4"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"rs1-68"
+		"wide"				"130"
+		"tall"				"114"		// fits up to 9 captions
+		"tall_minmode"		"54"		// fits up to 3 captions
 	}
 
 

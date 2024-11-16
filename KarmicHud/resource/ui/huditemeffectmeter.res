@@ -3,5 +3,4 @@
 
 "Resource/UI/HudItemEffectMeter.res"
 {
-
 }

@@ -80,4 +80,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+
+	"itempanel"
+	{
+		"model_wide"		"60"
+		"model_tall"		"40"
+	}
 }

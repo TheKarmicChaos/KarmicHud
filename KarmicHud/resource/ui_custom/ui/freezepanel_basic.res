@@ -21,4 +21,10 @@
 			}
 		}
 	}
+
+	"itempanel"
+	{
+		"model_wide"		"60"
+		"model_tall"		"40"
+	}
 }

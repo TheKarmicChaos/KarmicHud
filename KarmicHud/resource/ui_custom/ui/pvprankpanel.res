@@ -22,12 +22,12 @@
 		"DescLine1"
 		{
 			"xpos"						"12"	//"65"
-			"ypos"						"19"	//"19"
+			"ypos"						"29"	//"19"
 		}
 		"DescLine2"
 		{
 			"xpos"						"12"	//"65"
-			"ypos"						"29"	//"29"
+			"ypos"						"19"	//"29"
 		}
 
 		"StatsContainer"

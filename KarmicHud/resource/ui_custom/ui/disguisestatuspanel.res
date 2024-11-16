@@ -26,7 +26,7 @@
 		"wide_minmode"		"118"
 
 		"textAlignment"		"north-west"
-		"textAlignment_minmode"	"north-east"
+		"textAlignment_minmode"	"north-west"
 		"font"			"HudFontSmall"
 		"font_minmode"		"HudFontSmallest"
 
@@ -45,7 +45,7 @@
 		"font"			"HudFontSmallest"
 		"font_minmode"		"FontStoreOriginalPrice"
 		"textAlignment"		"north-east"
-		"textAlignment_minmode"	"north-east"
+		"textAlignment_minmode"	"north-west"
 
 		"pin_to_sibling"	"DisguiseStatusBG"
 	}
@@ -54,8 +54,8 @@
 	{
 		"xpos"			"144"
 		"ypos"			"r103"
-		"xpos_minmode"		"144"
-		"ypos_minmode"		"r75"
+		"xpos_minmode"		"18"
+		"ypos_minmode"		"r85"
 		"wide"			"32"
 		"tall"			"32"
 	

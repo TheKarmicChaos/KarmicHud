@@ -2,7 +2,7 @@
 {
 
 // Custom Shenanigans
-// --------------------------------------------------------------
+	// --------------------------------------------------------------
 	TransparentViewmodel
 	{
 		"visible"		"1"
@@ -20,9 +20,9 @@
 
 
 // Base Game HUD Tweaks
-// --------------------------------------------------------------
+	// --------------------------------------------------------------
 // Left Side
-// --------------------------------------------------------------
+	// --------------------------------------------------------------
 
 	// Moves engineer's buildings HUD
 	BuildingStatus_Engineer
@@ -76,8 +76,8 @@
 		"xpos" 			"118"
 		"ypos" 			"r110"
 		"zpos"			"-99"
-		"xpos_minmode"		"100"
-		"ypos_minmode"		"r75"
+		"xpos_minmode"		"4"
+		"ypos_minmode"		"r95"
 	}
 
 	// Expands & relocates spy disguise panel to be able to use more of the screen
@@ -112,7 +112,7 @@
 
 
 // Center Screen
-// --------------------------------------------------------------
+	// --------------------------------------------------------------
 	
 	// Scales indicator size with damage taken
 	HudDamageIndicator
@@ -268,7 +268,7 @@
 
 
 // Right Side
-// --------------------------------------------------------------
+	// --------------------------------------------------------------
 
 	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
 	HudDeathNotice

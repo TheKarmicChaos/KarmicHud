@@ -31,7 +31,7 @@
 		"xpos"			"c-330"
 		"ypos"			"r340"
 		"zpos"			"2"
-		"xpos_minmode"		"c-330+25"
+		"xpos_minmode"		"0"
 		"wide"			"100"
 		"tall"			"480"
 		"autoResize"		"0"

@@ -1,4 +1,5 @@
 // Compresses the end-of-match scoreboard & moves it to be more visible among the many pop-ups.
+// Also uses the larger rank model to fix issue with rank panel position caused by the main menu customizations
 
 "Resource/UI/HudMatchSummary.res"
 {
@@ -26,12 +27,28 @@
 		}
 	}
 
+	"RankBorder"
+	{
+		"wide"								"456"
+	}
+
+	"RankPanel"
+	{
+		"xpos"								"cs-0.33"
+		"show_model"						"0"
+	}
+
+	"RankModelPanel"
+	{
+		if_uses_xp
+		{
+			"visible"		"1"
 		}
 	}
 
 	"MainStatsContainer"
 	{
-		"ypos"			"20"
+		"ypos"								"20"
 
 		"TeamScoresPanel"
 		{
@@ -43,8 +60,8 @@
 					{
 						if_large
 						{
-							"tall"			"280"
-							"linegap"		"-7"
+							"tall"								"280"
+							"linegap"							"-7"
 						}
 					}
 				}
@@ -52,7 +69,7 @@
 				{
 					if_large
 					{
-						"tall"			"270"
+						"tall"								"270"
 					}
 				}
 			}
@@ -64,8 +81,8 @@
 					{
 						if_large
 						{
-							"tall"			"280"
-							"linegap"		"-7"
+							"tall"								"280"
+							"linegap"							"-7"
 						}
 					}
 				}
@@ -73,7 +90,7 @@
 				{
 					if_large
 					{
-						"tall"			"270"	// "360"
+						"tall"								"270"	// "360"
 					}
 				}
 			}

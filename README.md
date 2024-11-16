@@ -1,10 +1,16 @@
 ## Notes on Installation:
 My HUD now supports "cl_hud_minmode 1". Everything here works in casual.
 
-In order for the crosshairs to work, you need to add the following two commands to your autoexec.cfg:
+In order for the crosshairs to work, you need to add the following commands to your autoexec.cfg:
 
 * cl_crosshair_file ""
 * cl_crosshair_scale 32
+
+In order for the subtitles to work, you need to add the following commands to your autoexec.cfg:
+
+* cc_lang "karmic"
+* cc_linger_time 10.0
+* closecaption 1
 
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicHud."
 
@@ -21,7 +27,7 @@ I would highly recommend not using these unless you want to play with my exact s
 To install my crosshairs & weapon changes (which currently only includes replacing the explosion particle for visibility), you only need those files listed above. To update your crosshairs, simply replace those same files with the newer ones from the repo.
 
 # Custom HUD
-*These are the files in 'KarmicHud\resource\' and the 6 "hud" files in 'KarmicHud\scripts'*
+*These are all the files in 'KarmicHud\resource\' and the 6 "hud" files in 'KarmicHud\scripts'*
 
 The custom HUD is modular; it is set up in such a way that you can update it or modify it yourself with ease. *Note that you can refresh most hud elements when editing without relaunching the game with the command hud_reloadscheme.*
 
@@ -43,5 +49,6 @@ If the HUD is still broken, that means Valve made an incompatible change to a ve
 Simply download the repo again and replace your existing files with the new ones. You will not need GCFScape for this. **You only need to replace the following files:**
 * 'scripts\hudanimations_custom.txt'
 * 'scripts\hudlayout_custom.res'
+* 'resource\closecaption_karmic.dat'
 * all files in 'resource\ui\'
-* all files in 'resource\ui_custom\ui\'
+* all files in 'resource\ui_custom\'

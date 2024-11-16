@@ -4,7 +4,9 @@
 {	
 	"CarriedContainer"
 	{
-		"xpos"				"136"
-		"ypos"				"r90"
+		"xpos"							"136"
+		"ypos"							"r90"
+		"xpos_minmode"					"26"
+		"ypos_minmode"					"r110"
 	}
 }

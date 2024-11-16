@@ -185,7 +185,7 @@
 	{
 		"xpos"						"c-126"
 		"ypos"						"335"
-		"zpos"						"1"
+		"zpos"						"3"
 		"ypos_minmode"				"328"
 	}
 
@@ -194,7 +194,7 @@
 	{
 		"xpos"						"c-126"
 		"ypos"						"301"
-		"zpos"						"1"
+		"zpos"						"3"
 		"ypos_minmode"				"301"
 	}
 

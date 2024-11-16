@@ -175,6 +175,7 @@
 		"tall"  					"480"
 	}
 
+	// Ensures health is drawn below targetIDs
 	HudPlayerStatus
 	{
 		"zpos"						"2"

@@ -4,8 +4,6 @@
 {
 	"MatchSummary"
 	{
-		"AnimBlueTeamScore"			"p.34"
-		"AnimBlueTeamScoreDropshadow"		"p.34"
 		"AnimBlueTeamScore"					"p.25"
 		"AnimBlueTeamScoreDropshadow"		"p.25"
 

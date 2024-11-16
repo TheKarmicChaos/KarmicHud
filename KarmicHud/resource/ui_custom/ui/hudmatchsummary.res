@@ -6,23 +6,28 @@
 	{
 		"AnimBlueTeamScore"			"p.34"
 		"AnimBlueTeamScoreDropshadow"		"p.34"
+		"AnimBlueTeamScore"					"p.25"
+		"AnimBlueTeamScoreDropshadow"		"p.25"
 
-		"AnimRedTeamScoreWide"			"p.34"
-		"AnimRedTeamScoreXPos"			"r5-p.34"
-		"AnimRedTeamScoreDropshadowWide"	"p.34"
-		"AnimRedTeamScoreDropshadowXPos"	"r4-p.34"
+		"AnimRedTeamScoreWide"				"p.25"
+		"AnimRedTeamScoreXPos"				"r5-p.25"
+		"AnimRedTeamScoreDropshadowWide"	"p.25"
+		"AnimRedTeamScoreDropshadowXPos"	"r4-p.25"
 
-		"AnimBlueMedalsYPos"			"95"
-		"AnimRedMedalsYPos"			"95"
+		"AnimBlueMedalsYPos"				"95"
+		"AnimRedMedalsYPos"					"95"
 		"AnimStatsLabelPanel12v12YPos"		"40"
 		"AnimBlueTeamLabel12v12YPos"		"67"
-		"AnimRedTeamLabel12v12YPos"		"67"
+		"AnimRedTeamLabel12v12YPos"			"67"
 		"AnimStatsContainer12v12YPos"		"0"
 
 		if_large
 		{
-			"AnimBlueMedalsYPos"			"70"
-			"AnimRedMedalsYPos"			"70"
+			"AnimBlueMedalsYPos"				"70"
+			"AnimRedMedalsYPos"					"70"
+		}
+	}
+
 		}
 	}
 

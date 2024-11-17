@@ -154,72 +154,222 @@
 	"FriendsContainer"
 	{
 		"xpos"						"8"
-		"ypos"						"245"	//"260"
+		"ypos"						"245" //"rs1-48"	//"245"//rs1-85
+		"tall"						"187"
+		"InnerShadow"
+		{
+			"tall"						"147"
+		}
+		"SteamFriendsList"
+		{
+			"tall"						"147"
+			"columns_count"				"2"
+		}
+		"BelowDarken"
+		{
+			"tall"			"147"
+		}
+	}
+
+	"BackgroundFooter"
+	{
+		"ypos"						"440"
+		"tall"						"40"
+	}
+	"FooterLine"
+	{
+		"ypos"						"440"
 	}
 
 	"CharacterSetupButton"
 	{
 		"xpos"						"10"
-		"ypos"						"rs1-18"
+		"ypos"						"rs1-7"
 		"wide"						"94"
 	}
 
 	"StoreHasNewItemsImage"
 	{
 		"xpos"						"184"
-		"ypos"						"r50"
+		"ypos"						"r40"
 	}
 
 	"GeneralStoreButton"
 	{
 		"xpos"						"107"
-		"ypos"						"rs1-18"
+		"ypos"						"rs1-7"
 		"wide"						"94"
 	}
+
+	"ReportPlayerButton"
+	{
+		"xpos"						"r329"
+		"ypos"						"rs1-7"
+		"tall"						"26"
+	}
+	"CallVoteButton"
+	{
+		"xpos"						"r306"
+		"ypos"						"rs1-7"
+		"tall"						"26"
+	}
+	"MutePlayersButton"
+	{
+		"xpos"						"r283"
+		"ypos"						"rs1-7"
+		"tall"						"26"
+	}
+	"RequestCoachButton"
+	{
+		"xpos"						"r260"
+		"ypos"						"rs1-7"
+		"tall"						"26"
+	}
+
 
 	"SettingsButton"
 	{
 		"xpos"						"r233"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}
 
 	"TF2SettingsButton"
 	{
-		"xpos"						"r208"			
+		"xpos"						"r208"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}
 	
 	"NewUserForumsButton"
 	{
 		"xpos"						"r183"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}		
 	
 	"AchievementsButton"
 	{
 		"xpos"						"r158"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}		
 	
 	"CommentaryButton"
 	{
 		"xpos"						"r133"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}		
 	
 	"CoachPlayersButton"
 	{
 		"xpos"						"r108"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}		
 
 	"WorkshopButton"
 	{
 		"xpos"						"r88"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}	
 
 	"ReplayButton"
 	{
-		"xpos"						"r59"			
+		"xpos"						"r59"
+		"ypos"						"rs1-7"
+		"tall"						"26"
 	}
 	
 	"ReportBugButton"
 	{
 		"xpos"						"r39"
+		"ypos"						"rs1-7"
+		"tall"						"26"
+	}
+
+	"DashboardDimmer"
+	{
+		"wide" "f0"
+		"tall" "440"
+	}
+
+	"ExpandableList"
+	{
+		"ypos"						"25"
+		"tall"						"415"
+		"BGPanel"
+		{
+			"ypos"					"-10"
+			"tall"					"480"
+			"wide"					"300"
+		}
+		"CloseButton"
+		{
+			"tall"					"f0"
+			"font"					"HudFontSmallBold"
+		}
+		"ReturnButton"
+		{
+			"tall"					"f0"
+			"font"					"HudFontSmallBold"
+		}
+		"InnerGradient"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"InnerGradient"
+			"xpos"		"3"
+			"rotation"		"2"
+
+			if_left
+			{
+				"xpos"	"rs1-3"
+				"rotation"		"1"
+			}
+
+			"ypos"		"0"
+			"wide"		"30"
+			"tall"		"f0"
+			"zpos"	"1000"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"mouseinputenabled"	"0"
+
+			"image"		"gradient_pure_black"
+		}
+
+		"OuterGradient"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"OuterGradient"
+			"xpos"		"rs1"
+			"rotation"		"1"
+
+			if_left
+			{
+				"xpos"	"0"
+				"rotation"		"2"
+			}
+
+			"ypos"		"0"
+			"wide"		"20"
+			"tall"		"f0"
+			"zpos"	"1000"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"mouseinputenabled"	"0"
+			"alpha"		"255"
+
+			"image"		"gradient_pure_black"
+		}
 	}
 
 	// Custom Buttons
@@ -230,7 +380,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudMenu"
 		"xpos"			"204"
-		"ypos"			"rs1-18"
+		"ypos"			"rs1-7"
 		"zpos"			"1"
 		"wide"			"62"
 		"tall"			"26"
@@ -286,11 +436,11 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"SafeMode"
-		"xpos"						"8"		//"rs1-8"
+		"xpos"						"8"		//"rs1-7"
 		"ypos"						"245"
 		"zpos"						"10"
-		"wide"						"260"	//"405"
-		"tall"						"150"	//"350"
+		"wide"						"260"
+		"tall"						"187"
 		"visible"					"1"
 
 		"border"					"MainMenuBGBorder"
@@ -417,10 +567,6 @@
 			"Command"				"engine hud_reloadscheme;toggle mat_antialias 0 1"
 			"actionsignallevel"		"2"
 
-			"navUp"					"VRModeButton"
-			"navLeft"				"QuitButton"
-			"navRight"				"AchievementsButton"
-
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			"PaintBackgroundType" 	"0"
@@ -429,6 +575,7 @@
 			"armedFgColor_override"		"242 242 242 255"
 			"border_default"			"TFThinLineBorder"
 		}
+		
 
 		"Minmode"
 		{
@@ -451,12 +598,8 @@
 			"dulltext"				"0"
 			"brighttext"			"0"
 			"default"				"1"
-			"Command"				"engine toggle cl_hud_minmode 0 1; toggle mat_antialias 0 1"
+			"Command"				"engine toggle cl_hud_minmode 0 1"
 			"actionsignallevel"		"2"
-
-			"navUp"					"VRModeButton"
-			"navLeft"				"QuitButton"
-			"navRight"				"AchievementsButton"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -468,16 +611,21 @@
 		}
 		"Minmode_box"
 		{
-			"ControlName"			"CExCheckButton"
+			"ControlName"			"CheckButton"
 			"fieldName"				"Minmode_box"
 			"xpos"					"8"
 			"ypos"					"30-3"
 			"zpos"					"3"
 			"wide"					"20"
 			"tall"					"20"
+			"visible"		"0"
 			"proportionaltoparent"	"1"
 			"smallcheckimage"		"1"
-			"mouseinputenabled"		"0"
+			"mouseinputenabled"		"1"
+			"font"			"HudFontSmall"
+			"labelText"		""
+		
+			"Command"				"engine toggle cl_hud_minmode 0 1"
 		}
 		"Minmode_check"
 		{
@@ -488,8 +636,8 @@
 			"zpos"					"4"
 			"wide"					"20"
 			"tall"					"20"
-			"visible"				"1"
-			"visible_minmode"		"0"
+			"visible"				"0"
+			"visible_minmode"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"		"0"
 			"labeltext"				"a"
@@ -497,5 +645,36 @@
 			"font"					"MarlettSmall"
 		}
 
+		"DrawTree"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldName"				"DrawTree"
+			"xpos"					"8+99"
+			"ypos"					"50"
+			"zpos"					"1"
+			"wide"					"96"
+			"tall"					"16"
+			"autoResize"			"0"
+			"pinCorner"				"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"Drawtree"
+			"font"					"HudFontSmallestBold"
+			"textAlignment"			"center"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"default"				"1"
+			"Command"				"engine sv_cheats 1; vgui_drawtree 1"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			"PaintBackgroundType" 	"0"
+
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"242 242 242 255"
+			"border_default"			"TFThinLineBorder"
+		}
 	} // SafeMode
 }

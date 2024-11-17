@@ -12,6 +12,10 @@ In order for the subtitles to work, you need to add the following commands to yo
 * cc_linger_time 10.0
 * closecaption 1
 
+If you are using the HUD, add the following command to your autoexec.cfg so the dashboarddimmer can properly resize when you launch the game:
+
+* wait 5; showconsole; wait; toggle mat_antialias 0 1; hideconsole; wait 5; toggle mat_antialias 0 1
+
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicHud."
 
 Then, download the repo and copy everything you want from 'KarmicHud' into that folder and you should be good to go. You will need to manually merge any file conflicts if you already have existing files in your custom folder. Below is a description of each part of my setup so you know which files to copy if you only want certain things.

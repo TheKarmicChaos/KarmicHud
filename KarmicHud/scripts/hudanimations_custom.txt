@@ -1,3 +1,17 @@
+// Transparent Viewmodels (Custom Anims)
+//==================================================================================
+
+event TVMOn
+{
+	SetVisible TransparentViewmodel 1 0.0
+}
+
+event TVMOff
+{
+	SetVisible TransparentViewmodel 0 0.0
+}
+
+
 // Hitmarker
 //==================================================================================
 

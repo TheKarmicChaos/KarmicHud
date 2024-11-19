@@ -1,6 +1,3 @@
-// This base file will override the transparentviewmodel visibility to whatever our setting is
-#base "../cfg/transparentviewmodels_setting.txt"
-
 "Resource/HudLayout.res"
 {
 

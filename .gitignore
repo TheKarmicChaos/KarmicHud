@@ -1,5 +1,6 @@
-# First, ignore everything in the master directory
-/*
-# Now, whitelist the specific files
-!README.md
-!KarmicHud/
+
+/workshop
+readme.txt
+KarmicHud/sound/sound.cache
+Item Names.txt
+KarmicHud.code-workspace

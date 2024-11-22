@@ -80,6 +80,12 @@
 		"ypos_minmode"				"r95"
 	}
 
+	// Ensures killstreak counter is drawn above playermodel
+	HudItemEffectMeter
+	{
+		"zpos"						"5"
+	}
+
 	// Expands & relocates spy disguise panel to be able to use more of the screen
 	DisguiseStatus
 	{
@@ -95,6 +101,7 @@
 	{
 		"xpos"						"c-280"
 		"ypos"						"r90"
+		"zpos"						"2"
 		"xpos_minmode"				"26"
 		"ypos_minmode"				"r110"
 	}
@@ -179,7 +186,7 @@
 	// Ensures health is drawn below targetIDs
 	HudPlayerStatus
 	{
-		"zpos"						"2"
+		"zpos"						"0"
 	}
 
 	// Moves nametag for looking at players

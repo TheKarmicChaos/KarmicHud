@@ -275,7 +275,7 @@
 	NotificationPanel
 	{
 		"xpos"						"c-320"
-		"ypos"						"r113"
+		"ypos"						"r118"
 	}
 
 	// Reduced spacing between cp icons

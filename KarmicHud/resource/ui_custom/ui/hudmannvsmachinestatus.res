@@ -12,6 +12,6 @@
 		"xpos"			"c-43"
 		"ypos"			"r110"
 		"xpos_minmode"		"c-41"
-		"ypos_minmode"		"r185"
+		"ypos_minmode"		"r133"
 	}
 }

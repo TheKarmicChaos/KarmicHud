@@ -36,7 +36,8 @@
 		"visible"		"1"
 		"visible_minmode"	"0"
 
-		"font"			"HudFontSmall"
+		"font"					"HudFontSmall"
+		"font_minmode"			"HudFontSmall"
 	}
 	"ClassOrTeamLabel"
 	{

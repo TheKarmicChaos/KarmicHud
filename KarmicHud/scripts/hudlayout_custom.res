@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 
-// Custom Shenanigans
+	// Custom Shenanigans
 	// --------------------------------------------------------------
 	TransparentViewmodel
 	{
@@ -19,10 +19,9 @@
 	}
 
 
-// Base Game HUD Tweaks
+	// Base Game HUD Tweaks
 	// --------------------------------------------------------------
-// Left Side
-	// --------------------------------------------------------------
+// TOP LEFT --------------------------------------------------------------
 
 	// Moves engineer's buildings HUD
 	BuildingStatus_Engineer
@@ -118,9 +117,9 @@
 		"tall_minmode"				"54"		// fits up to 3 captions
 	}
 
+// TOP --------------------------------------------------------------
 
-// Center Screen
-	// --------------------------------------------------------------
+// CENTER --------------------------------------------------------------
 	
 	// Enables & customizes damage indicator, scales indicator size with damage taken
 	HudDamageIndicator
@@ -264,6 +263,8 @@
 		"tall"						"110"
 	}
 
+// BOTTOM --------------------------------------------------------------
+
 	// Moves "on the bright side" stats panel
 	StatPanel
 	{
@@ -292,8 +293,7 @@
 	}	
 
 
-// Right Side
-	// --------------------------------------------------------------
+// TOP RIGHT --------------------------------------------------------------
 
 	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
 	HudDeathNotice
@@ -314,6 +314,8 @@
 		"BaseBackgroundColor"		"TransparentBlack"
 	}
 
+// RIGHT --------------------------------------------------------------
+
 	// Moves achievement HUD tracker to just under the contract tracker on the right side
 	"HudAchievementTracker"
 	{
@@ -332,6 +334,8 @@
 		"wide"						"f0"
 		"tall"						"f0"
 	}
+
+// BOTTOM RIGHT --------------------------------------------------------------
 
 	// Relocates voicechat popup & adds the avatar
 	HudVoiceStatus

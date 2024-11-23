@@ -19,7 +19,12 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"ypos"			"37"
+		"ypos"					"34"
+		"xpos_minmode"			"c-150"
+		"ypos_minmode"			"34"
+		"font"					"HudFontSmall"
+		"font_minmode"			"HudFontSmall"
+		"textAlignment_minmode"	"center"
 	}
 
 	"MapLabel"

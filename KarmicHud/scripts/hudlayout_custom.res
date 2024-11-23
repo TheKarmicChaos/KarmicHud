@@ -300,9 +300,11 @@
 	{
 		"xpos"	 					"r502"
 		"ypos"	 					"18"
+		"ypos_minmode"	 			"1"
 		"wide"	 					"500"
 
 		"MaxDeathNotices" 			"5"
+		"MaxDeathNotices_minmode" 	"6"
 		"LineHeight"	  			"14"
 		"LineSpacing"	  			"1"
 		"CornerRadius"	  			"2"

@@ -285,6 +285,12 @@
 		"separator_height"			"4"
 	}
 
+	// Moves arena player count to the bottom with the other objective huds
+	HudArenaPlayerCount
+	{
+		"ypos"					"r100"
+	}	
+
 
 // Right Side
 	// --------------------------------------------------------------

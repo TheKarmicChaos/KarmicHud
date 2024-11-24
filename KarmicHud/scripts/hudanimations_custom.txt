@@ -111,7 +111,7 @@ event HudTournament_MoveTimerDown
 
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat ypos r125 Accel 0 0.3		// also is now animated instead of just teleporting
+	Animate HudChat ypos 328 Accel 0 0.3		// also is now animated instead of just teleporting
 	//Animate HudChat xpos 4 Accel 0 0.3
 }
 

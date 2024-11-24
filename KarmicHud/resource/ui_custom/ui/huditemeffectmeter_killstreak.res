@@ -7,8 +7,8 @@
 	{
 		"xpos"						"c-275" 	//"c-210"
 		"ypos"						"r57" 		//"r52"
-		"xpos_minmode"				"21"
-		"ypos_minmode"				"r74"
+		"xpos_minmode"				"c40"		//"21"
+		"ypos_minmode"				"c27"		//"r74"
 	}
 	
 	"ItemEffectMeterBG"
@@ -20,7 +20,7 @@
 		"tall"						"34"	//"44"
 		"image"						"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_2"					"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"					"../hud/misc_ammo_area_horiz2_blue"			
+		"teambg_3"					"../hud/misc_ammo_area_horiz2_blue"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -35,12 +35,12 @@
 		"xpos"						"25"
 		"ypos"						"16"
 		"zpos"						"2"
-		"xpos_minmode"				"35"
-		"ypos_minmode"				"14"
+		"xpos_minmode"				"43"
+		"ypos_minmode"				"4"		//"14"
 		"wide"						"13"
 		"tall"						"13"
-		"wide_minmode"				"19"
-		"tall_minmode"				"19"
+		"wide_minmode"				"11"	//"19"
+		"tall_minmode"				"11"	//"19"
 		"image"						"../HUD/leaderboard_streak"
 		"visible"					"1"
 		"enabled"					"1"
@@ -52,13 +52,13 @@
 		"xpos"						"36" 	// "25"
 		"ypos"						"13"
 		"xpos_minmode"				"53"
-		"ypos_minmode"				"14"
+		"ypos_minmode"				"0"		//"14"
 		"tall"						"20"
 		"wide"						"44"
 
 		"textAlignment"				"west"
 		"font"						"HudFontMediumSmall"
-		"font_minmode"				"HudFontMediumSmall"
+		"font_minmode"				"HudFontSmall"	//"HudFontMediumSmall"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -69,7 +69,7 @@
 		"ypos"						"14"
 		"zpos"						"1"
 		"xpos_minmode"				"54"
-		"ypos_minmode"				"15"
+		"ypos_minmode"				"1"
 		"tall"						"20"
 		"wide"						"44"	
 		"pinCorner"					"2"
@@ -81,7 +81,7 @@
 		"fgcolor"					"Black"
 		"textAlignment"				"west"
 		"font"						"HudFontMediumSmall"
-		"font_minmode"				"HudFontMediumSmall"
+		"font_minmode"				"HudFontSmall"	//"HudFontMediumSmall"
 		"dulltext"					"0"
 		"brighttext"				"0"
 	}

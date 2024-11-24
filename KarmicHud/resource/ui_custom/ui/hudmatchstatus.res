@@ -1,4 +1,5 @@
 // Makes the team status bar (top middle of screen) slightly more compact & fixes the bug with panels, timer, & skull getting coordinates reset when teams update (with the side effect of making blu banners appear red when fixed)
+// Adjusts a few elements like the round timer in minmode.
 
 "Resource/UI/HudMatchStatus.res"
 {
@@ -24,7 +25,21 @@
 		"tall"							"100"
 		"visible"						"1"
 		"enabled"						"1"
-	}	
+	}
+
+	"ObjectiveStatusTimePanel"
+	{
+		"TimePanelValue"
+		{
+			if_match
+			{
+				"ypos_minmode"			"0"
+				"tall_minmode"			"20"
+				"wide_minmode"			"40"
+				"font_minmode"			"HudFontSmallBold"	//"HudFontSmall"
+			}
+		}	
+	}
 
 	"TeamStatus"
 	{

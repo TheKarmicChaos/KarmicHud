@@ -338,8 +338,10 @@
 
 	"DashboardDimmer"
 	{
-		"wide" "f0"
-		"tall" "440"
+		"wide"						"f0"
+		"tall"						"440"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 
 
@@ -447,7 +449,7 @@
 			"ControlName"				"CExLabel"
 			"fieldName"					"TitleLabel"
 			"font"						"HudFontSmallBold"
-			"labelText"					"HUD Menu (WIP)"
+			"labelText"					"HUD Menu"
 			"textAlignment"				"west"
 			"xpos"						"12"
 			"ypos"						"0"

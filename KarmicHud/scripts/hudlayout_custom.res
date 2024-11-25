@@ -139,21 +139,28 @@
 	HudTeamGoal
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"80"
+		"ypos"					"83"
 	}
 
 	// Moves autobalance popup
 	HudTeamSwitch
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"80"
+		"ypos"					"83"
 	}
 
 	// Moves arena mode popup
 	HudArenaNotification
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"80"
+		"ypos"					"83"
+	}
+
+	// Moves sudden death popup
+	HudStalemate
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"83"
 	}
 
 // CENTER --------------------------------------------------------------

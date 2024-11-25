@@ -162,6 +162,15 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"83"
 	}
+	
+	// Moves "on the bright side" stats panel
+	StatPanel
+	{
+		"xpos"					"cs-0.5"	//"c-133"
+		"ypos"					"73"
+		"wide"					"320"
+		"tall"					"150"
+	}
 
 // CENTER --------------------------------------------------------------
 	
@@ -308,13 +317,6 @@
 	}
 
 // BOTTOM --------------------------------------------------------------
-
-	// Moves "on the bright side" stats panel
-	StatPanel
-	{
-		"xpos"						"c-133"
-		"ypos"						"342"
-	}
 
 	// Moves popup for CTF notifications
 	NotificationPanel

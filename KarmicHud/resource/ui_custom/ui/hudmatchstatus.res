@@ -10,8 +10,10 @@
 		"tall"							"25"
 		if_match
 		{
-			"visible"						"1"	// comment out this line to re-enable the border background
-			"visible_minmode"				"0"
+			"visible"						"1"
+			"visible_minmode"				"1"
+			"wide_minmode"					"68"
+			"tall_minmode"					"27"
 		}
 	}
 
@@ -49,7 +51,7 @@
 		"team1_max_expand"				"133"
 
 		"team2_base_x"					"c47"
-		"team2_base_x_minmode"			"c35"
+		"team2_base_x_minmode"			"c36"
 		"team2_max_expand"				"133"
 		"tall"							"29"
 

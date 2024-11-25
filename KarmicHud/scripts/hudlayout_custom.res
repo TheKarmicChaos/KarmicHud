@@ -21,6 +21,7 @@
 
 	// Base Game HUD Tweaks
 	// --------------------------------------------------------------
+
 // TOP LEFT --------------------------------------------------------------
 
 	// Moves engineer's buildings HUD
@@ -50,6 +51,8 @@
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 
+// LEFT --------------------------------------------------------------
+
 	// Moves spy's buildings HUD
 	BuildingStatus_Spy
 	{
@@ -68,6 +71,9 @@
 		"wide"						"f0"
 		"tall"  					"f0"
 	}
+
+
+// BOTTOM LEFT --------------------------------------------------------------
 
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
@@ -118,6 +124,28 @@
 	}
 
 // TOP --------------------------------------------------------------
+
+
+	// Moves gamemode objective explanation popup
+	HudTeamGoal
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+	}
+
+	// Moves autobalance popup
+	HudTeamSwitch
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+	}
+
+	// Moves arena mode popup
+	HudArenaNotification
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+	}
 
 // CENTER --------------------------------------------------------------
 	
@@ -298,10 +326,11 @@
 	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
 	HudDeathNotice
 	{
-		"xpos"	 					"r502"
+		"xpos"	 					"rs1-2"
 		"ypos"	 					"18"
 		"ypos_minmode"	 			"1"
 		"wide"	 					"500"
+		"wide_minmode"	 			"390"
 
 		"MaxDeathNotices" 			"5"
 		"MaxDeathNotices_minmode" 	"6"

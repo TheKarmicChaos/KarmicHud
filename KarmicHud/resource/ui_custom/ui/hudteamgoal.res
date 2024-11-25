@@ -32,7 +32,7 @@
 	}
 	"GoalImage"
 	{
-		"xpos"			"25"
+		"xpos"					"25"
 		"ypos"					"8"
 		"wide"					"30"
 		"tall"					"30"

@@ -60,11 +60,13 @@
 			"healthbar"
 			{
 				"ypos"						"16"
+				"ypos_minmode"				"20"
 				"tall"						"3"
 			}
 			"overhealbar"
 			{
 				"ypos"						"16"
+				"ypos_minmode"				"20"
 				"tall"						"3"
 			}
 			"respawntime"

@@ -26,17 +26,23 @@
 		}	
 		"BlueTeamScore"
 		{
-			"textAlignment"		"west"
-			"xpos"			"56"
-			"ypos"			"r433"
-			"tall"			"60"
+			"textAlignment"			"west"
+			"xpos"					"56"
+			"ypos"					"r433"
+			"ypos_minmode"			"r433+28"
+			"tall"					"60"
+			"tall_minmode"			"30"
+			"font_minmode"			"MatchSummaryTeamScores"
 		}
 		"BlueTeamScoreDropshadow"
 		{
-			"textAlignment"		"west"
-			"xpos"			"57"
-			"ypos"			"r432"
-			"tall"			"60"
+			"textAlignment"			"west"
+			"xpos"					"57"
+			"ypos"					"r432"
+			"ypos_minmode"			"r432+28"
+			"tall"					"60"
+			"tall_minmode"			"30"
+			"font_minmode"			"MatchSummaryTeamScores"
 		}	
 		"RedTeamLabel"
 		{
@@ -46,17 +52,23 @@
 		}							
 		"RedTeamScore"
 		{
-			"textAlignment"		"east"
-			"xpos"			"224"
-			"ypos"			"r433"
-			"tall"			"60"
+			"textAlignment"			"east"
+			"xpos"					"224"
+			"ypos"					"r433"
+			"ypos_minmode"			"r433+28"
+			"tall"					"60"
+			"tall_minmode"			"30"
+			"font_minmode"			"MatchSummaryTeamScores"
 		}
 		"RedTeamScoreDropshadow"
 		{
-			"textAlignment"		"east"
-			"xpos"			"225"
-			"ypos"			"r432"
-			"tall"			"60"
+			"textAlignment"			"east"
+			"xpos"					"225"
+			"ypos"					"r432"
+			"ypos_minmode"			"r432+28"
+			"tall"					"60"
+			"tall_minmode"			"30"
+			"font_minmode"			"MatchSummaryTeamScores"
 		}
 	}
 

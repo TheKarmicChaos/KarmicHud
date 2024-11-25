@@ -125,6 +125,15 @@
 
 // TOP --------------------------------------------------------------
 
+	// Moves & resizes stopwatch panel
+	HudStopWatch
+	{
+		"xpos"					"0"
+		"ypos"					"5"
+		"ypos_minmode"			"5"
+		"wide"					"f0"
+		"tall"					"70"
+	}
 
 	// Moves gamemode objective explanation popup
 	HudTeamGoal

@@ -6,15 +6,15 @@
 	{
 		"xpos"			"c85"
 		"ypos"			"r92"
-		"xpos_minmode"		"c127"
-		"ypos_minmode"		"r93"
+		"xpos_minmode"		"c70"
+		"ypos_minmode"		"c28"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"xpos"			"5"
 		"wide"			"70"
-		"tall"			"40"			
+		"tall"			"40"
 	}
 
 	"ItemEffectMeterLabel"
@@ -23,6 +23,7 @@
 		"ypos"			"37"
 		"xpos_minmode"		"24"
 		"ypos_minmode"		"36"
+		"visible_minmode"	"0"
 
 		"textAlignment_minmode"	"north-west"
 	}
@@ -32,5 +33,4 @@
 		"ypos_minmode"		"18"
 		"font_minmode"		"HudFontMediumSmall"
 	}
-
 }

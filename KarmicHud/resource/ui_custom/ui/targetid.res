@@ -88,9 +88,9 @@
 		"ypos"			"0"
 		"xpos_minmode"		"0"
 		"ypos_minmode"		"0"
-		"wide"			"28"
+		"wide"			"32"
 		"tall"			"35"
-		"wide_minmode"		"28"
+		"wide_minmode"		"32"
 		"tall_minmode"		"28"
 	
 		"HealthBonusPosAdj"		"12"

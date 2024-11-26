@@ -15,10 +15,10 @@
 		"tall_minmode"			"16"
 		"if_mvm"
 		{
-			"xpos_minmode"			"62"
-			"ypos_minmode"			"21"
-			"wide_minmode"			"18"
-			"tall_minmode"			"18"
+			"xpos_minmode"			"51"
+			"ypos_minmode"			"11"
+			"wide_minmode"			"19"
+			"tall_minmode"			"19"
 		}
 	}				
 	"StatusIcon"
@@ -27,5 +27,5 @@
 		"ypos_minmode"			"11"
 		"wide_minmode"			"16"
 		"tall_minmode"			"16"
-	}	
+	}
 }

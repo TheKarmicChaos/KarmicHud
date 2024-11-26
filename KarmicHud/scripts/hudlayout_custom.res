@@ -172,6 +172,14 @@
 		"tall"					"150"
 	}
 
+	// Moves MvM wave loss panel
+	PVEWinPanel
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"68"
+		"ypos_minmode"			"58"
+	}
+
 // CENTER --------------------------------------------------------------
 	
 	// Enables & customizes damage indicator, scales indicator size with damage taken

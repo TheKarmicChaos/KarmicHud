@@ -6,38 +6,43 @@
 
 	"specgui"
 	{		
-		"team1_player_base_offset_x"		"-95"
-		"team1_player_base_y"				"65"
-		"team2_player_base_offset_x"		"45"
-		"team2_player_base_y"				"65"
-		
-		if_mvm
+		"team1_player_base_offset_x"	"-95"
+		"team1_player_base_y"			"65"
+		"team2_player_base_offset_x"	"45"
+		"team2_player_base_y"			"65"
+
+		"playerpanels_kv"
 		{
-			"team1_player_base_offset_x"		"-75"
-			"team1_player_base_y"				"0"
-			"team2_player_base_offset_x"		"25"
-			"team2_player_base_y"				"0"
+			if_mvm
+			{
+				"tall"						"0"
+			}
 		}
 	}
 
 	"topbar"
 	{
-		"tall"			"0"
+		"tall"							"22"
 	}
+
 	"ReinforcementsLabel"
 	{
+		"font"							"HudFontSmallest"
+		"font_minmode"					"HudFontSmallest"
 		if_mvm
 		{
-			"ypos"			"101"
-			"ypos_minmode"		"86"
+			"xpos"							"c-190"
+			"ypos"							"-4"	//"64"
+			"ypos_minmode"					"-4"	//"49"
+			"wide"							"380"
+			"textAlignment"					"center"
 		}
 	}
 	"BuyBackLabel"
 	{
-		if_mvm
-		{
-			"ypos"			"116"
-			"ypos_minmode"		"101"
-		}	
+		"ypos"							"8"	//"76"
+		"ypos_minmode"					"8"	//"61"
+		"font"							"HudFontSmallest"
+		"font_minmode"					"HudFontSmallest"
 	}
 }

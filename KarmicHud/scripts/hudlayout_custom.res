@@ -176,8 +176,8 @@
 	PVEWinPanel
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"68"
-		"ypos_minmode"			"58"
+		"ypos"					"44"
+		"ypos_minmode"			"20"
 	}
 
 // CENTER --------------------------------------------------------------

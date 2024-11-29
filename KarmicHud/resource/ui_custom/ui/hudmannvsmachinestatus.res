@@ -8,6 +8,11 @@
 		"ypos_minmode"			"0"
 	}
 
+	"BossStatusPanel"
+	{
+		"ypos_minmode"			"-9"
+	}
+
 	"UpgradeLevelContainer"
 	{			
 		"UpgradeProgressTrack"

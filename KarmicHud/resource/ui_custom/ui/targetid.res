@@ -1,99 +1,63 @@
 // Reduces size of targetid panels & makes them more visually consistent across minmode
 
 "Resource/UI/TargetID.res"
-{
-	"TargetIDBG"
-	{
-		"wide"			"p0.98"
-		"tall"	 		"p0.98"
-
-		//"border"		"TFFatLineBorderClearBG"
-		"scaleImage"		"1"
-		"proportionaltoparent"	"1"
-		
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-	}
-	"TargetIDBG_Spec_Blue"
-	{
-		"wide"			"p0.98"
-		"tall"	 		"p0.98"
-
-		//"border"		"TFFatLineBorderClearBG"
-		"scaleImage"		"1"
-		"proportionaltoparent"	"1"
-		
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-	}
-	"TargetIDBG_Spec_Red"
-	{
-		"wide"			"p0.98"
-		"tall"	 		"p0.98"
-
-		//"border"		"TFFatLineBorderClearBG"
-		"scaleImage"		"1"
-		"proportionaltoparent"	"1"
-		
-		"src_corner_height"	"22"
-		"src_corner_width"	"22"
-	}
-	
+{	
 	"TargetNameLabel"
 	{
-		"ypos"			"4"
-		"ypos_minmode"		"4"
-		"wide"			"640"
-		"tall"			"24"
+		"ypos"				"4"
+		"ypos_minmode"		"3"
+		"wide"				"640"
+		"tall"				"20"
 
-		"font"			"HudFontSmall"
-		"font_minmode"		"HudFontSmallest"
+		"font"				"HudFontSmallest"
+		"font_minmode"		"FontStoreOriginalPrice"
 	}
 	"TargetDataLabel"
 	{	
-		"ypos"			"17"
-		"ypos_minmode"		"12"
-		"wide"			"280"
-		"tall"			"15"
+		"ypos"				"13"
+		"ypos_minmode"		"7"
+		"wide"				"280"
+		"tall"				"15"
 
-		"font"			"HudFontSmallest"
-		"font_minmode"		"FontStoreOriginalPrice"
+		"font"				"FontStoreOriginalPrice"
+		"font_minmode"		"DefaultVerySmall"
 	}
 	"AmmoIcon"
 	{
-		"xpos"			"40"
-		"ypos"			"18"
-		"xpos_minmode"		"33"
-		"ypos_minmode"		"15"
-		"wide"			"12"
-		"tall"			"12"
-		"wide_minmode"		"10"
-		"tall_minmode"		"10"
+		"xpos"				"41"
+		"ypos"				"15"
+		"xpos_minmode"		"42"
+		"ypos_minmode"		"11"
+		"wide"				"10"
+		"tall"				"10"
+		"wide_minmode"		"6"
+		"tall_minmode"		"6"
+		"image_minmode"		"../hud/hud_obj_status_ammo_64.vmt"
 	}
 	"KillStreakIcon"
 	{
-		"xpos"			"9"
-		"ypos"			"19"
-		"xpos_minmode"		"22"
-		"ypos_minmode"		"14"
-		"wide"			"10"
-		"tall"			"10"
-		"wide_minmode"		"10"
-		"tall_minmode"		"10"
+		"xpos"				"-25"
+		"ypos"				"16"
+		"xpos_minmode"		"42"
+		"ypos_minmode"		"11"
+		"wide"				"9"
+		"tall"				"9"
+		"wide_minmode"		"7"
+		"tall_minmode"		"7"
 	}
 
 	"SpectatorGUIHealth"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"				"0"
+		"ypos"				"-1"
 		"xpos_minmode"		"0"
-		"ypos_minmode"		"0"
-		"wide"			"32"
-		"tall"			"35"
+		"ypos_minmode"		"-4"
+		"wide"				"32"
+		"tall"				"35"
 		"wide_minmode"		"32"
 		"tall_minmode"		"28"
 	
-		"HealthBonusPosAdj"		"12"
+		"HealthBonusPosAdj"			"10"
 		"HealthBonusPosAdj_minmode"	"12"
 		"HealthDeathWarning"		"0.66"
 	}

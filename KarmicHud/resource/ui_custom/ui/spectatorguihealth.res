@@ -83,7 +83,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"xpos"				"-4"
-		"ypos"				"-2"
+		"ypos"				"-7"
 		"zpos"				"6"
 		"xpos_minmode"		"-4"
 		"ypos_minmode"		"-6"
@@ -95,7 +95,7 @@
 		"textAlignment"		"south"	
 		"font"				"HudFontSmallBold"
 		"font_minmode"		"HudFontSmallBold"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"HudWhite"
 		"fgcolor_minmode"	"HudWhite"
 	}
 	"PlayerStatusHealthValueShadow"

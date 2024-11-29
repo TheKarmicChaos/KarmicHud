@@ -253,25 +253,32 @@
 	CMainTargetID
 	{
 		"xpos"						"c-126"
-		"ypos"						"335"
+		"ypos"						"c105"
 		"zpos"						"3"
-		"ypos_minmode"				"328"
+		"ypos_minmode"				"c95"
+		"tall"	 					"28"	//"35"
+		"tall_minmode"	 			"20"	//"28"
 	}
 
 	// Moves nametag for being healed by players
 	CSecondaryTargetID
 	{
-		"xpos"						"c-126"
-		"ypos"						"301"
+		"xpos"						"cs-0.5"
+		"ypos"						"c78"
 		"zpos"						"3"
-		"ypos_minmode"				"301"
+		"ypos_minmode"				"c76"
+		"tall"	 					"28"	//"35"
+		"tall_minmode"	 			"20"	//"28"
 	}
 
 	// Moves nametag for spectating players
 	CSpectatorTargetID
 	{
+		"xpos"						"cs-0.5"
 		"ypos"						"335"
-		"ypos_minmode"				"335"
+		"ypos_minmode"				"c95"
+		"tall"	 					"28"	//"35"
+		"tall_minmode"	 			"20"	//"28"
 	}
 
 	// Moves engie's build PDA menu

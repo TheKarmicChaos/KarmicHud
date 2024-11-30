@@ -1,20 +1,7 @@
 ## Notes on Installation:
-My HUD now supports "cl_hud_minmode 1". Everything here works in casual.
+**In order for the HUD or crosshairs to work, several commands must be set properly. Be sure to Download 'KarmicHud\cfg\\_hud.cfg' and add the command 'exec _hud' to your autoexec.cfg file.**
 
-In order for the crosshairs to work, you need to add the following commands to your autoexec.cfg:
-
-* cl_crosshair_file ""
-* cl_crosshair_scale 32
-
-In order for the subtitles to work, you need to add the following commands to your autoexec.cfg:
-
-* cc_lang "karmic"
-* cc_linger_time 10.0
-* closecaption 1
-
-If you are using the HUD, add the following command to your autoexec.cfg so the dashboarddimmer can properly resize when you launch the game:
-
-* wait 5; showconsole; wait; toggle mat_antialias 0 1; hideconsole; wait 5; toggle mat_antialias 0 1
+KarmicHud now supports "cl_hud_minmode 1". Everything here works in casual.
 
 To install, go to 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom' and create a new directory for your usermods if you haven't already done that. It can be named whatever you want; mine is named "KarmicHud."
 
@@ -23,7 +10,7 @@ Then, download the repo and copy everything you want from 'KarmicHud' into that 
 # Config Files
 *These are all located in 'KarmicHud\cfg'*
 
-I would highly recommend not using these unless you want to play with my exact setup, as these files contain my binds, scripts, controls, game settings, and viewmodels. Feel free to use them as reference or copy them and modify them to your needs, but if you are just looking to install my HUD and/or crosshairs, don't bother with anything beyond 'disable_transparency.cfg' and 'enable_transparency.cfg.'
+I would highly recommend not using these unless you want to play with my exact setup, as these files contain my binds, scripts, controls, game settings, and viewmodels. Feel free to use them as reference or copy them and modify them to your needs, but if you are just looking to install my HUD and/or crosshairs, don't bother with anything beyond '_hud.cfg.'
 
 # Crosshairs & Weapon Changes
 *These are the 'tf_weapon_' txt files located in 'KarmicHud\scripts', and the files in 'KarmicHud\materials\vgui\logos\'* 
@@ -37,8 +24,6 @@ The custom HUD is modular; it is set up in such a way that you can update it or 
 
 If you want to modify an existing res file the game uses (all of which should be in '\resource\ui_base\ui\') make a copy of it from '\resource\ui_base\ui\' into both '\resource\ui_custom\ui\' and '\resource\ui\'. Delete most of the contents of the copy in '\resource\ui\' and add two #base redirects to the copies in '\resource\ui_custom\ui\' and '\resource\ui_base\ui\' **in that order.** See the other files I've made in '\resource\ui\' for examples. You can then modify the copy in '\resource\ui_custom\ui\' to your heart's content, and your changes will show up in-game!
 
-If you are looking to use transparent viewmodels, install the HUD files as well as 'materials\vgui\replay\' and the two cfg files 'disable_transparency.cfg' and 'enable_transparency.cfg.' You can toggle transparent viewmodels (they are off by default) by executing these cfgs in the ingame console, or you can put them in your autoexec or class cfg files like I did. Installing these extra files is not necessary if you don't want to use transparent viewmodels.
-
 ### If you updated TF2 and the HUD breaks, do the following:
 * Download GCFScape
 * Use it to open 'C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\tf2_misc_dir.vpk' and extract the necessary updated files listed below from '\scripts\' and '\resources\'
@@ -51,8 +36,6 @@ If the HUD is still broken, that means Valve made an incompatible change to a ve
 
 ### If you want to update the HUD:
 Simply download the repo again and replace your existing files with the new ones. You will not need GCFScape for this. **You only need to replace the following files:**
-* 'scripts\hudanimations_custom.txt'
-* 'scripts\hudlayout_custom.res'
-* 'resource\closecaption_karmic.dat'
-* all files in 'resource\ui\'
-* all files in 'resource\ui_custom\'
+* 'KarmicHud\scripts\hudanimations_custom.txt'
+* 'KarmicHud\scripts\hudlayout_custom.res'
+* 'KarmicHud\resource\' (all files except for '\ui_base\')

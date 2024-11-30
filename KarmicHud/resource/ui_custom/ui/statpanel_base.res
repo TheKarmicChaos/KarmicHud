@@ -46,6 +46,7 @@
 		"textAlignment"			"north-west"
 		"wrap"					"1"
 		"centerwrap"			"0"
+		"font"					"TFFontMedium"
 	}
 	"StatLabelSmall"
 	{	
@@ -56,6 +57,7 @@
 		"textAlignment"			"north-west"
 		"wrap"					"1"
 		"centerwrap"			"0"
+		"font"					"TFFontMedium"
 	}
 	StatBox
 	{

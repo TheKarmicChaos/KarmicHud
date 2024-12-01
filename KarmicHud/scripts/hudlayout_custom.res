@@ -28,8 +28,8 @@
 	BuildingStatus_Engineer
 	{
 		"xpos"						"-12"
-		"ypos"						"10"
 		"xpos_minmode"				"-15"
+		"ypos_minmode"				"-6"
 	}
 
 	// Moves generic hud menu (used for voicelines)
@@ -146,28 +146,28 @@
 	HudTeamSwitch
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"83"
+		"ypos"					"88"
 	}
 
 	// Moves arena mode popup
 	HudArenaNotification
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"83"
+		"ypos"					"88"
 	}
 
 	// Moves sudden death popup
 	HudStalemate
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"83"
+		"ypos"					"88"
 	}
 	
 	// Moves "on the bright side" stats panel
 	StatPanel
 	{
 		"xpos"					"cs-0.5"	//"c-133"
-		"ypos"					"73"
+		"ypos"					"78"
 		"wide"					"320"
 		"tall"					"150"
 	}

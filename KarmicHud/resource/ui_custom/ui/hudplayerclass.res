@@ -7,6 +7,37 @@
 		"ypos_minmode"		"0" //"18"		
 	}
 
+	"PlayerStatusClassImage"
+	{
+		"xpos"				"c-320"
+		"ypos"				"rs1"
+		"zpos"				"2"
+		"xpos_minmode"		"0"
+		"ypos_minmode"		"rs1"
+		"wide"				"75"
+		"tall"				"75"
+		"wide_minmode"		"55"
+		"tall_minmode"		"55"
+	}
+	"PlayerStatusSpyImage"
+	{
+		"xpos"			"-999999"	//"88"
+		"xpos_minmode"	"-999999"	//"-5"
+	}
+
+	"PlayerStatusClassImageBG"
+	{
+		"xpos"			"cs-1-142"
+		"ypos"			"r114"
+		"xpos_minmode"		"-99999"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"70"
+
+		"image"			"../hud/charge_red_bg"
+		"teambg_2"		"../hud/charge_red_bg"
+		"teambg_3"		"../hud/charge_blue_bg"
+	}
 	"classmodelpanelBG"
 	{
 		"xpos"			"cs-1-142"

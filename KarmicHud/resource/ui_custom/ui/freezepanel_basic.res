@@ -27,7 +27,6 @@
 			"ypos"						"c0"
 			"wide"						"176"
 			"tall"	 					"28"
-			"tall_minmode"	 			"20"
 			"alpha"						"200"
 		}
 

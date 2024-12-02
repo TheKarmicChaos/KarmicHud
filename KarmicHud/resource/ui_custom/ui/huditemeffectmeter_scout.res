@@ -1,5 +1,5 @@
-// Moves charge meter for non-cleaver scout secondaries & medic shield (still broken in minmode)
-// TODO: Find a way to fix this
+// Moves charge meter for non-cleaver scout secondaries & medic shield & reduces its size in minmode.
+// TODO: Needs fixing to allow meter labels to be colored black in minmode.
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
@@ -11,7 +11,7 @@
 		"ypos_minmode"		"c49"	//"r34"
 		"wide_minmode"		"50"
 	}
-|	"ItemEffectMeterLabel"
+	"ItemEffectMeterLabel"
 	{
 		"zpos"			"2"
 		"ypos_minmode"		"0"

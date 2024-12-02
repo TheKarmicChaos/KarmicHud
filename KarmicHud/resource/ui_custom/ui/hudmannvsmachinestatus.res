@@ -1,5 +1,5 @@
 // Relocates the missing money counter to be center-screen & stops wave status panel from moving in minmode
-// Tweaks the bomb carrier status panels & adds minmode support
+// Tweaks hud elements like the bomb carrier status panels & adds minmode support
 
 "Resource/UI/HudMannVsMachineStatus.res"
 {	
@@ -85,7 +85,7 @@
 		"xpos"					"0"
 		"ypos"					"r110"
 		"xpos_minmode"			"0"
-		"ypos_minmode"			"r133"
+		"ypos_minmode"			"c53"
 		"wide"					"f0"
 	}
 }

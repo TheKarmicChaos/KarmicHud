@@ -4,11 +4,12 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c189"
-		"ypos"			"r54"
-		"xpos_minmode"		"c155"
-		"ypos_minmode"		"r34"
-		"x_offset"		"40"
+		"xpos"				"c189"
+		"ypos"				"r54"
+		"xpos_minmode"		"cs-0.5"
+		"ypos_minmode"		"c49"	//"r34"
+		"wide_minmode"		"50"
+		"x_offset"			"40"
 		"x_offset_minmode"	"0"
 	}
 	"ItemEffectMeterLabel"
@@ -35,5 +36,6 @@
 	"ItemEffectMeter"
 	{
 		"tall_minmode"		"5"
+		"alpha_minmode"		"100"
 	}
 }

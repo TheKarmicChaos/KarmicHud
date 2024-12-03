@@ -9,8 +9,8 @@
 		"x_offset"		"40"
 		"x_offset_minmode"	"0"
 		"xpos"			"c189"
-		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c49"	//"r34"
+		"xpos_minmode"		"cs-0.5+101"
+		"ypos_minmode"		"c49+20"	//"r34"
 		"wide_minmode"		"50"
 	}
 	"ItemEffectMeterLabel"

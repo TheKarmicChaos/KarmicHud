@@ -8,8 +8,8 @@
 	{
 		"xpos"			"c222" 	//"r95"
 		"ypos"			"r53" 	//"r105"
-		"xpos_minmode"		"c-25-15"
-		"ypos_minmode"		"c55-5"
+		"xpos_minmode"		"c-25-15+101"
+		"ypos_minmode"		"c55-5+20"
 		"wide_minmode"		"70"
 	}
 

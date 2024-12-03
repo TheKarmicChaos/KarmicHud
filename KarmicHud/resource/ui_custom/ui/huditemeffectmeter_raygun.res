@@ -6,8 +6,8 @@
 	{
 		"xpos"			"c189"
 		"ypos"			"r53"
-		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c55"	//"r24"
+		"xpos_minmode"		"cs-0.5+101"
+		"ypos_minmode"		"c55+20"	//"r24"
 		"wide_minmode"		"50"
 	}
 	"ItemEffectMeterLabel"

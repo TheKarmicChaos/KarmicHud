@@ -8,7 +8,7 @@
 		"fieldName"		"AmmoAnchor"
 		"xpos"			"c135-10"
 		"ypos"			"r115+10"
-		"xpos_minmode"		"c25-10"	//"c42-10"
+		"xpos_minmode"		"c25-10+40"	//"c42-10"
 		"ypos_minmode"		"c37-10"
 		"wide"			"10"
 		"tall"			"10"
@@ -38,10 +38,12 @@
 	}
 	"AmmoInClip"
 	{
-		"xpos_minmode"		"4"
+		"xpos"				"-45"
+		"xpos_minmode"		"-46"
 		"ypos_minmode"		"0"
+		"wide"				"105"
 		"tall_minmode"		"30"
-		"wide_minmode"		"41"
+		"wide_minmode"		"91"
 
 		"font"			"HudFontGiantBold"
 		"font_minmode"		"HudFontMediumBigBold"
@@ -52,10 +54,12 @@
 	}		
 	"AmmoInClipShadow"
 	{
-		"xpos_minmode"		"5"
+		"xpos"				"-44"
+		"xpos_minmode"		"-45"
 		"ypos_minmode"		"2"
+		"wide"				"105"
 		"tall_minmode"		"29"
-		"wide_minmode"		"41"
+		"wide_minmode"		"91"
 
 		"font"			"HudFontGiantBold"
 		"font_minmode"		"HudFontMediumBigBold"

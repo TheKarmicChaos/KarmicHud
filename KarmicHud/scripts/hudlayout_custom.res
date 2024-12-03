@@ -252,10 +252,10 @@
 	// Moves nametag for looking at players
 	CMainTargetID
 	{
-		"xpos"						"c-126"
-		"ypos"						"c105"
+		"xpos"						"cs-0.5"
+		"ypos"						"c109"
 		"zpos"						"3"
-		"ypos_minmode"				"c95"
+		"ypos_minmode"				"c99"
 		"tall"	 					"28"	//"35"
 		"tall_minmode"	 			"20"	//"28"
 	}
@@ -264,9 +264,9 @@
 	CSecondaryTargetID
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c78"
+		"ypos"						"c82"
 		"zpos"						"3"
-		"ypos_minmode"				"c76"
+		"ypos_minmode"				"c80"
 		"tall"	 					"28"	//"35"
 		"tall_minmode"	 			"20"	//"28"
 	}
@@ -275,8 +275,8 @@
 	CSpectatorTargetID
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"335"
-		"ypos_minmode"				"c95"
+		"ypos"						"c109"
+		"ypos_minmode"				"c99"
 		"tall"	 					"28"	//"35"
 		"tall_minmode"	 			"20"	//"28"
 	}

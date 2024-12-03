@@ -7,7 +7,7 @@
 		"x_offset"					"0"
 		"xpos"						"c189"
 		"ypos"						"r59"
-		"xpos_minmode"				"c25"
+		"xpos_minmode"				"c25+40"
 		"ypos_minmode"				"c27"
 	}
 	

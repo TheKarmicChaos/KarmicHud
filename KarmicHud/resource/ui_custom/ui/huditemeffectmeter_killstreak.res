@@ -7,8 +7,8 @@
 	{
 		"xpos"						"c-275" 	//"c-210"
 		"ypos"						"r57" 		//"r52"
-		"xpos_minmode"				"c40"		//"21"
-		"ypos_minmode"				"c27"		//"r74"
+		"xpos_minmode"				"c-138"		//"21"
+		"ypos_minmode"				"c58"	//"r74"
 	}
 	
 	"ItemEffectMeterBG"

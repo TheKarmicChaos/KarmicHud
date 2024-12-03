@@ -7,8 +7,8 @@
 	{
 		"xpos"			"c189"
 		"ypos"			"r54"
-		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c49"	//"r34"
+		"xpos_minmode"		"cs-0.5+101"
+		"ypos_minmode"		"c49+20"	//"r34"
 		"wide_minmode"		"50"
 	}
 	"ItemEffectMeterLabel"
@@ -20,8 +20,7 @@
 		"wide_minmode"		"50"
 		"textAlignment_minmode"	"center"
 		"font_minmode"		"ScoreboardSmallest"
-		"dulltext_minmode"	"1"
-		"brighttext_minmode"	"0"
+		"fgcolor_override"			"Black"
 		"visible_minmode"	"1"
 	}
 	"ChargeLabel"
@@ -45,6 +44,6 @@
 	{
 		"zpos"			"2"
 		"tall_minmode"		"5"
-		"alpha_minmode"		"100"
+		"alpha_minmode"		"50"	//"100"
 	}
 }

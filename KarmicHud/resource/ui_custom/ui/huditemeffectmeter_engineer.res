@@ -6,7 +6,7 @@
 	{
 		"xpos"						"c204"
 		"ypos"						"r89"
-		"xpos_minmode"				"c25"
+		"xpos_minmode"				"c25+40"
 		"ypos_minmode"				"c27"
 	}
 	"ItemEffectMeterBG"

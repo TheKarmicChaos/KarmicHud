@@ -7,8 +7,8 @@
 		"x_offset"		"40"
 		"xpos"			"c189"
 		"ypos"			"r54"
-		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c43" //"c49"	//"r34"	// Moved to tertiary position to not collide with engineer metal hud
+		"xpos_minmode"		"cs-0.5+101"
+		"ypos_minmode"		"c43+20" //"c49"	//"r34"	// Moved to tertiary position to not collide with engineer metal hud
 		"wide_minmode"		"50"
 	}
 	"ItemEffectMeterLabel"

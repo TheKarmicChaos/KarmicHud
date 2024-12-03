@@ -3,22 +3,11 @@
 
 "Resource/UI/FreezePanel_Basic.res"
 {
-	// Moves nametag for looking at players
-	CMainTargetID
-	{
-		"xpos"						"c-126"
-		"ypos"						"c105"
-		"zpos"						"3"
-		"ypos_minmode"				"c95"
-		"tall"	 					"28"	//"35"
-		"tall_minmode"	 			"20"	//"28"
-	}
-
 
 	"FreezePanelBase"
 	{
 		"xpos"						"c-93"
-		"ypos"						"95"	//"c105"
+		"ypos"						"99"	//"c105"
 		"wide"						"267"
 		"tall"						"f0"
 

@@ -236,7 +236,7 @@
 
 	"StoreHasNewItemsImage"
 	{
-		"xpos"						"184"
+		"xpos"						"174"	//"184"
 		"ypos"						"r40"
 	}
 
@@ -340,8 +340,8 @@
 	{
 		"wide"						"f0"
 		"tall"						"440"
-		"visible"					"0"
-		"enabled"					"0"
+		"visible"					"1"
+		"enabled"					"1"
 	}
 
 

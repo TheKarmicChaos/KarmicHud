@@ -88,4 +88,22 @@
 		"ypos_minmode"			"c53"
 		"wide"					"f0"
 	}
+
+	"ServerChangeMessage"
+	{
+		"Background"
+		{
+			"ypos"					"98"
+			"ypos_minmode"			"88"
+			"xpos"					"c-125"
+			"wide"					"250"	//"240"
+		}
+		"ServerChangeLabel"
+		{
+			"ypos"					"98"
+			"ypos_minmode"			"88"
+			"xpos"					"c-125"
+			"wide"					"250"	
+		}
+	}
 }

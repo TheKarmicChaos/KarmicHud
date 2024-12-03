@@ -12,7 +12,7 @@ event TVMOff
 }
 
 
-// Hitmarker
+// Hitmarker (WIP)
 //==================================================================================
 
 event DamagedPlayer

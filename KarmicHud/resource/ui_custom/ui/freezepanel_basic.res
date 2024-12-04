@@ -7,7 +7,8 @@
 	"FreezePanelBase"
 	{
 		"xpos"						"c-93"
-		"ypos"						"99"	//"c105"
+		"ypos"						"109"	//"c105"
+		"ypos_minmode"				"99"	//"c105"
 		"wide"						"267"
 		"tall"						"f0"
 

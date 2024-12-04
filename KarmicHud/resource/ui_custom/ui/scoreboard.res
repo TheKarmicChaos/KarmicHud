@@ -234,6 +234,10 @@
 	"Spectators"
 	{
 		"ypos"			"357+54"
+		if_mvm
+		{
+			"ypos"		"357+54"
+		}
 	}
 	"SpectatorsInQueue"
 	{

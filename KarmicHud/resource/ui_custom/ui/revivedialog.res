@@ -36,8 +36,8 @@
 
 		"SpectatorGUIHealth"
 		{
-			"ypos"					"25"
-			"ypos_minmode"			"8"
+			"ypos"					"23"
+			"ypos_minmode"			"12"
 			"HealthBonusPosAdj"		"10"
 			"HealthDeathWarning"	"0.85"
 		}

@@ -83,7 +83,7 @@
 	"InWorldCurrencyPanel"
 	{
 		"xpos"					"0"
-		"ypos"					"r110"
+		"ypos"					"r107"
 		"xpos_minmode"			"0"
 		"ypos_minmode"			"c53"
 		"wide"					"f0"

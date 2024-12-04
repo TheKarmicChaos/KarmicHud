@@ -219,12 +219,15 @@
 
 	"BackgroundFooter"
 	{
-		"ypos"						"440"
+		"ypos"						"r40"
 		"tall"						"40"
 	}
 	"FooterLine"
 	{
-		"ypos"						"440"
+		"ypos"						"r40"
+		"tall"						"2"
+		"image"						""
+		"fillcolor"					"TanDark"
 	}
 
 	"CharacterSetupButton"

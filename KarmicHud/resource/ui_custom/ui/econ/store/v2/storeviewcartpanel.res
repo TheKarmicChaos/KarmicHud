@@ -1,14 +1,19 @@
 // Resizes & moves footer elements to line up with main menu, adds keyboard shortcuts to footer buttons
 
-"Resource/UI/StorePanel.res"
+"Resource/UI/StoreViewCartPanel.res"
 {
-	"store_panel"
+	"store_viewcart_panel"
 	{
 		"sheetinset_bottom"			"20"
 	}
+	"ClientArea"
+	{
+		"tall"						"388"
+	}
+
 	"BackgroundFooter"
 	{
-		"ypos"						"r40"
+		"ypos"						"440"
 		"tall"						"40"
 	}
 	"FooterLine"
@@ -54,17 +59,7 @@
         "sound_depressed"	        "UI/buttonclick.wav"
 		"sound_released"	        "UI/buttonclickrelease.wav"
 	}
-
-	"SupportCommunityMapMakersCheckButton"
-	{
-		"xpos"						"r233+105"
-		"ypos"						"447"
-	}
-	"SupportCommunityMapMakersLabel"
-	{
-		"xpos"						"r233+134"
-		"ypos"						"444"
-	}
+	
 	"CheckoutButton"
 	{
 		"xpos"						"99999"
@@ -76,7 +71,7 @@
 		"fieldName"	            	"checkout"
 		"xpos"		            	"rs1-103"
 		"ypos"		            	"rs1-7"
-		"zpos"		            	"2"
+		"zpos"		            	"6"
 		"wide"		            	"130"
 		"tall"		            	"26"
 		"autoResize"            	"0"

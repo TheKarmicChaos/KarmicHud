@@ -1,20 +1,16 @@
 // Resizes & moves footer elements to line up with main menu, adds keyboard shortcuts to footer buttons
 
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/TeamMenu.res"
 {
-	"character_info"
+	"CancelButton"
 	{
-		"sheetinset_bottom"			"20"
+		"xpos"			            "99999"
+		"ypos"			            "99999"
 	}
-	"BackButton"
+	"cancel"
 	{
-		"xpos"						"99999"
-		"ypos"						"99999"
-	}
-	"back"
-	{
-		"ControlName"	            "CExButton"
-		"fieldName"		            "back"
+		"ControlName"				"CExButton"
+		"fieldName"					"cancel"
 		"xpos"			            "10"
 		"ypos"			            "rs1-7"
 		"zpos"			            "6"
@@ -24,20 +20,28 @@
 		"pinCorner"		            "2"
 		"visible"		            "1"
 		"enabled"		            "1"
-		"labelText"		            "<< Back [&q]"
+		"labelText"		            "<< Cancel [&q]"
 		"textAlignment"	            "center"
 		"dulltext"		            "0"
 		"brighttext"	            "0"
-		"command"		            "back"
+		"command"		            "cancelmenu"
 		"font"			            "HudFontSmallBold"
 		"fgcolor"		            "Black"
         "sound_depressed"	        "UI/buttonclick.wav"
 		"sound_released"	        "UI/buttonclickrelease.wav"
 	}
-	"BackgroundFooter"
+
+	"TeamMenuSelect"
 	{
-		"ypos"						"440"
-		"tall"						"40"
+		"xpos"						"cs-0.5"
+		"ypos"						"rs1-4"
+		"textAlignment"	            "center"
+	}
+
+	"ShadedBar"
+	{
+		"ypos"			            "r40"
+		"tall"			            "40"
 	}
 	"FooterLine"
 	{
@@ -54,3 +58,4 @@
 		"fillcolor"                 "TanDark"
 	}
 }
+

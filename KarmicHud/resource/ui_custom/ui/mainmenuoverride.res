@@ -225,9 +225,15 @@
 	"FooterLine"
 	{
 		"ypos"						"r40"
+		"zpos"						"11000"
 		"tall"						"2"
 		"image"						""
 		"fillcolor"					"TanDark"
+	}
+
+	"TooltipPanel"
+	{
+		"zpos"			"11001"
 	}
 
 	"CharacterSetupButton"

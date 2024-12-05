@@ -5,6 +5,6 @@
 	"BGPanel"
 	{
 		"ypos"			"-10"
-		"tall"			"440"
+		"tall"			"441"
 	}
 }

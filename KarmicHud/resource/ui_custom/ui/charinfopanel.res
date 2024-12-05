@@ -45,7 +45,7 @@
 		"fieldName"		            "FooterLine"
 		"xpos"			            "0"
 		"ypos"			            "r40"
-		"zpos"			            "6"
+		"zpos"						"11000"
 		"wide"			            "f0"
 		"tall"			            "2"
         "visible"		            "1"

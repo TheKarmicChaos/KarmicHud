@@ -287,7 +287,7 @@
 	"HudMenuEngyBuild"
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c53"
+		"ypos"						"c49"
 		"ypos_minmode"				"c46"
 		"wide"						"450"
 		"tall"						"110"
@@ -297,7 +297,7 @@
 	"HudMenuEngyDestroy"
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c53"
+		"ypos"						"c49"
 		"ypos_minmode"				"c46"
 		"wide"						"450"
 		"tall"						"110"
@@ -307,7 +307,7 @@
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c53"
+		"ypos"						"c49"
 		"ypos_minmode"				"c46"
 		"wide"						"250"
 		"tall"						"110"
@@ -317,8 +317,8 @@
 	"HudMenuSpyDisguise"
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c47"
-		"ypos_minmode"				"c55"
+		"ypos"						"c49"
+		"ypos_minmode"				"c46"
 		"wide"						"450"
 		"tall"						"110"
 	}
@@ -327,8 +327,8 @@
 	"HudMenuTauntSelection"
 	{
 		"xpos"						"cs-0.5"
-		"ypos"						"c47"
-		"ypos_minmode"				"c55"
+		"ypos"						"c49"
+		"ypos_minmode"				"c46"
 		"wide"						"450"
 		"tall"						"110"
 	}

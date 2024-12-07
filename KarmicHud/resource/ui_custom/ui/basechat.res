@@ -6,12 +6,12 @@
 	"HudChat"
 	{
 		"xpos"				"1"	//"10"
-		"ypos"				"1"	//"245"
+		"ypos"				"c9"	//"245"
 		"xpos_minmode"		"1"
-		"ypos_minmode"		"1"	//"245"
+		"ypos_minmode"		"c9"	//"245"
 		"wide"	 			"246"
 		"tall"	 			"121"
-		"wide_minmode"	 	"258"
+		"wide_minmode"	 	"238"
 		"tall_minmode"	 	"93"
 	}
 	"ChatFiltersButton"
@@ -29,7 +29,7 @@
 		"xpos_minmode"		"-3"
 		"ypos_minmode"		"0"
 		"wide"	 			"238"
-		"wide_minmode"		"261"
+		"wide_minmode"		"241"
 		"font"				"ChatFont"
 	}
 	ChatInputLine
@@ -37,6 +37,6 @@
 		"xpos"				"4"
 		"xpos_minmode"		"-15"
 		"wide"	 			"238"
-		"wide_minmode"		"273"
+		"wide_minmode"		"253"
 	}
 }

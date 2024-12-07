@@ -24,11 +24,36 @@
 // TOP LEFT --------------------------------------------------------------
 
 	// Moves engineer's buildings HUD
+	EngiBuildAnchor
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"EngiBuildAnchor"
+		"xpos"						"-12"
+		"ypos"						"0"
+		"xpos_minmode"				"-15"
+		"ypos_minmode"				"85"	//"98"
+		"wide"						"1"
+		"tall"						"1"
+		"visible"					"1"
+		"enabled"					"1"
+	}
 	BuildingStatus_Engineer
 	{
-		"xpos"						"-12"
-		"xpos_minmode"				"-15"
-		"ypos_minmode"				"-6"
+		"pin_to_sibling"			"EngiBuildAnchor"
+		"xpos"						"0"
+		"ypos"						"0"
+		"xpos_minmode"				"0"
+		"ypos_minmode"				"0"
+	}
+
+	// Moves spy's buildings HUD
+	BuildingStatus_Spy
+	{
+		"pin_to_sibling"			"EngiBuildAnchor"
+		"xpos"						"0"
+		"ypos"						"0"
+		"xpos_minmode"				"0"
+		"ypos_minmode"				"0"
 	}
 
 	// Moves generic hud menu (used for voicelines)
@@ -36,29 +61,21 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudMenuAnchor"
-		"xpos"						"-10"
-		"ypos"						"-10-41"
-		"wide"						"10"
-		"tall"						"10"
+		"xpos"						"-4"
+		"ypos"						"-25"
+		"xpos_minmode"				"-7"
+		"ypos_minmode"				"190-52"
+		"wide"						"1"
+		"tall"						"1"
 		"visible"					"1"
 		"enabled"					"1"
 	}
 	HudMenu
 	{
 		"pin_to_sibling"			"HudMenuAnchor"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 
 // LEFT --------------------------------------------------------------
-
-	// Moves spy's buildings HUD
-	BuildingStatus_Spy
-	{
-		"xpos"						"-12"
-		"ypos"						"c79+48" //"c-120"
-		"xpos_minmode"				"-15"
-	}
 
 	// Relocates the player's HP popups (ie +150) to be above health panel
 	CHealthAccountPanel
@@ -110,13 +127,13 @@
 		"ypos_minmode"				"r110"
 	}
 
-	// Shrinks & moves the close captions popup to the bottom left corner
+	// Resizes & moves the close captions popup
 	HudCloseCaption
 	{
-		"xpos"						"4"
-		"ypos"						"rs1-4"
-		"xpos_minmode"				"cs-0.5"
-		"ypos_minmode"				"rs1-88"
+		"xpos"						"rs1-2"
+		"ypos"						"rs1-105"
+		//"xpos_minmode"				"cs-0.5"
+		//"ypos_minmode"				"rs1-88"
 		"wide"						"130"
 		"tall"						"114"		// fits up to 9 captions
 		"tall_minmode"				"54"		// fits up to 3 captions
@@ -146,6 +163,7 @@
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"88"
+		//"visible"				"1"
 	}
 
 	// Moves arena mode popup
@@ -395,8 +413,8 @@
 		"LocalPlayerColor"				"HudBlack"
 
 		"BaseBackgroundColor"			"TransparentBlack"
-		"BaseBackgroundColor_minmode"	"26 23 22 220"
-		"LocalBackgroundColor_minmode"	"195 179 146 200"
+		"BaseBackgroundColor_minmode"	"0 0 0 196"
+		"LocalBackgroundColor_minmode"	"245 229 196 140"
 	}
 
 // RIGHT --------------------------------------------------------------
@@ -422,35 +440,46 @@
 
 // BOTTOM RIGHT --------------------------------------------------------------
 
-	// Relocates voicechat popup & adds the avatar
+	// Relocates voicechat popup & adds the avatar & minmode support
 	HudVoiceStatus
 	{
-		"xpos" 						"r137"
+		"xpos" 						"rs1-1"
 		"ypos" 						"-2"
-		"wide" 						"140"
+		"wide" 						"134"
+		"wide_minmode" 				"100"
 		"tall" 						"480"
 
-		"item_wide"					"135"
+		"item_wide"					"134"
+		"item_tall"					"16"
+		"item_wide_minmode"			"4"
+		"item_tall_minmode"			"11"
 		
 		"show_avatar"				"1"
-		"avatar_xpos"				"-9"
+		"show_avatar_minmode"		"0"
+		"avatar_xpos"				"-8"
 		"avatar_ypos"				"1"
-		"avatar_zpos"				"-1"
 		"avatar_wide"				"14"
 		"avatar_tall"				"14"
 		
 		"show_dead_icon"			"1"
-		"dead_xpos"					"1"
+		"dead_xpos"					"12"
+		"dead_xpos_minmode"			"1"
 		"dead_ypos"					"0"
 		"dead_wide"					"16"
 		"dead_tall"					"16"
+		"dead_wide_minmode"			"12"
+		"dead_tall_minmode"			"12"
 		
 		"show_voice_icon"			"1"
+		"icon_xpos"					"16"
 		"icon_ypos"					"0"
-		"icon_xpos"					"15"
+		"icon_xpos_minmode"			"0"
 		"icon_tall"					"16"
 		"icon_wide"					"16"
+		"icon_tall_minmode"			"12"
+		"icon_wide_minmode"			"12"
 		
 		"text_xpos"					"33"
+		"text_xpos_minmode"			"14"
 	}
 }

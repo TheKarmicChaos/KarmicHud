@@ -1,32 +1,42 @@
-// Relocates & resizes chat box
+// Relocates & resizes chat box, adds minmode support
 // Position is overridden by hudanimations once a round ends
 
 "Resource/UI/BaseChat.res"
 {
 	"HudChat"
 	{
-		"xpos"			"4"	//"10"
-		"ypos"			"245"	//"3"	//"265"
-		"wide"	 		"258"
-		"tall"	 		"121"
+		"xpos"				"1"	//"10"
+		"ypos"				"1"	//"245"
+		"xpos_minmode"		"1"
+		"ypos_minmode"		"1"	//"245"
+		"wide"	 			"246"
+		"tall"	 			"121"
+		"wide_minmode"	 	"258"
+		"tall_minmode"	 	"93"
 	}
 	"ChatFiltersButton"
 	{
-		"xpos"			"8"
-		"ypos"			"2"
-		"wide"			"35"
-		"tall"			"6"
+		"xpos"				"4"
+		"ypos"				"2"
+		"wide"				"35"
+		"tall"				"6"
+		"visible_minmode"	"0"
 	}
 	"HudChatHistory"
 	{
-		"xpos"			"4"
-		"ypos"			"9"
-		"wide"	 		"250"
-		"font"			"ChatFont"
+		"xpos"				"4"
+		"ypos"				"9"
+		"xpos_minmode"		"-3"
+		"ypos_minmode"		"0"
+		"wide"	 			"238"
+		"wide_minmode"		"261"
+		"font"				"ChatFont"
 	}
 	ChatInputLine
 	{
-		"xpos"			"4"
-		"wide"	 		"250"
+		"xpos"				"4"
+		"xpos_minmode"		"-15"
+		"wide"	 			"238"
+		"wide_minmode"		"273"
 	}
 }

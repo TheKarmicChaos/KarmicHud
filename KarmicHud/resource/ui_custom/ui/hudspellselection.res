@@ -6,15 +6,15 @@
 	{
 		"xpos"			"c-230"
 		"ypos"			"r58"
-		"xpos_minmode"		"c113"
-		"ypos_minmode"		"c48"
+		"xpos_minmode"		"c-133"
+		"ypos_minmode"		"c49"
 
 		"if_killstreak_visible"
 		{
-			"xpos"			"c-219"
-			"ypos"			"r59"
-			"xpos_minmode"		"c90"
-			"ypos_minmode"		"c48"
+			"xpos"			"c-214"
+			"ypos"			"r58"
+			"xpos_minmode"		"c-133"
+			"ypos_minmode"		"c49"
 		}
 	}
 	"ItemEffectMeterBG"
@@ -33,8 +33,9 @@
 
 	"SpellIcon"
 	{
+		"xpos_minmode"		"39"
 		"ypos_minmode"		"14"
-		"zpos"			"1"
+		"zpos"				"1"
 		"wide_minmode"		"18"
 		"tall_minmode"		"18"
 	}
@@ -48,19 +49,19 @@
 		"tall"			"10"
 		"fgcolor"		"tanlight"
 		"visible"		"0"
-		"visible"		"0"
 	}
 
 	"CountTextShadow"
 	{
-		"xpos_minmode"		"33"
+		"xpos_minmode"		"55"
 		"ypos_minmode"		"15"
 		"zpos"				"1"
 		"font_minmode"		"HudFontMediumSmall"
+		"fgcolor"			"black"
 	}
 	"CountText"
 	{
-		"xpos_minmode"		"32"
+		"xpos_minmode"		"54"
 		"ypos_minmode"		"15"
 		"zpos"				"2"
 		"font_minmode"		"HudFontMediumSmall"

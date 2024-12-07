@@ -7,16 +7,16 @@
 	{
 		"xpos"						"c-275" 	//"c-210"
 		"ypos"						"r57" 		//"r52"
-		"xpos_minmode"				"c-138"		//"21"
+		"xpos_minmode"				"c-178"		//"21"
 		"ypos_minmode"				"c58"	//"r74"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"xpos"						"0" 	//"12"
+		"xpos"						"-1" 	//"12"
 		"ypos"						"4"
 		"zpos"						"-2"
-		"wide"						"87" 	//"76"
+		"wide"						"90" 	//"76"
 		"tall"						"34"	//"44"
 		"image"						"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_2"					"../hud/misc_ammo_area_horiz2_red"

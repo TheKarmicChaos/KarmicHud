@@ -18,7 +18,6 @@
 		"scaleImage"				"1"
 	}
 
-
 	// Base Game HUD Tweaks
 	// --------------------------------------------------------------
 
@@ -105,6 +104,7 @@
 	"CurrencyStatusPanel"
 	{
 		"xpos"						"c-280"
+		"xpos"						"c-293"
 		"ypos"						"r90"
 		"zpos"						"2"
 		"xpos_minmode"				"26"
@@ -249,6 +249,8 @@
 		"zpos"						"0"
 	}
 
+// BOTTOM --------------------------------------------------------------
+
 	// Moves nametag for looking at players
 	CMainTargetID
 	{
@@ -331,7 +333,6 @@
 		"tall"						"110"
 	}
 
-// BOTTOM --------------------------------------------------------------
 
 	// Moves popup for CTF notifications
 	NotificationPanel

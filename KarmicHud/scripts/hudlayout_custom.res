@@ -29,7 +29,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"EngiBuildAnchor"
 		"xpos"						"-12"
-		"ypos"						"0"
+		"ypos"						"-4"
 		"xpos_minmode"				"-15"
 		"ypos_minmode"				"85"	//"98"
 		"wide"						"1"
@@ -56,13 +56,17 @@
 		"ypos_minmode"				"0"
 	}
 
+
+
+// LEFT --------------------------------------------------------------
+
 	// Moves generic hud menu (used for voicelines)
 	HudMenuAnchor
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudMenuAnchor"
 		"xpos"						"-4"
-		"ypos"						"-25"
+		"ypos"						"-30"
 		"xpos_minmode"				"-7"
 		"ypos_minmode"				"190-52"
 		"wide"						"1"
@@ -75,7 +79,15 @@
 		"pin_to_sibling"			"HudMenuAnchor"
 	}
 
-// LEFT --------------------------------------------------------------
+	// Moves the f1/f2 vote popups
+	"CHudVote"
+	{
+		"xpos"					"13+50"
+		"ypos"					"-160"
+		"zpos"					"101"
+		"xpos_minmode"			"13-27+50"
+		"ypos_minmode"			"-166"
+	}
 
 	// Relocates the player's HP popups (ie +150) to be above health panel
 	CHealthAccountPanel
@@ -87,6 +99,7 @@
 		"wide"						"f0"
 		"tall"  					"f0"
 	}
+
 
 
 // BOTTOM LEFT --------------------------------------------------------------

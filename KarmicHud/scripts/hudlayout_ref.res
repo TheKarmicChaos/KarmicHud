@@ -9,16 +9,49 @@
 		"labelText"					"Buildings"
 
 		"xpos"	 					"0"
-		"ypos"	 					"8"
+		"ypos"	 					"4"
 		"zpos"						"-1"
 		"xpos_minmode"	 			"0"
 		"ypos_minmode"	 			"93"
 		"wide"	 					"150"
-		"tall"						"155"
+		"tall"						"152"
 		"wide_minmode"	 			"150"
 
 		"bgcolor_override"			"0 128 0 128"
 	}
+	NotifArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"NotifArea"
+		"labelText"					"Vote/Notifs"
+
+		"xpos"						"27"
+		"ypos"						"6"
+		"xpos_minmode"				"0"		//"95"
+		"ypos_minmode"				"0"		//"95"
+		"zpos"						"-1"
+		"wide"						"200"	//"150"
+		"tall"						"144"
+		
+		"bgcolor_override"			"0 0 0 128"
+	}
+	QueuedArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"QueuedArea"
+		"labelText"					"Queued"
+
+		"xpos"					"c-390"
+		"xpos_minmode"			"c-375"
+		"ypos"						"0"	//"r315"
+		"zpos"						"-1"
+		"wide"						"200"
+		"tall"						"20"
+		
+		"bgcolor_override"			"128 0 0 128"
+	}
+
+
 	KillfeedArea
 	{
 		"ControlName"				"Label"
@@ -54,6 +87,7 @@
 
 		"bgcolor_override"			"0 0 128 128"
 	}
+
 	MenuArea
 	{
 		"ControlName"				"Label"
@@ -61,7 +95,7 @@
 		"labelText"					"Menu"
 
 		"xpos"						"0"
-		"ypos"						"c-80"
+		"ypos"						"c-84"
 		"zpos"						"-1"
 		"ypos_minmode"				"rs1-56"
 		"wide"	 					"133"	//"225"
@@ -70,6 +104,9 @@
 
 		"bgcolor_override"			"128 0 0 128"
 	}
+
+
+
 	BossHPArea
 	{
 		"ControlName"				"Label"

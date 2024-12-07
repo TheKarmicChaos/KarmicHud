@@ -345,13 +345,13 @@
 		"tall"						"26"
 	}
 
-	"DashboardDimmer"
-	{
-		"wide"						"f0"
-		"tall"						"440"
-		"visible"					"1"
-		"enabled"					"1"
-	}
+	//"DashboardDimmer"
+	//{
+	//	"wide"						"f0"
+	//	"tall"						"440"
+	//	"visible"					"1"
+	//	"enabled"					"1"
+	//}
 
 
 	// Custom Buttons

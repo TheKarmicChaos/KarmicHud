@@ -364,24 +364,37 @@
 
 // TOP RIGHT --------------------------------------------------------------
 
-	// Killfeed is slightly more compact & now displays up to 5 kills instead of 4
+	// Killfeed is slightly more compact & displays more kills at a time.
+	// Made even smaller & displays even more kills in minmode.
 	HudDeathNotice
 	{
 		"xpos"	 					"rs1-2"
-		"ypos"	 					"18"
-		"ypos_minmode"	 			"1"
+		"ypos"	 					"19"
+		"xpos_minmode"	 			"rs1+8"
+		"ypos_minmode"	 			"-1"
 		"wide"	 					"500"
 		"wide_minmode"	 			"390"
 
 		"MaxDeathNotices" 			"5"
-		"MaxDeathNotices_minmode" 	"6"
+		"MaxDeathNotices_minmode" 	"7"
 		"LineHeight"	  			"14"
 		"LineSpacing"	  			"1"
 		"CornerRadius"	  			"2"
+		"LineHeight_minmode"	  	"10"
+		"LineSpacing_minmode"	  	"0.5"
+		"CornerRadius_minmode"	  	"5"
 		
-		"LocalPlayerColor"			"65 65 65 255"
+		"TextFont"					"Default"
+		"TextFont_minmode"			"ChatMiniFont"
 
-		"BaseBackgroundColor"		"TransparentBlack"
+		"TeamBlue"						"HUDBlueTeamSolid"
+		"TeamRed"						"HUDRedTeamSolid"
+		"IconColor"						"HudWhite"
+		"LocalPlayerColor"				"HudBlack"
+
+		"BaseBackgroundColor"			"TransparentBlack"
+		"BaseBackgroundColor_minmode"	"26 23 22 220"
+		"LocalBackgroundColor_minmode"	"195 179 146 200"
 	}
 
 // RIGHT --------------------------------------------------------------

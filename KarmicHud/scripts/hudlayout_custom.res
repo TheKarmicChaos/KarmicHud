@@ -340,11 +340,14 @@
 		"ypos_minmode"			"229"
 	}
 
-	// Moves popup for CTF notifications
+	// Moves & resizes popup for CTF notifications
 	NotificationPanel
 	{
-		"xpos"						"c-320"
-		"ypos"						"r118"
+		"xpos"						"cs-0.5"
+		"ypos"						"rs1-7" //r118"
+		"zpos"						"999"
+		"wide"						"280"
+		"tall"						"103"
 	}
 
 	// Reduced spacing between cp icons

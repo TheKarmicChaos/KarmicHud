@@ -139,7 +139,7 @@
 	HudTeamGoal
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"83"
+		"ypos"					"88"
 	}
 
 	// Moves autobalance popup

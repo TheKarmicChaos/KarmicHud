@@ -333,6 +333,13 @@
 		"tall"						"110"
 	}
 
+	// Moves winpanel down in minmode
+	WinPanel
+	{
+		"xpos"					"cs-0.5"
+		"ypos"					"215"
+		"ypos_minmode"			"229"
+	}
 
 	// Moves popup for CTF notifications
 	NotificationPanel

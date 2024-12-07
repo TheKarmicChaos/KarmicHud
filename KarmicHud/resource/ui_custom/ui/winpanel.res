@@ -5,6 +5,8 @@
 	"TeamScoresPanel"
 	{
 		"tall"			"480"
+		"ypos"			"13"
+		"ypos_minmode"	"15"
 
 		"BlueScoreBG"
 		{

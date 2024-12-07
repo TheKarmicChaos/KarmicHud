@@ -5,7 +5,6 @@
 	"ObjectiveStatusMultipleEscort"
 	{
 		"ypos_minmode"		"-4"
-		//"ypos"				"10"
 	}
 	
 	"BlueEscortPanel"

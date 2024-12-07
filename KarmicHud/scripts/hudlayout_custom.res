@@ -103,7 +103,6 @@
 	// Moves mvm money counter to the 3d playermodel
 	"CurrencyStatusPanel"
 	{
-		"xpos"						"c-280"
 		"xpos"						"c-293"
 		"ypos"						"r90"
 		"zpos"						"2"
@@ -117,7 +116,7 @@
 		"xpos"						"4"
 		"ypos"						"rs1-4"
 		"xpos_minmode"				"cs-0.5"
-		"ypos_minmode"				"rs1-108"
+		"ypos_minmode"				"rs1-88"
 		"wide"						"130"
 		"tall"						"114"		// fits up to 9 captions
 		"tall_minmode"				"54"		// fits up to 3 captions

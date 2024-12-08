@@ -107,11 +107,11 @@
 	// Voicechat bubble moved to left side to appear over 3d playermodel
 	HudVoiceSelfStatus
 	{
-		"xpos" 						"118"
-		"ypos" 						"r110"
+		"xpos" 						"112"
+		"ypos" 						"r108"
 		"zpos"						"-99"
 		"xpos_minmode"				"4"
-		"ypos_minmode"				"r95"
+		"ypos_minmode"				"r90"
 	}
 
 	// Ensures killstreak counter is drawn above playermodel
@@ -242,9 +242,9 @@
 	HudDemomanCharge
 	{
 		"xpos"						"cs-0.5-5"
-		"ypos"						"c43"
+		"ypos"						"c47"
 		"xpos_minmode"				"cs-0.5-5"
-		"ypos_minmode"				"c43"
+		"ypos_minmode"				"c47"
 		"wide"						"60"
 		"tall"						"5"
 		"wide_minmode"				"60"
@@ -464,7 +464,7 @@
 
 		"item_wide"					"134"
 		"item_tall"					"16"
-		"item_wide_minmode"			"4"
+		"item_wide_minmode"			"3"
 		"item_tall_minmode"			"11"
 		
 		"show_avatar"				"1"
@@ -475,6 +475,7 @@
 		"avatar_tall"				"14"
 		
 		"show_dead_icon"			"1"
+		"show_dead_icon_minmode"	"0"
 		"dead_xpos"					"12"
 		"dead_xpos_minmode"			"1"
 		"dead_ypos"					"0"
@@ -486,13 +487,13 @@
 		"show_voice_icon"			"1"
 		"icon_xpos"					"16"
 		"icon_ypos"					"0"
-		"icon_xpos_minmode"			"0"
+		"icon_xpos_minmode"			"2"
 		"icon_tall"					"16"
 		"icon_wide"					"16"
 		"icon_tall_minmode"			"12"
 		"icon_wide_minmode"			"12"
 		
 		"text_xpos"					"33"
-		"text_xpos_minmode"			"14"
+		"text_xpos_minmode"			"16"
 	}
 }

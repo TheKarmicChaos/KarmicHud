@@ -9,7 +9,7 @@
 
 	"PlayerStatusClassImage"
 	{
-		"xpos"				"c-320"
+		"xpos"				"c-330"
 		"ypos"				"rs1"
 		"zpos"				"2"
 		"xpos_minmode"		"0"
@@ -59,7 +59,7 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-330"
+		"xpos"			"c-340"
 		"ypos"			"r340"
 		"zpos"			"2"
 		"xpos_minmode"		"0"

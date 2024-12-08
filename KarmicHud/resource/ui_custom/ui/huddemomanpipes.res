@@ -10,9 +10,9 @@
 	"ChargeLabel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"c49"
+		"ypos"			"c60"
 		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c49"
+		"ypos_minmode"		"c60"
 		"wide"			"80"
 		"tall"			"5"
 		"wide_minmode"		"60"
@@ -24,9 +24,9 @@
 	"ChargeMeter"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"c49"
+		"ypos"			"c60"
 		"xpos_minmode"		"cs-0.5"
-		"ypos_minmode"		"c49"
+		"ypos_minmode"		"c60"
 		"wide"			"80"
 		"tall"			"5"
 		"wide_minmode"		"60"
@@ -36,7 +36,7 @@
 	"PipesPresentPanel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+58"
+		"ypos"			"cs-0.5+62"
 		"wide"			"100"
 		"tall"			"50"
 		
@@ -90,7 +90,7 @@
 	"NoPipesPresentPanel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+58"
+		"ypos"			"cs-0.5+62"
 		"wide"			"100"
 		"tall"			"50"
 		

@@ -50,25 +50,6 @@
 		
 		"bgcolor_override"			"128 0 0 128"
 	}
-
-
-	KillfeedArea
-	{
-		"ControlName"				"Label"
-		"fieldName"					"KillfeedArea"
-		"labelText"					"Killfeed"
-
-		"xpos"	 					"rs1"
-		"ypos"	 					"19"
-		"zpos"						"-1"
-		"xpos_minmode"	 			"rs1+8"
-		"ypos_minmode"	 			"-1"
-		"wide"	 					"426"
-		"tall"						"75"
-		"wide_minmode"	 			"390"
-
-		"bgcolor_override"			"0 128 0 128"
-	}
 	ChatArea
 	{
 		"ControlName"				"Label"
@@ -87,7 +68,6 @@
 
 		"bgcolor_override"			"0 0 128 128"
 	}
-
 	MenuArea
 	{
 		"ControlName"				"Label"
@@ -104,7 +84,22 @@
 
 		"bgcolor_override"			"128 0 0 128"
 	}
+	DisguiseArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"DisguiseArea"
+		"labelText"					"Disguise"
 
+		"xpos"						"0"
+		"ypos"						"rs1"
+		"zpos"						"-1"
+		"wide"	 					"160"
+		"tall"	 					"77"
+		"wide_minmode"	 			"130"
+		"tall_minmode"	 			"57"
+
+		"bgcolor_override"			"0 0 0 128"
+	}
 
 
 	BossHPArea
@@ -127,7 +122,7 @@
 		"labelText"					"Killstreak"
 
 		"xpos"						"cs-0.5"	//"c-133"
-		"ypos"						"80"
+		"ypos"						"80+13"
 		"wide"						"280"
 		"tall"						"11"
 
@@ -140,14 +135,62 @@
 		"labelText"					"Popup"
 
 		"xpos"						"cs-0.5"	//"c-133"
-		"ypos"						"90"
+		"ypos"						"90+13"
 		"wide"						"284"
 		"tall"						"43"
 
 		"bgcolor_override"			"0 0 128 128"
 	}
+	MvMPopupArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"MvMPopupArea"
+		"labelText"					"MvMPopup"
+
+		"xpos"						"cs-0.5"	//"c-133"
+		"ypos"						"120"
+		"ypos_minmode"				"108"
+		"wide"						"250"
+		"tall"						"87"
+
+		"bgcolor_override"			"128 0 0 128"
+	}
 
 
+	PDAArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"PDAArea"
+		"labelText"					"PDA"
+
+		"xpos"						"cs-0.5"
+		"ypos"						"rs1-88"
+		"ypos_minmode"				"rs1-103"
+		"zpos"						"-1"
+		"wide"						"375"
+		"tall"						"91"
+		"wide_minmode"				"360"
+		"tall_minmode"				"57"
+		
+		"bgcolor_override"			"128 0 0 128"
+	}
+	TargetIDArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"TargetIDArea"
+		"labelText"					"TargetID"
+
+		"xpos"						"cs-0.5"
+		"ypos"						"rs1-103"
+		"ypos_minmode"				"rs1-122"
+		"zpos"						"-1"
+		"wide"						"280"
+		"tall"						"57"
+		"wide_minmode"				"280"
+		"tall_minmode"				"38"
+		
+		"bgcolor_override"			"128 0 0 128"
+	}
 	ObjectiveArea
 	{
 		"ControlName"				"Label"
@@ -164,53 +207,20 @@
 		
 		"bgcolor_override"			"0 0 0 128"
 	}
-	TargetIDArea
-	{
-		"ControlName"				"Label"
-		"fieldName"					"TargetIDArea"
-		"labelText"					"TargetID"
 
-		"xpos"						"cs-0.5"
-		"ypos"						"rs1-103"
-		"ypos_minmode"				"rs1-122"
-		"zpos"						"-1"
-		"wide"						"380"
-		"tall"						"57"
-		"wide_minmode"				"360"
-		"tall_minmode"				"38"
-		
-		"bgcolor_override"			"128 0 0 128"
-	}
-	AmmoArea
-	{
-		"ControlName"				"Label"
-		"fieldName"					"AmmoArea"
-		"labelText"					"Ammo"
 
-		"xpos"						"rs1-135"
-		"ypos"						"rs1"
-		"xpos_minmode"				"c60"
-		"ypos_minmode"				"c23"
-		"zpos"						"-1"
-		"wide"						"152"
-		"tall"						"103"
-		"wide_minmode"				"80"
-		"tall_minmode"				"58"
-
-		"bgcolor_override"			"0 128 0 128"
-	}
 	StatusArea
 	{
 		"ControlName"				"Label"
 		"fieldName"					"StatusArea"
 		"labelText"					"Status"
 
-		"xpos"						"135"
+		"xpos"						"155"
 		"ypos"						"rs1"
 		"xpos_minmode"				"cs-1-60"
 		"ypos_minmode"				"c23"
 		"zpos"						"-1"
-		"wide"						"152"
+		"wide"						"132"
 		"tall"						"140"
 		"wide_minmode"				"80"
 		"tall_minmode"				"58"
@@ -231,8 +241,43 @@
 		
 		"bgcolor_override"			"0 0 0 128"
 	}
+	AmmoArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"AmmoArea"
+		"labelText"					"Ammo"
+
+		"xpos"						"rs1-135"
+		"ypos"						"rs1"
+		"xpos_minmode"				"c60"
+		"ypos_minmode"				"c23"
+		"zpos"						"-1"
+		"wide"						"152"
+		"tall"						"103"
+		"wide_minmode"				"80"
+		"tall_minmode"				"58"
+
+		"bgcolor_override"			"0 128 0 128"
+	}
 
 
+	KillfeedArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"KillfeedArea"
+		"labelText"					"Killfeed"
+
+		"xpos"	 					"rs1"
+		"ypos"	 					"19"
+		"zpos"						"-1"
+		"xpos_minmode"	 			"rs1+8"
+		"ypos_minmode"	 			"-1"
+		"wide"	 					"426"
+		"tall"						"75"
+		"wide_minmode"	 			"390"
+
+		"bgcolor_override"			"0 128 0 128"
+	}
 	CaptionArea
 	{
 		"ControlName"				"Label"

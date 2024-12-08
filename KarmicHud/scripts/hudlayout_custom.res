@@ -168,14 +168,14 @@
 	HudTeamGoal
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"88"
+		"ypos"					"101"
 	}
 
 	// Moves autobalance popup
 	HudTeamSwitch
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"88"
+		"ypos"					"101"
 		//"visible"				"1"
 	}
 
@@ -183,21 +183,21 @@
 	HudArenaNotification
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"88"
+		"ypos"					"101"
 	}
 
 	// Moves sudden death popup
 	HudStalemate
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"88"
+		"ypos"					"101"
 	}
 	
 	// Moves "on the bright side" stats panel
 	StatPanel
 	{
 		"xpos"					"cs-0.5"	//"c-133"
-		"ypos"					"78"
+		"ypos"					"91"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -487,13 +487,13 @@
 		"show_voice_icon"			"1"
 		"icon_xpos"					"16"
 		"icon_ypos"					"0"
-		"icon_xpos_minmode"			"2"
+		"icon_xpos_minmode"			"3"
 		"icon_tall"					"16"
 		"icon_wide"					"16"
 		"icon_tall_minmode"			"12"
 		"icon_wide_minmode"			"12"
 		
 		"text_xpos"					"33"
-		"text_xpos_minmode"			"16"
+		"text_xpos_minmode"			"17"
 	}
 }

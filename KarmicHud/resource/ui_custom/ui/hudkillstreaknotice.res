@@ -3,12 +3,12 @@
 	"Background"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"80"
+		"ypos"			"92"
 	}
 	
 	"SplashLabel"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"80"
+		"ypos"			"92"
 	}
 }

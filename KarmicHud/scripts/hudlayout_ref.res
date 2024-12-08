@@ -122,7 +122,7 @@
 		"labelText"					"Killstreak"
 
 		"xpos"						"cs-0.5"	//"c-133"
-		"ypos"						"80+13"
+		"ypos"						"80+12"
 		"wide"						"280"
 		"tall"						"11"
 
@@ -306,6 +306,7 @@
 		"zpos"						"-1"
 		"wide"						"135"
 		"tall"						"103"
+		"wide_minmode"				"101"
 		
 		"bgcolor_override"			"128 0 0 128"
 	}

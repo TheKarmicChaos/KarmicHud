@@ -60,11 +60,11 @@
 		"ypos"	 					"c18"
 		"zpos"						"-1"
 		"xpos_minmode"	 			"1"
-		"ypos_minmode"	 			"c9"
+		"ypos_minmode"	 			"c13"
 		"wide"	 					"238"
 		"tall"	 					"94"
 		"wide_minmode"	 			"238"
-		"tall_minmode"	 			"75"
+		"tall_minmode"	 			"57"
 
 		"bgcolor_override"			"0 0 128 128"
 	}

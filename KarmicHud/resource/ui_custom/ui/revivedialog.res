@@ -24,7 +24,7 @@
 
 		"ConfirmButton"
 		{
-			"ypos"					"38-10"
+			"ypos"					"38-11"
 			"ypos_minmode"			"19"
 			"tall_minmode"			"15"
 

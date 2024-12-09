@@ -82,11 +82,11 @@
 	// Moves the f1/f2 vote popups
 	"CHudVote"
 	{
-		"xpos"					"13+50"
-		"ypos"					"-160"
-		"zpos"					"101"
-		"xpos_minmode"			"13-27+50"
-		"ypos_minmode"			"-166"
+		"xpos"						"13"	//"13+50"
+		"ypos"						"-29"	//"-160"
+		"zpos"						"101"
+		//"xpos_minmode"			"13-27+50"
+		"ypos_minmode"				"-166+20"
 	}
 
 	// Relocates the player's HP popups (ie +150) to be above health panel
@@ -202,12 +202,13 @@
 		"tall"					"150"
 	}
 
-	// Moves MvM wave loss panel
+	// Moves MvM Wave Failed panel
 	PVEWinPanel
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"68"
-		"ypos_minmode"			"57"
+		"ypos_minmode"			"58"
+		"wide"					"250"
 	}
 
 // CENTER --------------------------------------------------------------

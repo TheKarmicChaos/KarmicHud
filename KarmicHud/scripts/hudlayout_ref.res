@@ -2,6 +2,21 @@
 
 "Resource/HudLayout.res"
 {
+	QueuedArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"QueuedArea"
+		"labelText"					"Queued"
+
+		"xpos"						"c-390"
+		"ypos"						"0"	//"r315"
+		"xpos_minmode"				"0"
+		"zpos"						"-1"
+		"wide"						"200"
+		"tall"						"20"
+		
+		"bgcolor_override"			"128 0 0 128"
+	}
 	BuildingArea
 	{
 		"ControlName"				"Label"
@@ -23,31 +38,50 @@
 	{
 		"ControlName"				"Label"
 		"fieldName"					"NotifArea"
-		"labelText"					"Vote/Notifs"
+		"labelText"					"Notifs"
 
 		"xpos"						"27"
-		"ypos"						"6"
-		"xpos_minmode"				"0"		//"95"
-		"ypos_minmode"				"0"		//"95"
+		"ypos"						"166-29"	//"6"
+		"xpos_minmode"				"0"
+		"ypos_minmode"				"20"		//"95"
 		"zpos"						"-1"
 		"wide"						"200"	//"150"
-		"tall"						"144"
+		"tall"						"100"
 		
 		"bgcolor_override"			"0 0 0 128"
 	}
-	QueuedArea
+	VoteArea
 	{
 		"ControlName"				"Label"
-		"fieldName"					"QueuedArea"
-		"labelText"					"Queued"
+		"fieldName"					"VoteArea"
+		"labelText"					"Vote"
 
-		"xpos"					"c-390"
-		"xpos_minmode"			"c-375"
-		"ypos"						"0"	//"r315"
+		"xpos"						"0"
+		"ypos"						"0"
+		"xpos_minmode"				"0"
+		"ypos_minmode"				"0"
 		"zpos"						"-1"
-		"wide"						"200"
-		"tall"						"20"
+		"wide"						"150"
+		"tall"						"144"
+		"tall_minmode"				"79"
+		"pin_to_sibling"			"NotifArea"
 		
+		"bgcolor_override"			"0 0 0 128"
+	}
+	MenuArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"MenuArea"
+		"labelText"					"Menu"
+
+		"xpos"						"0"
+		"ypos"						"c-84"
+		"zpos"						"-1"
+		"ypos_minmode"				"rs1-56"
+		"wide"	 					"133"	//"225"
+		"tall"	 					"100"
+		"wide_minmode"	 			"130"
+
 		"bgcolor_override"			"128 0 0 128"
 	}
 	ChatArea
@@ -67,22 +101,6 @@
 		"tall_minmode"	 			"57"
 
 		"bgcolor_override"			"0 0 128 128"
-	}
-	MenuArea
-	{
-		"ControlName"				"Label"
-		"fieldName"					"MenuArea"
-		"labelText"					"Menu"
-
-		"xpos"						"0"
-		"ypos"						"c-84"
-		"zpos"						"-1"
-		"ypos_minmode"				"rs1-56"
-		"wide"	 					"133"	//"225"
-		"tall"	 					"100"
-		"wide_minmode"	 			"130"
-
-		"bgcolor_override"			"128 0 0 128"
 	}
 	DisguiseArea
 	{

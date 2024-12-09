@@ -4,24 +4,24 @@
 {	
 	"EventTitleLabel"
 	{
-		"ypos"					"95"
-		"ypos_minmode"			"85"
+		"ypos"					"144"
+		"ypos_minmode"			"141"
 		"font"					"HudFontMediumBold"
 		"font_minmode"			"HudFontMediumSmallBold"
 	}
 
 	"EventBonusLabel"
 	{
-		"ypos"					"-5"
-		"ypos_minmode"			"-10"
+		"ypos"					"-50"
+		"ypos_minmode"			"-45"
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 	}
 
 	"EventDetailLabel"
 	{
-		"ypos"					"-5"
-		"ypos_minmode"			"-10"
+		"ypos"					"-9"
+		"ypos_minmode"			"-12"
 		"font"					"HudFontSmallBold"
 		"font_minmode"			"HudFontSmallestBold"
 	}
@@ -112,7 +112,7 @@
 		"ControlName" "EditablePanel"
 		"fieldName" "BallPowerCluster"
 		"xpos" "0"
-		"ypos" "32"
+		"ypos" "42"
 		"zpos" "5"
 		"wide" "f0"
 		"tall" "f0"

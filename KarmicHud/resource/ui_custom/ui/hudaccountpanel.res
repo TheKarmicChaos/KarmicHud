@@ -4,11 +4,15 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"420"
-		"delta_item_start_y"		"285"
-		"delta_item_end_y"		"272"
-		"delta_lifetime"		"1"
-		"delta_item_font"		"HudFontSmall"
+		"delta_item_x"					"419"
+		"delta_item_start_y"			"282"
+		"delta_item_end_y"				"270"
+		"delta_item_x_minmode"			"420"
+		"delta_item_start_y_minmode"	"287"
+		"delta_item_end_y_minmode"		"277"
+		"delta_lifetime"				"1.2"
+		"delta_lifetime_minmode"		"1"
+		"delta_item_font"				"HudFontSmall"
 	}
 	
 	"AccountBG"

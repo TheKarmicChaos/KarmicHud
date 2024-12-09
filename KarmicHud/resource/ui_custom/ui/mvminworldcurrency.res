@@ -24,10 +24,11 @@
 		"xpos_minmode"		"0"
 		"wide"				"f0"
 		"tall"				"32"
+		"tall_minmode"		"15"
 
 		"textAlignment"		"center"
 		"font"				"HudFontMediumBigBold"
-		"font_minmode"		"ItemFontNameLarger"
+		"font_minmode"		"HudFontSmallBold"	//"ItemFontNameLarger"
 		"fgcolor"			"CreditsGreen"
 	}
 	
@@ -38,10 +39,11 @@
 		"xpos_minmode"		"0"
 		"wide"				"f0"
 		"tall"				"32"
+		"tall_minmode"		"15"
 
 		"textAlignment"		"center"
 		"font"				"HudFontMediumBigBold"
-		"font_minmode"		"ItemFontNameLarger"
+		"font_minmode"		"HudFontSmallBold"	//"ItemFontNameLarger"
 		"fgcolor"			"TanLight"
 		"fgcolor_minmode"	"221 182 72 250"
 	}
@@ -57,13 +59,14 @@
 		"xpos_minmode"		"1"
 		"wide"				"f0"
 		"tall"				"32"
+		"tall_minmode"		"15"
 		"visible"			"1"
 		"enabled"			"1"
 
 		"textAlignment"		"center"
 		"labelText"			"%currency%"
 		"font"				"HudFontMediumBigBold"
-		"font_minmode"		"ItemFontNameLarger"
+		"font_minmode"		"HudFontSmallBold"	//"ItemFontNameLarger"
 		"fgcolor"			"Black"
 	}
 }

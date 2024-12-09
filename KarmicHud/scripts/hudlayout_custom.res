@@ -89,13 +89,13 @@
 		"ypos_minmode"				"-166+20"
 	}
 
-	// Relocates the player's HP popups (ie +150) to be above health panel
+	// Expands & relocates player's HP popups (ie +150) to be able to use more of the screen
 	CHealthAccountPanel
 	{
-		"xpos"						"217"
-		"ypos"						"310"
-		"xpos_minmode"				"342"
-		"ypos_minmode"				"220"
+		"xpos"						"0" //"217"
+		"ypos"						"0" //"310"
+		"xpos_minmode"				"0" //"311"
+		"ypos_minmode"				"0" //"220"
 		"wide"						"f0"
 		"tall"  					"f0"
 	}

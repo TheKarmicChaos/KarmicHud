@@ -54,8 +54,8 @@
 	{
 		"xpos"				"140"
 		"ypos"				"r103"
-		"xpos_minmode"		"258"	//"44"	//"18"
-		"ypos_minmode"		"r185"	//"r60"	//"r85"
+		"xpos_minmode"		"364"	//"44"	//"18"
+		"ypos_minmode"		"r181"	//"r60"	//"r85"
 		"wide"				"32"
 		"tall"				"32"
 	

@@ -275,6 +275,20 @@
 		
 		"bgcolor_override"			"0 0 0 128"
 	}
+	AccountArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"AccountArea"
+		"labelText"					"Account"
+
+		"xpos"						"cs-0.5"
+		"ypos"						"c37+29"
+		"zpos"						"-1"
+		"wide"						"120"
+		"tall"						"15"
+		
+		"bgcolor_override"			"0 0 0 128"
+	}
 	AmmoArea
 	{
 		"ControlName"				"Label"

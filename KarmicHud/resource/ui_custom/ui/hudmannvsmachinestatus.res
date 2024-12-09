@@ -84,8 +84,8 @@
 	{
 		"xpos"					"0"
 		"ypos"					"r107"
-		"xpos_minmode"			"0"
-		"ypos_minmode"			"c57"
+		"xpos_minmode"			"47"
+		"ypos_minmode"			"c66"
 		"wide"					"f0"
 	}
 

@@ -166,10 +166,26 @@
 		"labelText"					"MvMPopup"
 
 		"xpos"						"cs-0.5"	//"c-133"
-		"ypos"						"120"
+		"ypos"						"118"
+		"ypos_minmode"				"108"
+		"wide"						"430"
+		"tall"						"200"
+		"wide_minmode"				"300"
+		"tall_minmode"				"100"
+
+		"bgcolor_override"			"0 0 0 128"
+	}
+	MvMWavePopupArea
+	{
+		"ControlName"				"Label"
+		"fieldName"					"MvMWavePopupArea"
+		"labelText"					"MvMWavePopup"
+
+		"xpos"						"cs-0.5"	//"c-133"
+		"ypos"						"118"
 		"ypos_minmode"				"108"
 		"wide"						"250"
-		"tall"						"87"
+		"tall"						"85"
 
 		"bgcolor_override"			"128 0 0 128"
 	}

@@ -12,6 +12,7 @@
 	"TFLogoImage"
 	{
 		"xpos"						"8"
+		"zpos"						"-99"
 	}	
 	
 	"TFCharacterImage"

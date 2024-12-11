@@ -17,6 +17,23 @@
 		"image"						"replay/thumbnails/transparent"
 		"scaleImage"				"1"
 	}
+	"Hitmarker"
+	{
+		"controlName"  				"ImagePanel"
+		"fieldName"    				"Hitmarker"
+		"visible"    				"1"
+		"xpos"						"cs-0.5"
+		"ypos"						"cs-0.5"
+		"wide"						"228"
+		"tall"						"228"
+		"zpos"      				"0"
+		"enabled"   				"1"
+		"image"						"logos/hitmarker"
+		"scaleImage"				"0"
+		"alpha"						"0"
+		"teambg_2"					"logos/hitmarker"
+		"teambg_3"					"logos/hitmarker"
+	}
 
 	// Base Game HUD Tweaks
 	// --------------------------------------------------------------

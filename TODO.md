@@ -1,4 +1,4 @@
 ## TODO List:
 * fix miscolored minmode charge bar labels (this may not be possible)
-* expand 3d playermodel panel(s) so they dont crop
+* draw killstreak counter behind 3d playermodel
 * fix win text in pd

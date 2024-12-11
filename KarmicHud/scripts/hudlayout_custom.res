@@ -114,10 +114,10 @@
 		"ypos_minmode"				"r90"
 	}
 
-	// Ensures killstreak counter is drawn above playermodel
+	// Ensures killstreak counter is drawn behind playermodel // BROKEN
 	HudItemEffectMeter
 	{
-		"zpos"						"5"
+		"zpos"						"-1"
 	}
 
 	// Expands & relocates spy disguise panel to be able to use more of the screen

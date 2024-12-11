@@ -125,34 +125,34 @@
 
 				"VictoryLabel"
 				{
-					"xpos"			"25"
-					"ypos"			"0"
-					"wide"			"95"
-					"tall"			"15"
+					"xpos_minmode"			"0"
+					"ypos_minmode"			"0"
+					"wide_minmode"			"95"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelShadow"
 				{
-					"xpos"			"1"
-					"ypos"			"1"
-					"wide"			"95"
-					"tall"			"15"
+					"xpos_minmode"			"-1"
+					"ypos_minmode"			"1"
+					"wide_minmode"			"95"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelTime"
 				{
-					"xpos"			"0"
-					"ypos"			"-5"
-					"wide"			"55"
-					"tall"			"15"
+					"xpos_minmode"			"-5"
+					"ypos_minmode"			"0"
+					"wide_minmode"			"55"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"xpos"			"1"
-					"ypos"			"-4"
-					"wide"			"55"
-					"tall"			"15"
+					"xpos_minmode"			"-4"
+					"ypos_minmode"			"1"
+					"wide_minmode"			"55"
+					"tall_minmode"			"14"
 				}
 			}
 
@@ -161,34 +161,34 @@
 
 				"VictoryLabel"
 				{
-					"xpos"			"115"
-					"ypos"			"0"
-					"wide"			"90"
-					"tall"			"15"
+					"xpos_minmode"			"115"
+					"ypos_minmode"			"0"
+					"wide_minmode"			"90"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelShadow"
 				{
-					"xpos"			"116"
-					"ypos"			"1"
-					"wide"			"90"
-					"tall"			"15"
+					"xpos_minmode"			"116"
+					"ypos_minmode"			"1"
+					"wide_minmode"			"90"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelTime"
 				{
-					"xpos"			"-5"
-					"ypos"			"0"
-					"wide"			"55"
-					"tall"			"15"
+					"xpos_minmode"			"-5"
+					"ypos_minmode"			"0"
+					"wide_minmode"			"55"
+					"tall_minmode"			"14"
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"xpos"			"-4"
-					"ypos"			"1"
-					"wide"			"55"
-					"tall"			"15"
+					"xpos_minmode"			"-4"
+					"ypos_minmode"			"1"
+					"wide_minmode"			"55"
+					"tall_minmode"			"14"
 				}
 			}
 		}

@@ -5,13 +5,13 @@
 {
 	"MatchSummary"
 	{
-		"AnimBlueTeamScore"					"p.25"
-		"AnimBlueTeamScoreDropshadow"		"p.25"
+		"AnimBlueTeamScore"					"p.19"
+		"AnimBlueTeamScoreDropshadow"		"p.19"
 
-		"AnimRedTeamScoreWide"				"p.25"
-		"AnimRedTeamScoreXPos"				"r5-p.25"
-		"AnimRedTeamScoreDropshadowWide"	"p.25"
-		"AnimRedTeamScoreDropshadowXPos"	"r4-p.25"
+		"AnimRedTeamScoreWide"				"p.19"
+		"AnimRedTeamScoreXPos"				"r5-p.19"
+		"AnimRedTeamScoreDropshadowWide"	"p.19"
+		"AnimRedTeamScoreDropshadowXPos"	"r4-p.19"
 
 		"AnimBlueMedalsYPos"				"95"
 		"AnimRedMedalsYPos"					"95"

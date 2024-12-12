@@ -37,35 +37,71 @@
 		"LabelOption1"
 		{
 			"ypos_minmode"	"36"
-			"tall_minmode"	"10"
+			"tall_minmode"	"8"
 		}
 		
 		"Option1Background_Selected"
 		{
 			"ypos_minmode"	"36"
-			"tall_minmode"	"10"
+			"tall_minmode"	"8"
 		}
 		
 		"Option1CountLabel"
 		{
-			"ypos_minmode"			"59"
+			"ypos_minmode"			"57"
 		}
 		
 		"LabelOption2"
 		{
-			"ypos_minmode"	"46"
-			"tall_minmode"	"10"
+			"ypos_minmode"	"44"
+			"tall_minmode"	"8"
 		}
 		
 		"Option2Background_Selected"
 		{
-			"ypos_minmode"	"46"
-			"tall_minmode"	"10"
+			"ypos_minmode"	"44"
+			"tall_minmode"	"8"
 		}
 		
 		"Option2CountLabel"
 		{
-			"ypos_minmode"			"59"
+			"ypos_minmode"			"57"
+		}
+
+		"LabelOption3"
+		{
+			"ypos_minmode"	"52"
+			"tall_minmode"	"8"
+		}
+		
+		"Option3Background_Selected"
+		{
+			"ypos_minmode"	"52"
+			"tall_minmode"	"8"
+		}
+		
+		"LabelOption4"
+		{
+			"ypos_minmode"	"60"
+			"tall_minmode"	"8"
+		}
+		
+		"Option4Background_Selected"
+		{
+			"ypos_minmode"	"60"
+			"tall_minmode"	"8"
+		}
+		
+		"LabelOption5"
+		{
+			"ypos_minmode"	"68"
+			"tall_minmode"	"8"
+		}
+		
+		"Option5Background_Selected"
+		{
+			"ypos_minmode"	"68"
+			"tall_minmode"	"8"
 		}
 		
 		// divider
@@ -82,7 +118,7 @@
 		// vote bar
 		"VoteBar"
 		{
-			"ypos_minmode"			"59"
+			"ypos_minmode"			"57"
 		}
 	}
 

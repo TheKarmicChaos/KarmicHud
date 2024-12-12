@@ -494,7 +494,7 @@
 		
 		"show_dead_icon"			"1"
 		"show_dead_icon_minmode"	"0"
-		"dead_xpos"					"12"
+		"dead_xpos"					"120"
 		"dead_xpos_minmode"			"1"
 		"dead_ypos"					"0"
 		"dead_wide"					"16"

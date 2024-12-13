@@ -53,7 +53,6 @@
 		"teambg_3"		"../hud/charge_blue_bg"
 	}
 
-	// TODO: expand the panel & readjust all class's angles such that weapons don't get cut off
 	"classmodelpanel"
 	{
 		"ControlName"		"CTFPlayerModelPanel"

@@ -17,22 +17,22 @@
 		"image"						"replay/thumbnails/transparent"
 		"scaleImage"				"1"
 	}
-	"Hitmarker"
+	"TcHitmarker"
 	{
-		"controlName"  				"ImagePanel"
-		"fieldName"    				"Hitmarker"
+		"controlName"  				"CTFImagePanel"
+		"fieldName"    				"TcHitmarker"
 		"visible"    				"1"
 		"xpos"						"cs-0.5"
 		"ypos"						"cs-0.5"
 		"wide"						"228"
 		"tall"						"228"
-		"zpos"      				"0"
+		"zpos"      				"1"
 		"enabled"   				"1"
 		"image"						"logos/hitmarker"
 		"scaleImage"				"0"
 		"alpha"						"0"
-		"teambg_2"					"logos/hitmarker"
-		"teambg_3"					"logos/hitmarker"
+		"teambg_2"					"logos/hitmarker_red"
+		"teambg_3"					"logos/hitmarker_blue"
 	}
 
 	// Base Game HUD Tweaks
@@ -243,6 +243,17 @@
 		"MinimumHeight"				"30"
 		"MaximumHeight"				"60"
 		"MinimumTime"				"1"
+	}
+
+	// Allows crosshair alpha to be controlled by animations
+	HudCrosshair
+	{
+		"fieldName" 				"HudCrosshair"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"wide"	 					"640"
+		"tall"	 					"480"
+		"alpha"						"200"
 	}
 
 	// Expands & relocates ubercharge hud element to be able to use more of the screen

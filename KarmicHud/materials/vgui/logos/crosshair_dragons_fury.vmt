@@ -1,18 +1,19 @@
 "UnlitGeneric"
 {
-"$translucent" 1
-"$basetexture" "vgui\logos\crosshair_dragons_fury"
-"$vertexcolor" 1
-"$no_fullbright" 1
-"$ignorez" 1
-"$startAngle"		"0"
-"$rotateSpeedDir"		"45"
-"$rotateSpeed"		"0"
-"$multiplier"		"-1"
-"$angle"			"0"
-"$translate"		"[0.0 0.0]"
-"$center"			"[0.5234375 0.5390625]"
-"$vertexalpha"		"1"
+	"$basetexture" 		"vgui\logos\crosshair_dragons_fury"
+	"$vertexcolor" 		"1"
+	"$vertexalpha" 		"1"
+	"$no_fullbright" 		"1"
+	"$ignorez" 		"1"
+
+	// Rotate Animation
+	"$startAngle"		"0"
+	"$rotateSpeedDir"		"45"
+	"$rotateSpeed"		"0"
+	"$multiplier"		"-1"
+	"$angle"			"0"
+	"$translate"		"[0.0 0.0]"
+	"$center"			"[0.5234375 0.5390625]"
 
 	"Proxies"
 	{
@@ -20,20 +21,20 @@
 		{
 			"srcVar1" 		"$rotateSpeedDir"
 			"srcVar2" 		"$multiplier"
-			"resultVar" 	"$rotateSpeed"
+			"resultVar" 		"$rotateSpeed"
 		}
 		"LinearRamp"
 		{
 			"rate" 			"$rotateSpeed"
-			"initialValue" 	"$startAngle"
-			"resultVar" 	"$angle"
+			"initialValue" 		"$startAngle"
+			"resultVar" 		"$angle"
 		}
 		"TextureTransform"
 		{
-			"translateVar" 	"$translate"
-			"rotateVar" 	"$angle"
-			"centerVar" 	"$center"
-			"resultVar" 	"$basetexturetransform"
+			"translateVar" 		"$translate"
+			"rotateVar" 		"$angle"
+			"centerVar" 		"$center"
+			"resultVar" 		"$basetexturetransform"
 		}
 	}
 }

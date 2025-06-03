@@ -80,7 +80,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/logos/crosshair_shotgun"
+				"file"		"vgui/logos/crosshair_panic"
 				"x"		"0"
 				"y"		"0"
 				"width"		"512"

@@ -54,6 +54,23 @@
 		{
 			"BlueTeamPanel"
 			{
+				"BlueTeamScore"
+				{
+					"textAlignment"				"center"
+				}
+				"BlueTeamScoreDropshadow"
+				{
+					"textAlignment"				"center"
+				}
+				"BlueTeamWinner"
+				{
+					"textAlignment"				"center"
+				}
+				"BlueTeamWinnerDropshadow"
+				{
+					"textAlignment"				"center"
+				}
+
 				"BluePlayerListParent"
 				{
 					"BluePlayerList"
@@ -75,6 +92,22 @@
 			}
 			"RedTeamPanel"
 			{
+				"RedTeamScore"
+				{
+					"textAlignment"					"center"
+				}
+				"RedTeamScoreDropshadow"
+				{
+					"textAlignment"					"center"
+				}
+				"RedTeamWinner"
+				{
+					"textAlignment"					"center"
+				}
+				"RedTeamWinnerDropshadow"
+				{
+					"textAlignment"					"center"
+				}
 				"RedPlayerListParent"
 				{
 					"RedPlayerList"

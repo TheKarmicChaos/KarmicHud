@@ -138,6 +138,7 @@
 		
 		"defaultBgColor_override" 	"235 226 202 0"
 		"armedBgColor_override" 	"242 242 242 0"
+		"depressedBgColor_override" 	"0 0 0 0"
 		"Command"					"done"
 
 		"pin_to_sibling"            ""

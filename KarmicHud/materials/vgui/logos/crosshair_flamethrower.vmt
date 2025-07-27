@@ -8,7 +8,7 @@
 
 	// Rotate Animation
 	"$startAngle"		"0"
-	"$rotateSpeedDir"		"45"
+//	"$rotateSpeedDir"		"45"
 	"$rotateSpeed"		"0"
 	"$multiplier"		"-1"
 	"$angle"			"0"

@@ -241,7 +241,21 @@
 		
 		"bgcolor_override"			"0 0 0 128"
 	}
+	CTFNotifArea
+	{
+		"ControlName"					"Label"
+		"fieldName"					"CTFNotifArea"
+		"labelText"					"CTFNotif"
 
+		"xpos"						"cs-0.5"
+		"ypos"						"rs1-7" //r118"
+		"zpos"						"-1"
+		"wide"						"400"	//"640"	//"280"
+		"tall"						"103"
+		"wide_minmode"					"0"
+		"tall_minmode"					"0"
+		"bgcolor_override"			"0 128 128 64"
+	}
 
 	StatusArea
 	{

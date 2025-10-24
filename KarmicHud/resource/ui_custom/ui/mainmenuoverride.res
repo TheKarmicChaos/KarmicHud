@@ -246,7 +246,7 @@
 
 	"StoreHasNewItemsImage"
 	{
-		"xpos"						"174"	//"184"
+		"xpos"						"176"	//"184"
 		"ypos"						"r40"
 	}
 
